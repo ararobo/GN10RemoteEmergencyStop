@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Relay_T9G")(type "KiCad")(uri "/home/gn10/robocon/GN10RemoteEmergencyStop/KiCAD_lib/Relay_T9G.kicad_sym")(options "")(descr ""))
+)
