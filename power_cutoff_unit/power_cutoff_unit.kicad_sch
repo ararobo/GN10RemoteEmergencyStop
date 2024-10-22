@@ -12338,6 +12338,26 @@
 		)
 		(uuid "c0c23538-ca23-4346-8dc4-7c48fec3adbb")
 	)
+	(text "MAX : 10A"
+		(exclude_from_sim no)
+		(at 371.856 123.698 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c37c0117-e190-4f50-82a6-af900797b678")
+	)
+	(text "MAX : 30A"
+		(exclude_from_sim no)
+		(at 370.586 32.004 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "ce64b3e5-13d8-449b-9173-37c8a02e0b20")
+	)
 	(text "Select mode."
 		(exclude_from_sim no)
 		(at 502.666 339.344 0)
@@ -16473,7 +16493,7 @@
 				)
 			)
 		)
-		(property "Value" "0.022uF"
+		(property "Value" "0.022u"
 			(at 50.8 173.736 90)
 			(effects
 				(font
@@ -17726,7 +17746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 72.39 63.5 0)
 			(effects
 				(font
@@ -19583,7 +19603,7 @@
 				)
 			)
 		)
-		(property "Value" "25"
+		(property "Value" "30"
 			(at 304.8 135.89 90)
 			(effects
 				(font
@@ -19591,7 +19611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2_TabPin1"
 			(at 304.8 140.208 90)
 			(effects
 				(font
@@ -21972,7 +21992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700pF"
+		(property "Value" "4700p"
 			(at 60.96 141.224 0)
 			(effects
 				(font
@@ -22324,7 +22344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 38.1 63.5 0)
 			(effects
 				(font
@@ -22385,7 +22405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 279.4 176.5299 0)
 			(effects
 				(font
@@ -24213,7 +24233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25"
+		(property "Value" "30"
 			(at 353.06 57.1499 0)
 			(effects
 				(font
@@ -24222,7 +24242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2_TabPin1"
 			(at 348.742 55.88 90)
 			(effects
 				(font
@@ -25709,7 +25729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 466.09 58.4199 0)
 			(effects
 				(font
@@ -28596,7 +28616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MOUDLE14P-SMD-2.54-21X17.8MM"
+		(property "Footprint" "RF_Module:MCU_Seeed_ESP32C3"
 			(at 410.21 303.53 0)
 			(effects
 				(font
