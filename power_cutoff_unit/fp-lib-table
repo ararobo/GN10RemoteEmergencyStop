@@ -1,9 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "tanaka_lib")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_lib/kicadlib-main/footprints.pretty")(options "")(descr ""))
-  (lib (name "GN10RELAY")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_lib/GN10RELAY.pretty")(options "")(descr ""))
-  (lib (name "GN10")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_lib/GN10.pretty")(options "")(descr ""))
-  (lib (name "xiao ESP32C3_PCB")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_lib/Seeeduino xiao ESP32C3 KiCAD Library/xiao ESP32C3_PCB.pretty")(options "")(descr ""))
-  (lib (name "TK5R1P08QM")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_lib/ul_TK5R1P08QM/footprints.pretty")(options "")(descr ""))
-  (lib (name "MIC4416YM4")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_lib/MIC4416YM4/footprints.pretty")(options "")(descr ""))
-)
