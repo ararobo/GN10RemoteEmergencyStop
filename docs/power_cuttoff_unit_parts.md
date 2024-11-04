@@ -1,12 +1,29 @@
 # 駆動系電源遮断回路の部品
+Mouserと秋月電子通商で購入できる。2024/11/4現在
 ## コンデンサ
-|部品名|個数|購入用URL|
-|:-:|:-:|:-:|
-|1000uF|2|https://www.mouser.jp/ProductDetail/Rubycon/50ZLH1000MEFC16X25?qs=T3oQrply3y9H8N9u8D%2BisQ%3D%3D|
+|耐圧|静電容量|個数|購入用URL|
+|:-:|:-:|:-:|:-:|
+|50V|1000uF|2|https://www.mouser.jp/ProductDetail/Rubycon/50ZLH1000MEFC16X25?qs=T3oQrply3y9H8N9u8D%2BisQ%3D%3D|
+|50V|1uF|-|-|
+|50V|0.1uF|-|-|
+|50V|10uF|-|-|
+|16V|0.1uF|-|-|
+|16V|10uF|2|-|
+|16V|2.2uF|2|-|
+|16V|4.7uF|1|-|
+
 ## 抵抗
-|部品名|個数|購入用URL|
-|:-:|:-:|:-:|
-|大電流50ohm|2|https://www.mouser.jp/ProductDetail/Bourns/PWR263S-20-50R0J?qs=sGAEpiMZZMtlubZbdhIBIBUijDoUe2mfhmhe5tF0wk0%3D|
+|サイズ|抵抗値|個数|購入用URL|
+|:-:|:-:|:-:|:-:|
+|TO-263-2|50ohm|2|https://www.mouser.jp/ProductDetail/Bourns/PWR263S-20-50R0J?qs=sGAEpiMZZMtlubZbdhIBIBUijDoUe2mfhmhe5tF0wk0%3D|
+|1608|2K|5|-|
+|1608|470|7|-|
+|1608|1K|8|-|
+|1608|10K|5|-|
+|1608|120|1|-|
+|1608|20K|8|-|
+
+個数は多めに書いてある。
 
 ## リレー/MOSFET
 |部品名|個数|購入用URL|
@@ -19,6 +36,14 @@
 ## コネクタ/スイッチ
 |部品名|個数|購入用URL|
 |:-:|:-:|:-:|
+|DIPスイッチx2|2|https://akizukidenshi.com/catalog/g/g108928/|
+|表面実装スイッチ|1|https://akizukidenshi.com/catalog/g/g106185/|
+|XH上2pin|2|https://akizukidenshi.com/catalog/g/g112247/|
+|XH上4pin|3|https://akizukidenshi.com/catalog/g/g112249/|
+|ピンヘッダ|適量|https://akizukidenshi.com/catalog/g/g100167/|
+|XT60横メス|2||
+|XT60横オス|2||
+|XT30横オス|1||
 
 ## 集積回路
 |部品名|個数|購入用URL|
@@ -27,8 +52,8 @@
 |SWレギュレーター5V|1|https://www.mouser.jp/ProductDetail/Texas-Instruments/LMR50410Y5FQDBVRQ1?qs=81r%252BiQLm7BR57cLsTbTr9w%3D%3D|
 |SWレギュレーター3.3V|1|https://www.mouser.jp/ProductDetail/Texas-Instruments/LMR50410Y3FQDBVRQ1?qs=81r%252BiQLm7BTaIXwCgdOuiA%3D%3D|
 |アイソレータ|1|https://www.mouser.jp/ProductDetail/Analog-Devices/ADUM120N0BRZ-RL7?qs=sGAEpiMZZMuyKkoWRCJ2WKRE1XbVPnJ2m9fYxzpcXnvUX%252Bkz8SX9kA%3D%3D|
-|i2cアイソレータ|1|https://www.mouser.jp/ProductDetail/Texas-Instruments/ISO1640BDR?qs=eP2BKZSCXI7LW%2Bgt82AzLA%3D%3D|
 |ゲートドライバ|1|https://www.mouser.jp/ProductDetail/Microchip-Technology/MIC4427ZM?qs=kh6iOki%2FeLFZ7P64S1BzzQ%3D%3D|
+|XIAO ESP32C3|1|https://akizukidenshi.com/catalog/g/g117454/|
 
 ## インジケーター
 |部品名|個数|購入用URL|
