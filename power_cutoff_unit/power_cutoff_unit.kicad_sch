@@ -1,5 +1,45 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "24fe50da-72e0-4baa-9f8a-567f58795612")
+	(paper "A3")
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 12.7 128.27) (xy 292.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f39750-e74b-4284-a3ff-69ed25ce383e")
+	)
+	(polyline
+		(pts
+			(xy 12.7 127) (xy 292.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c04276-64dd-480b-b5d9-c42ad21543f8")
+	)
+	(rectangle
+		(start 12.7 25.4)
+		(end 127 124.46)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e9a7ab27-fe47-4de0-9e2c-98333c6706b4)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

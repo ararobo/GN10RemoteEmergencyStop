@@ -2,36 +2,41 @@
 ## コンデンサ
 |部品名|個数|購入用URL|
 |:-:|:-:|:-:|
-|0.022uF|1|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R71C223JA01D?qs=sGAEpiMZZMsh%252B1woXyUXj21J4r6ydi2h8ZJeubQ4OzU%3D|
-|4700pF|1|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R71C472JA01D?qs=lpAV6hZbGAvbivlRs%252BR%2FIg%3D%3D|
-|47uF|2|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM32ER61A476KE20L?qs=CHiu0TXTCq9PIq9fz1sbVg%3D%3D|
-|1uF低電圧|-|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61C105KA12J?qs=hNud%2FORuBR0BebdCvsO0Bw%3D%3D|
-|1uF高電圧|-|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61H105KE05D?qs=d0WKAl%252BL4KazJ%252BOnevMfYg%3D%3D|
-|0.1uF低電圧|-|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61C104MA88J?qs=QzBtWTOodeX2UrIUQiFjXA%3D%3D|
-|0.1uF高電圧|-|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM155R61H104KE14D?qs=%2FlgdRqCb8a7DokhSRgWv9A%3D%3D|
-|10uF|-|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM21BR61H106KE43K?qs=xZ%2FP%252Ba9zWqbh3%252B96jyTKxw%3D%3D|
-|1000uF|4|https://www.mouser.jp/ProductDetail/Rubycon/50ZLH1000MEFC16X25?qs=T3oQrply3y9H8N9u8D%2BisQ%3D%3D|
-|4.7uFパスコン|3|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM185R61C475KE11J?qs=QzBtWTOodeU%252Bl3toWUXLDQ%3D%3D|
-|4.7uFフィルター|3|https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM219R6YA475KA73D?qs=eeBpzGFlv%252B%252Bho6epIC%2FPCA%3D%3D|
+|1000uF|2|https://www.mouser.jp/ProductDetail/Rubycon/50ZLH1000MEFC16X25?qs=T3oQrply3y9H8N9u8D%2BisQ%3D%3D|
 ## 抵抗
-|部品名|購入用URL|
-|:-:|:-:|
-## リレー
-|部品名|購入用URL|
-|:-:|:-:|
-## MOSFET
-|部品名|購入用URL|
-|:-:|:-:|
-## コネクタ
-|部品名|購入用URL|
-|:-:|:-:|
-## スイッチ
-|部品名|購入用URL|
-|:-:|:-:|
+|部品名|個数|購入用URL|
+|:-:|:-:|:-:|
+|大電流50ohm|2|https://www.mouser.jp/ProductDetail/Bourns/PWR263S-20-50R0J?qs=sGAEpiMZZMtlubZbdhIBIBUijDoUe2mfhmhe5tF0wk0%3D|
+
+## リレー/MOSFET
+|部品名|個数|購入用URL|
+|:-:|:-:|:-:|
+|30Aリレー|1|https://www.mouser.jp/ProductDetail/TE-Connectivity-PB/T9GS1L14-5?qs=gt1LBUVyoHmKCzoNwQtXUg%3D%3D&utm_id=21508984536&gad_source=1&gclid=Cj0KCQjw3vO3BhCqARIsAEWblcCBTCmY0mdqIVBL_wKnwWvKvQN3984iiMdI4LmBFLpfd6hpW_9dBrEaAue2EALw_wcB|
+|10Aリレー|1|https://www.mouser.jp/ProductDetail/Omron-Electronics/G5Q-1-DC5?qs=Pjd0UV7BHP%2FBmM4S31Qklw%3D%3D|
+|放電&リレー駆動用MOSFET|3|https://www.mouser.jp/ProductDetail/Toshiba/SSM3K341RLXHF?qs=pUKx8fyJudAJFuWle1EaYA%3D%3D|
+
+
+## コネクタ/スイッチ
+|部品名|個数|購入用URL|
+|:-:|:-:|:-:|
+
 ## 集積回路
-|部品名|購入用URL|
-|:-:|:-:|
+|部品名|個数|購入用URL|
+|:-:|:-:|:-:|
+|STM32F303K8T6|1|https://www.mouser.jp/ProductDetail/STMicroelectronics/STM32F303K8T6?qs=9MuLHSkliconZih9IS1ieg%3D%3D&srsltid=AfmBOorOO7T1jGIJBlNrHbg3eSMGk43j7xsLGyPR30xGbcmK4FA_RT7X|
+|SWレギュレーター5V|1|https://www.mouser.jp/ProductDetail/Texas-Instruments/LMR50410Y5FQDBVRQ1?qs=81r%252BiQLm7BR57cLsTbTr9w%3D%3D|
+|SWレギュレーター3.3V|1|https://www.mouser.jp/ProductDetail/Texas-Instruments/LMR50410Y3FQDBVRQ1?qs=81r%252BiQLm7BTaIXwCgdOuiA%3D%3D|
+|アイソレータ|1|https://www.mouser.jp/ProductDetail/Analog-Devices/ADUM120N0BRZ-RL7?qs=sGAEpiMZZMuyKkoWRCJ2WKRE1XbVPnJ2m9fYxzpcXnvUX%252Bkz8SX9kA%3D%3D|
+|i2cアイソレータ|1|https://www.mouser.jp/ProductDetail/Texas-Instruments/ISO1640BDR?qs=eP2BKZSCXI7LW%2Bgt82AzLA%3D%3D|
+|ゲートドライバ|1|https://www.mouser.jp/ProductDetail/Microchip-Technology/MIC4427ZM?qs=kh6iOki%2FeLFZ7P64S1BzzQ%3D%3D|
+
+## インジケーター
+|部品名|個数|購入用URL|
+|:-:|:-:|:-:|
+|圧電ブザー|1|https://akizukidenshi.com/catalog/g/g109704/|
+
 ## その他
-|部品名|購入用URL|
-|:-:|:-:|
-|圧電ブザー|https://akizukidenshi.com/catalog/g/g109704/|
+|部品名|個数|購入用URL|
+|:-:|:-:|:-:|
+|ダイオード|4|https://akizukidenshi.com/catalog/g/g102073/|
+|インダクタ4.7u|2|https://www.mouser.jp/ProductDetail/Murata-Electronics/1227AS-H-4R7M%3DP2?qs=4tuKoHGzn10Vk6IuQtBeHA%3D%3D|
