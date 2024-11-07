@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "24fe50da-72e0-4baa-9f8a-567f58795612")
 	(paper "A3")
+	(title_block
+		(title "GN10PowerCutoffUnit")
+		(rev "v1.1")
+		(company "TMCIT-Arakawa")
+		(comment 1 "designed by Gento Aiba (GN10)")
+	)
 	(lib_symbols
 		(symbol "Driver_FET:MIC4427"
 			(exclude_from_sim no)
@@ -223,6 +229,264 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GN10_Relay:T9GS1L14-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 11.684 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "T9GS1L14-5"
+				(at 16.764 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.jp/datasheet/2/418/8/ENG_DS_T9G_1216_0321-1281449.pdf"
+				(at -1.524 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "https://www.mouser.jp/ProductDetail/TE-Connectivity-PB/T9GS1L14-5?qs=gt1LBUVyoHmKCzoNwQtXUg%3D%3D&utm_id=21508984536&gad_source=1&gclid=Cj0KCQjw3vO3BhCqARIsAEWblcCBTCmY0mdqIVBL_wKnwWvKvQN3984iiMdI4LmBFLpfd6hpW_9dBrEaAue2EALw_wcB"
+				(at -1.778 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "T9GS1L14-5_0_1"
+				(polyline
+					(pts
+						(xy -7.62 -1.27) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -2.54) (xy -6.35 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -6.35 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "T9GS1L14-5_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 2.54)
+					(end -5.08 -2.54)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy 2.54 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -6.35) (xy 5.08 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.778) (xy 6.858 4.572)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 3.81)
+					(radius 0.635)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2041,6 +2305,85 @@
 		)
 	)
 	(symbol
+		(lib_id "GN10_Relay:T9GS1L14-5")
+		(at 125.73 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c07398-aee2-4ca1-b563-1a074fe576e0")
+		(property "Reference" "K1"
+			(at 137.16 153.0349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "T9GS1L14-5"
+			(at 137.16 155.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GN10_Relay:T9G"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.jp/datasheet/2/418/8/ENG_DS_T9G_1216_0321-1281449.pdf"
+			(at 124.206 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://www.mouser.jp/ProductDetail/TE-Connectivity-PB/T9GS1L14-5?qs=gt1LBUVyoHmKCzoNwQtXUg%3D%3D&utm_id=21508984536&gad_source=1&gclid=Cj0KCQjw3vO3BhCqARIsAEWblcCBTCmY0mdqIVBL_wKnwWvKvQN3984iiMdI4LmBFLpfd6hpW_9dBrEaAue2EALw_wcB"
+			(at 123.952 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98003810-38f2-402c-b911-9e2d424bfc82")
+		)
+		(pin "4"
+			(uuid "bbad5e65-c504-43ad-92f2-2ac40afbf27f")
+		)
+		(pin "5"
+			(uuid "d40c5771-af37-4e2b-a9f0-45ed2f7c288f")
+		)
+		(pin "1"
+			(uuid "e8d433f1-610a-4280-9552-5f8a74e7bca7")
+		)
+		(pin "3"
+			(uuid "29c72197-56e0-420e-aecd-8a0cba6f4cf8")
+		)
+		(instances
+			(project ""
+				(path "/24fe50da-72e0-4baa-9f8a-567f58795612"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32F3:STM32F303K8Tx")
 		(at 64.77 213.36 0)
 		(unit 1)
@@ -2227,7 +2570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Module:MCU_Seeed_ESP32C3"
 			(at 162.56 231.14 0)
 			(effects
 				(font
