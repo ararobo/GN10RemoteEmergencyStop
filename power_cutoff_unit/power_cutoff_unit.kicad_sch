@@ -2946,6 +2946,338 @@
 				)
 			)
 		)
+		(symbol "Relay:G5Q-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "G5Q-1"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1"
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Omron G5G relay, Miniature Single Pole, SPDT, 10A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Miniature Single Pole Relay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*SPDT*Omron*G5Q*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "G5Q-1_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "G5Q-1_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "G5Q-1_1_1"
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Seed_XIAO:XIAO_ESP32C3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4161,6 +4493,12 @@
 		(uuid "38eabbcb-6800-4b74-9089-837c5d690ef3")
 	)
 	(junction
+		(at 243.84 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45347ec7-91b7-4496-b18e-cb0e15a30d99")
+	)
+	(junction
 		(at 207.01 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4201,6 +4539,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc3fbf1e-c0da-4c27-9f61-18c5d5497ac6")
+	)
+	(junction
+		(at 163.83 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7c92c40-b0c5-41d2-b90d-6a0d531f5c0f")
 	)
 	(junction
 		(at 287.02 31.75)
@@ -4334,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 38.1) (xy 165.1 38.1)
+			(xy 153.67 38.1) (xy 163.83 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4434,6 +4778,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 46.99) (xy 163.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399aae38-ee73-4e2e-aa1c-3406d7de250e")
+	)
+	(wire
+		(pts
 			(xy 262.89 55.88) (xy 280.67 55.88)
 		)
 		(stroke
@@ -4471,6 +4825,16 @@
 			(type default)
 		)
 		(uuid "407f5a9e-f61e-4f82-b043-739e7fa21171")
+	)
+	(wire
+		(pts
+			(xy 243.84 38.1) (xy 245.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4326a1cd-916b-4969-a1fa-36e739e84253")
 	)
 	(wire
 		(pts
@@ -4591,6 +4955,16 @@
 			(type default)
 		)
 		(uuid "697fde2a-13ad-447f-a06b-a383d59cda6b")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 165.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebfcf2a-d531-4beb-8f3b-18d7d842e705")
 	)
 	(wire
 		(pts
@@ -4844,6 +5218,36 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 46.99) (xy 243.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec239381-5c51-4fb1-bc07-135390f68102")
+	)
+	(wire
+		(pts
+			(xy 245.11 46.99) (xy 243.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2bd7b4-785c-4158-a2e9-deae99b5d450")
+	)
+	(wire
+		(pts
+			(xy 165.1 46.99) (xy 163.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01f5500-9f69-4dc7-b4fb-3385de87ee2b")
+	)
+	(wire
+		(pts
 			(xy 64.77 43.18) (xy 64.77 48.26)
 		)
 		(stroke
@@ -4884,7 +5288,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 38.1) (xy 245.11 38.1)
+			(xy 233.68 38.1) (xy 243.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7181,8 +7585,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G5Q-1")
+		(at 179.07 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bb74299-3781-45ff-ac1c-4cc6abd89979")
+		(property "Reference" "K2"
+			(at 190.5 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5Q-1"
+			(at 190.5 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1"
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
+			(at 179.07 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron G5G relay, Miniature Single Pole, SPDT, 10A"
+			(at 179.07 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "951f0f53-c835-444e-be7e-06e764d424c2")
+		)
+		(pin "2"
+			(uuid "32d9684b-79a8-4f80-a46f-93f6bab7b0b6")
+		)
+		(pin "1"
+			(uuid "1d3a0ee9-d1a1-406c-a059-3cc61bf0fd4c")
+		)
+		(pin "5"
+			(uuid "5e516450-b3a1-4f31-8658-dc43fd75b9d0")
+		)
+		(pin "3"
+			(uuid "58da2183-e710-484b-b27e-193d9e8cd4fa")
+		)
+		(instances
+			(project ""
+				(path "/24fe50da-72e0-4baa-9f8a-567f58795612"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Seed_XIAO:XIAO_ESP32C3")
-		(at 168.91 236.22 0)
+		(at 152.4 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7191,7 +7676,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d3b2782-be8f-4a0e-8405-ba62cdc82f82")
 		(property "Reference" "U1"
-			(at 168.91 218.44 0)
+			(at 152.4 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +7684,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 168.91 220.98 0)
+			(at 152.4 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7692,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:MCU_Seeed_ESP32C3"
-			(at 162.56 231.14 0)
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +7701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 231.14 0)
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 231.14 0)
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
