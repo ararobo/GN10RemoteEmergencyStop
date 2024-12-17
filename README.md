@@ -29,18 +29,16 @@ MCUにはSTM32F303K8T6を用い、ESP32C3との間にはUARTのインターフ�
 
 ### インジケーター
 
-|部品|色|内容|説明|
-|:-:|:-:|:-:|:-:|
-|LED|白|LogicPower|電源直結|
-|LED|白|CAN(5V)|電源直結|
-|LED|白|INPUT(30A)|入力側電源直結|
-|LED|白|INPUT(10A)|入力側電源直結|
-|LED|青|OUTPUT(30A)|出力側電源直結|
-|LED|青|OUTPUT(10A)|出力側電源直結|
-|LED|青|Connection|通信時点滅|
-|LED|赤|RemoteStop|遠隔非常停止|
-|7seg|赤|DeviceCount|接続済みデバイス数|
-|Buzzer|-|RemoteStop|遠隔非常停止|
+|部品|色|個数|内容|説明|
+|:-:|:-:|:-:|:-:|:-:|
+|LED|白|1|LogicPower|電源直結|
+|LED|白|1|CAN(5V)|電源直結|
+|LED|白|1|INPUT(30A)|入力側電源直結|
+|LED|白|1|INPUT(10A)|入力側電源直結|
+|LED|赤|1|OUTPUT(30A)|出力側電源直結|
+|LED|赤|1|OUTPUT(10A)|出力側電源直結|
+|LED|青|1|Connection|通信時点灯,遠隔非常停止有効時点滅,非通信時消灯|
+|Buzzer|-|1|RemoteStop|遠隔非常停止有効時|
 
 ### インターフェイス
 
