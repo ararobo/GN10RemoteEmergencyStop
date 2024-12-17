@@ -53,7 +53,6 @@ Mouserと秋月電子通商で購入できる。2024/11/4現在
 |SWレギュレーター3.3V|1|https://www.mouser.jp/ProductDetail/Texas-Instruments/LMR50410Y3FQDBVRQ1?qs=81r%252BiQLm7BTaIXwCgdOuiA%3D%3D|
 |アイソレータ|1|https://www.mouser.jp/ProductDetail/Analog-Devices/ADUM120N0BRZ-RL7?qs=sGAEpiMZZMuyKkoWRCJ2WKRE1XbVPnJ2m9fYxzpcXnvUX%252Bkz8SX9kA%3D%3D|
 |ゲートドライバ|1|https://www.mouser.jp/ProductDetail/Microchip-Technology/MIC4427ZM?qs=kh6iOki%2FeLFZ7P64S1BzzQ%3D%3D|
-|XIAO ESP32C3|1|https://akizukidenshi.com/catalog/g/g117454/|
 
 ## インジケーター
 |部品名|個数|購入用URL|
