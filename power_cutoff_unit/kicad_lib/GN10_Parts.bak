@@ -7,14 +7,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 26.924 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RNBD451"
+		(property "Value" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://onlinedocs.microchip.com/g/GUID-FAA1650C-FAF9-4CE1-AC87-6D1C6E69B40D"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -50,19 +50,8 @@
 			)
 		)
 		(symbol "RNBD451_1_1"
-			(rectangle
-				(start -22.86 25.4)
-				(end 22.86 -22.86)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin power_in line
-				(at -25.4 13.97 0)
+				(at -25.4 25.4 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -80,7 +69,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -8.89 0)
+				(at -25.4 2.54 0)
 				(length 2.54)
 				(name "PA12"
 					(effects
@@ -98,7 +87,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -11.43 0)
+				(at -25.4 0 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -116,7 +105,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -15.24 0)
+				(at -25.4 -3.81 0)
 				(length 2.54)
 				(name "PB6"
 					(effects
@@ -134,7 +123,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -17.78 0)
+				(at -25.4 -6.35 0)
 				(length 2.54)
 				(name "PB7"
 					(effects
@@ -152,7 +141,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -25.4 90)
+				(at -15.24 -12.7 90)
 				(length 2.54)
 				(name "PB8"
 					(effects
@@ -170,7 +159,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -25.4 90)
+				(at -12.7 -12.7 90)
 				(length 2.54)
 				(name "PB9"
 					(effects
@@ -188,7 +177,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -25.4 90)
+				(at -10.16 -12.7 90)
 				(length 2.54)
 				(name "PA4"
 					(effects
@@ -206,7 +195,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 -25.4 90)
+				(at -7.62 -12.7 90)
 				(length 2.54)
 				(name "PB10"
 					(effects
@@ -224,7 +213,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 -25.4 90)
+				(at -5.08 -12.7 90)
 				(length 2.54)
 				(name "PB11"
 					(effects
@@ -242,7 +231,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -25.4 90)
+				(at -2.54 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -260,7 +249,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 11.43 0)
+				(at -25.4 22.86 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -278,7 +267,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -25.4 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "PA0"
 					(effects
@@ -296,7 +285,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 -25.4 90)
+				(at 2.54 -12.7 90)
 				(length 2.54)
 				(name "PA1"
 					(effects
@@ -314,7 +303,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 -25.4 90)
+				(at 5.08 -12.7 90)
 				(length 2.54)
 				(name "PB12"
 					(effects
@@ -332,7 +321,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.62 -25.4 90)
+				(at 7.62 -12.7 90)
 				(length 2.54)
 				(name "PB13"
 					(effects
@@ -350,7 +339,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -25.4 90)
+				(at 10.16 -12.7 90)
 				(length 2.54)
 				(name "PA5"
 					(effects
@@ -368,7 +357,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -25.4 90)
+				(at 12.7 -12.7 90)
 				(length 2.54)
 				(name "PA6"
 					(effects
@@ -386,7 +375,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -25.4 90)
+				(at 15.24 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -403,62 +392,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 25.4 -17.78 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 -15.24 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 -12.7 180)
-				(length 2.54)
-				(name "PA8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -25.4 8.89 0)
+				(at -25.4 20.32 0)
 				(length 2.54)
 				(name "NMCLR"
 					(effects
@@ -476,187 +411,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -10.16 180)
-				(length 2.54)
-				(name "PA9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 -7.62 180)
-				(length 2.54)
-				(name "PA7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 -5.08 180)
-				(length 2.54)
-				(name "PA10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 -2.54 180)
-				(length 2.54)
-				(name "PA13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 0 180)
-				(length 2.54)
-				(name "PA14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 2.54 180)
-				(length 2.54)
-				(name "PA2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 5.08 180)
-				(length 2.54)
-				(name "PA3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 7.62 180)
-				(length 2.54)
-				(name "PB2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 10.16 180)
-				(length 2.54)
-				(name "PB1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 12.7 180)
-				(length 2.54)
-				(name "PB4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -25.4 6.35 0)
+				(at -25.4 17.78 0)
 				(length 2.54)
 				(name "PB0"
 					(effects
@@ -673,26 +428,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 25.4 17.78 180)
-				(length 2.54)
-				(name "TPAD_GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at -25.4 3.81 0)
+				(at -25.4 15.24 0)
 				(length 2.54)
 				(name "PB3"
 					(effects
@@ -710,7 +447,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 1.27 0)
+				(at -25.4 12.7 0)
 				(length 2.54)
 				(name "PB5"
 					(effects
@@ -728,7 +465,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -1.27 0)
+				(at -25.4 10.16 0)
 				(length 2.54)
 				(name "VDD_A"
 					(effects
@@ -746,7 +483,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -3.81 0)
+				(at -25.4 7.62 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -764,7 +501,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -6.35 0)
+				(at -25.4 5.08 0)
 				(length 2.54)
 				(name "PA11"
 					(effects
