@@ -18211,7 +18211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GN10_Parts:ZSX"
 			(at 151.13 321.31 0)
 			(effects
 				(font
