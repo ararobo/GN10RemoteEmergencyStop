@@ -1,0 +1,22 @@
+@startuml
+title Boards Usecase Diagram
+(PowerCutoffBoard1) as PowerCutoffBoard1
+(PowerCutoffBoard2) as PowerCutoffBoard2
+(RemoteSwitchBoard1) as RemoteSwitchBoard1
+(RemoteSwitchBoard2) as RemoteSwitchBoard2
+(RemoteSwitchBoard3) as RemoteSwitchBoard3
+:Pilot1: as Pilot1
+:Pilot2: as Pilot2
+:Pilot3: as Pilot3
+:Robot1: as Robot1
+:Robot2: as Robot2
+Pilot1 -down-> RemoteSwitchBoard1
+Pilot2 -down-> RemoteSwitchBoard2
+RemoteSwitchBoard1 .down.> PowerCutoffBoard1 : ch1
+RemoteSwitchBoard2 .down.> PowerCutoffBoard1 : ch1
+PowerCutoffBoard1 -> Robot1
+
+Pilot3 -down-> RemoteSwitchBoard3
+RemoteSwitchBoard3 .down.> PowerCutoffBoard2 : ch2
+PowerCutoffBoard2 -> Robot2
+@enduml
