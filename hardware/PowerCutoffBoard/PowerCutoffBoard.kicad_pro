@@ -428,7 +428,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "GN10_Parts"
+    ]
   },
   "meta": {
     "filename": "PowerCutoffBoard.kicad_pro",
