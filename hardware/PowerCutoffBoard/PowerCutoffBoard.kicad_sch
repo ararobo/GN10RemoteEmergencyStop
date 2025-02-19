@@ -5529,7 +5529,7 @@
 		(uuid "16a1435d-90fc-4410-b528-cd5b908bf274")
 	)
 	(junction
-		(at 363.22 73.66)
+		(at 368.3 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b30e65d-1a16-416f-9684-53ef713b1f22")
@@ -5553,7 +5553,7 @@
 		(uuid "1df1868f-91d0-4dc5-9f11-6c250130b5f6")
 	)
 	(junction
-		(at 363.22 66.04)
+		(at 368.3 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e409062-2fec-4791-8378-9cd8b89206b6")
@@ -5697,13 +5697,13 @@
 		(uuid "9aee8a60-38ea-4038-b9ef-14c6326b1c4c")
 	)
 	(junction
-		(at 363.22 40.64)
+		(at 368.3 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6e15847-6504-4831-8401-b4162c7b3135")
 	)
 	(junction
-		(at 363.22 48.26)
+		(at 368.3 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc421849-dba2-4410-a553-1b108f2d85e7")
@@ -6154,7 +6154,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 66.04) (xy 363.22 66.04)
+			(xy 360.68 66.04) (xy 368.3 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6181,6 +6181,16 @@
 			(type default)
 		)
 		(uuid "28425ecb-e8b9-42c7-a7ef-bfc516cddcad")
+	)
+	(wire
+		(pts
+			(xy 368.3 40.64) (xy 378.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2858f870-828c-49b0-b265-d528af9bff34")
 	)
 	(wire
 		(pts
@@ -6251,16 +6261,6 @@
 			(type default)
 		)
 		(uuid "35c55340-9f7a-480c-a843-f863a74ba9fc")
-	)
-	(wire
-		(pts
-			(xy 363.22 40.64) (xy 378.46 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362facd5-7bdb-406a-a43c-56e10f71a1de")
 	)
 	(wire
 		(pts
@@ -6604,7 +6604,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 40.64) (xy 363.22 40.64)
+			(xy 360.68 40.64) (xy 368.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6694,7 +6694,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 73.66) (xy 378.46 73.66)
+			(xy 368.3 73.66) (xy 378.46 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6744,7 +6744,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 50.8) (xy 363.22 48.26)
+			(xy 368.3 50.8) (xy 368.3 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6934,6 +6934,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 66.04) (xy 378.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a343613c-6688-4e42-a4a3-a9700eb7b83a")
+	)
+	(wire
+		(pts
 			(xy 261.62 46.99) (xy 261.62 49.53)
 		)
 		(stroke
@@ -6961,16 +6971,6 @@
 			(type default)
 		)
 		(uuid "a4e9eb69-e4e0-4314-9563-1efbfb7552a5")
-	)
-	(wire
-		(pts
-			(xy 363.22 66.04) (xy 378.46 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a52265df-a30c-49fb-b90b-3dcaa9a45497")
 	)
 	(wire
 		(pts
@@ -7114,16 +7114,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 48.26) (xy 378.46 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7f73635-a7f3-4e21-b9b9-ad49e12d6db7")
-	)
-	(wire
-		(pts
 			(xy 41.91 182.88) (xy 25.4 182.88)
 		)
 		(stroke
@@ -7134,7 +7124,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 76.2) (xy 363.22 73.66)
+			(xy 368.3 76.2) (xy 368.3 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7331,6 +7321,16 @@
 			(type default)
 		)
 		(uuid "e3913fd4-ce0e-442c-9de6-7eb1fae18484")
+	)
+	(wire
+		(pts
+			(xy 368.3 48.26) (xy 378.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86c8218-a6b5-4094-9d71-8a1103fa0c7d")
 	)
 	(wire
 		(pts
@@ -7726,7 +7726,7 @@
 	)
 	(global_label "OUTPUT_A"
 		(shape input)
-		(at 355.6 40.64 180)
+		(at 360.68 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7736,7 +7736,7 @@
 		)
 		(uuid "20f5af14-ed34-44fc-84b7-a5f3f3c61e84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 343.3619 40.64 0)
+			(at 348.4419 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7880,7 @@
 	)
 	(global_label "OUTPUT_B"
 		(shape input)
-		(at 355.6 66.04 180)
+		(at 360.68 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7890,7 +7890,7 @@
 		)
 		(uuid "3100d479-086e-439e-b744-387471e39fea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 343.1805 66.04 0)
+			(at 348.2605 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9818,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 363.22 76.2 0)
+		(at 368.3 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9827,7 +9827,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bfc9c02-241c-4dea-9f51-fd4e7f18ba07")
 		(property "Reference" "#PWR051"
-			(at 363.22 81.28 0)
+			(at 368.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +9836,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 363.093 80.01 0)
+			(at 368.173 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,7 +9844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 77.47 0)
+			(at 368.3 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9853,7 +9853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 77.47 0)
+			(at 368.3 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,7 +9862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 363.22 76.2 0)
+			(at 368.3 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10219,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 363.22 44.45 0)
+		(at 368.3 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10228,7 +10228,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fa751c9-c389-46a2-8d99-0525ad25b788")
 		(property "Reference" "C20"
-			(at 367.03 42.2909 0)
+			(at 372.11 42.2909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,8 +10236,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700u"
-			(at 367.03 44.8309 0)
+		(property "Value" "2700u"
+			(at 372.11 44.8309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,8 +10245,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 364.1852 48.26 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+			(at 369.2652 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +10255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 44.45 0)
+			(at 368.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10264,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 363.22 44.45 0)
+			(at 368.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +11688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 264.16 68.58 0)
 			(effects
 				(font
@@ -12045,7 +12045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 33.02 137.16 0)
 			(effects
 				(font
@@ -13121,7 +13121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 			(at 384.81 69.85 0)
 			(effects
 				(font
@@ -14322,7 +14322,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 363.22 50.8 0)
+		(at 368.3 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14331,7 +14331,7 @@
 		(fields_autoplaced yes)
 		(uuid "846cb0a5-812d-41a9-89a8-d01b3a75c54f")
 		(property "Reference" "#PWR050"
-			(at 363.22 55.88 0)
+			(at 368.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,7 +14340,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 363.093 54.61 0)
+			(at 368.173 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14348,7 +14348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 52.07 0)
+			(at 368.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14357,7 +14357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 52.07 0)
+			(at 368.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14366,7 +14366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 363.22 50.8 0)
+			(at 368.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14588,7 +14588,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 363.22 69.85 0)
+		(at 368.3 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14597,7 +14597,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d4111cc-7c3e-4eaa-97c8-187720dc98d7")
 		(property "Reference" "C19"
-			(at 367.03 67.6909 0)
+			(at 372.11 67.6909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,8 +14605,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700u"
-			(at 367.03 70.2309 0)
+		(property "Value" "2700u"
+			(at 372.11 70.2309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14614,8 +14614,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 364.1852 73.66 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+			(at 369.2652 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14624,7 +14624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 69.85 0)
+			(at 368.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14633,7 +14633,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 363.22 69.85 0)
+			(at 368.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +15043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 104.14 49.53 0)
 			(effects
 				(font
@@ -15870,7 +15870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 104.14 74.93 0)
 			(effects
 				(font
@@ -16145,7 +16145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 			(at 384.81 44.45 0)
 			(effects
 				(font
@@ -16751,7 +16751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 175.26 68.58 0)
 			(effects
 				(font
