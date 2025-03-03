@@ -6,6 +6,11 @@ This list is memo.
 |:-:|:-:|:-:|
 |K1|FBR562ND12-W|https://docs.rs-online.com/b128/A700000006723828.pdf|
 
+## D
+|KiCad|Name|URL|
+|:-:|:-:|:-:|
+|D3,D4|
+
 ## Y
 |KiCad|Name|URL|
 |:-:|:-:|:-:|
