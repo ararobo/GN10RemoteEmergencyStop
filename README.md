@@ -9,7 +9,8 @@ This repository contains hardware and firmware for an emergency stop system:
 
 ## PowerCutoffBoard
 - [Parts List](docs/PowerCutoffBoard_parts.md)
-- [KiCad Files](hardware/PowerCutoffBoard)
+- [KiCad Files-wireless](hardware/PowerCutoffBoard1)
+- [KiCad Files-cutoff](hardware/PowerCutoffBoard2)
 
 ## RemoteSwitchBoard
 - [Parts List](docs/RemoteSwitchBoard_parts.md)
