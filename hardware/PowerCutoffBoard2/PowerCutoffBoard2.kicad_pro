@@ -137,7 +137,7 @@
         "min_text_thickness": 0.1524,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.16,
-        "min_via_annular_width": 0.254,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -548,7 +548,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "PowerCutoffBoard2",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
