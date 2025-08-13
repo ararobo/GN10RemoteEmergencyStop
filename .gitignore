@@ -1,5 +1,5 @@
 hardware/PowerCutoffBoard/PowerCutoffBoard-backups
-hardware\PowerCutoffBoard1/PowerCutoffBoard1-backups
+hardware/PowerCutoffBoard1/PowerCutoffBoard1-backups
 hardware/PowerCutoffBoard2/PowerCutoffBoard2-backups
 hardware/RemoteSwitchBoard/RemoteSwitchBoard-backups
 *.DS_Store
