@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GN10_Parts")(type "KiCad")(uri "C:/Users/gn10g/Documents/Github/GN10RemoteEmergencyStop/hardware/kicad_lib/GN10_Parts.kicad_sym")(options "")(descr ""))
+)
