@@ -1316,218 +1316,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND2"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal_GND2"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Three pin crystal, GND on pin 2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND2_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND2_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -4663,6 +4451,14 @@
 		(uuid "82d84ffe-6b7d-40b9-a2d7-8ed76bac610c")
 	)
 	(no_connect
+		(at 130.81 147.32)
+		(uuid "90beefb0-3a8f-4478-99a2-fc3e5de7e7ea")
+	)
+	(no_connect
+		(at 130.81 149.86)
+		(uuid "9683d257-8351-45ab-953a-0b8fb86a9907")
+	)
+	(no_connect
 		(at 59.69 140.97)
 		(uuid "a372b974-11ad-423d-8053-282d23cbed3e")
 	)
@@ -4755,16 +4551,6 @@
 			(type default)
 		)
 		(uuid "18ada99c-1e99-47a0-abdc-f5cf8dd18c5a")
-	)
-	(wire
-		(pts
-			(xy 130.81 147.32) (xy 110.49 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ba25cd-0c9a-4ffd-9a61-db51476a5a1b")
 	)
 	(wire
 		(pts
@@ -5108,16 +4894,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 147.32) (xy 110.49 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80eb33cf-561f-4238-93b0-9e7af7728371")
-	)
-	(wire
-		(pts
 			(xy 148.59 43.18) (xy 153.67 43.18)
 		)
 		(stroke
@@ -5345,16 +5121,6 @@
 			(type default)
 		)
 		(uuid "c5e755ce-3bb3-4442-bd58-7fad6566d175")
-	)
-	(wire
-		(pts
-			(xy 118.11 149.86) (xy 130.81 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1eede8-ef6e-4c20-916f-4e76a7eaeb6b")
 	)
 	(wire
 		(pts
@@ -8092,72 +7858,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42df5434-d277-40fe-a3d9-8f66d3da333c")
-		(property "Reference" "#PWR017"
-			(at 114.3 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37afd049-b0d9-487e-bdc3-0285ae5d2b1a")
-		)
-		(instances
-			(project "RemoteSwitchBoard"
-				(path "/5ba794c9-8ae9-42a4-8c90-1a8d1641c295"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 69.85 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8492,77 +8192,6 @@
 			(project ""
 				(path "/5ba794c9-8ae9-42a4-8c90-1a8d1641c295"
 					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND2")
-		(at 114.3 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e32e436-b00c-41dc-a2a6-1768a1390d51")
-		(property "Reference" "Y1"
-			(at 114.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_GND2"
-			(at 114.3 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering"
-			(at 114.3 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Three pin crystal, GND on pin 2"
-			(at 114.3 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "36ce8fd3-ddb6-4f6b-976b-5dd28b2b585a")
-		)
-		(pin "2"
-			(uuid "436dd835-449f-4149-9ae0-886b56478629")
-		)
-		(pin "1"
-			(uuid "5757a683-93d5-4729-99f5-8d4d26e39a37")
-		)
-		(instances
-			(project "RemoteSwitchBoard"
-				(path "/5ba794c9-8ae9-42a4-8c90-1a8d1641c295"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
