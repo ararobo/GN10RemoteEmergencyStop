@@ -7,7 +7,8 @@ App::App(/* args */)
 
 void App::setup()
 {
-    HAL_GPIO_WritePin();
+    HAL_GPIO_WritePin(RELAY_A_GPIO_Port, RELAY_A_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(RELAY_B_GPIO_Port, RELAY_B_Pin, GPIO_PIN_SET);
 }
 
 void App::loop()

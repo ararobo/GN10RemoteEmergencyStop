@@ -75,6 +75,10 @@ void Error_Handler(void);
 #define DIP2_GPIO_Port GPIOB
 #define DIP1_Pin GPIO_PIN_5
 #define DIP1_GPIO_Port GPIOB
+#define RELAY_A_Pin GPIO_PIN_6
+#define RELAY_A_GPIO_Port GPIOB
+#define RELAY_B_Pin GPIO_PIN_7
+#define RELAY_B_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
