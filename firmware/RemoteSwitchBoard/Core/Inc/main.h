@@ -57,6 +57,32 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define Buzzer_Pin GPIO_PIN_0
+#define Buzzer_GPIO_Port GPIOA
+#define emstop_Pin GPIO_PIN_1
+#define emstop_GPIO_Port GPIOA
+#define LED_3_Pin GPIO_PIN_4
+#define LED_3_GPIO_Port GPIOA
+#define LED_1_Pin GPIO_PIN_6
+#define LED_1_GPIO_Port GPIOA
+#define LED_4_Pin GPIO_PIN_8
+#define LED_4_GPIO_Port GPIOA
+#define LED_5_Pin GPIO_PIN_11
+#define LED_5_GPIO_Port GPIOA
+#define LED_6_Pin GPIO_PIN_12
+#define LED_6_GPIO_Port GPIOA
+#define DIP_4_Pin GPIO_PIN_15
+#define DIP_4_GPIO_Port GPIOA
+#define DIP_3_Pin GPIO_PIN_3
+#define DIP_3_GPIO_Port GPIOB
+#define DIP_2_Pin GPIO_PIN_4
+#define DIP_2_GPIO_Port GPIOB
+#define DIP_1_Pin GPIO_PIN_5
+#define DIP_1_GPIO_Port GPIOB
+#define bustop_Pin GPIO_PIN_6
+#define bustop_GPIO_Port GPIOB
+#define LED_emstop_Pin GPIO_PIN_7
+#define LED_emstop_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
