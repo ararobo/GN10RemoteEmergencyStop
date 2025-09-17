@@ -37,11 +37,9 @@ BUILD_DIR = build
 # C sources
 C_SOURCES =  \
 Core/Src/gpio.c \
-Core/Src/can.c \
 Core/Src/usart.c \
 Core/Src/stm32f3xx_it.c \
 Core/Src/stm32f3xx_hal_msp.c \
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c \
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c \
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c \
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c \
@@ -65,7 +63,6 @@ Core/Src/sysmem.c \
 CXX_SOURCES = \
 Core/Src/main.cpp \
 $(wildcard App/Src/*.cpp) \
-$(wildcard CAN/Src/*.cpp) \
 $(wildcard Peripheral/Src/*.cpp) \
 $(wildcard Gyro/Src/*.cpp) \
 $(wildcard Ethernet/Src/*.cpp) \
