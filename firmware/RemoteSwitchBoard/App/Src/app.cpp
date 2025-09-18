@@ -7,13 +7,13 @@ App::App(/* args */)
 
 void App::setup()
 {
+    readWioE5.sendAT("AT");
 }
 
 void App::loop()
 {
     led_blink();
     HAL_Delay(1);
-    readWioE5.sendAT("AT");
 }
 
 void App::led_blink()

@@ -33,15 +33,11 @@ extern "C" void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     }
 }
 
-ReadWioE5::ReadWioE5(/* args */)
-{
-    HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
-}
-
 void ReadWioE5::setup()
 {
     // 初期化コード
     serial_printf("ReadWioE5 setup complete.\n");
+    HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
 }
 
 void ReadWioE5::loop()

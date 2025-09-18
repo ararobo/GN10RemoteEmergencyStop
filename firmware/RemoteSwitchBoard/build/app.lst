@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccrPplSS.s 			page 1
+ARM GAS  /tmp/cc9hXrqK.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -38,265 +38,255 @@ ARM GAS  /tmp/ccrPplSS.s 			page 1
   32              		.cfi_startproc
   33              		@ args = 0, pretend = 0, frame = 0
   34              		@ frame_needed = 0, uses_anonymous_args = 0
-  35              		.loc 1 4 1 is_stmt 0 view .LVU1
-  36 0000 10B5     		push	{r4, lr}
-  37              		.save {r4, lr}
-  38              	.LCFI0:
-  39              		.cfi_def_cfa_offset 8
-  40              		.cfi_offset 4, -8
-  41              		.cfi_offset 14, -4
-  42 0002 0446     		mov	r4, r0
-  43              	.LBB2:
-  44              		.loc 1 4 20 view .LVU2
-  45 0004 0023     		movs	r3, #0
-  46 0006 0380     		strh	r3, [r0]	@ movhi
-  47 0008 0A23     		movs	r3, #10
-  48 000a 4380     		strh	r3, [r0, #2]	@ movhi
-  49 000c 0430     		adds	r0, r0, #4
-  50              	.LVL1:
-  51              		.loc 1 4 20 view .LVU3
-  52 000e FFF7FEFF 		bl	_ZN9ReadWioE5C1Ev
-  53              	.LVL2:
-  54              	.LBE2:
-ARM GAS  /tmp/ccrPplSS.s 			page 2
-
-
+  35              		@ link register save eliminated.
+  36              	.LBB2:
+  37              		.loc 1 4 20 is_stmt 0 view .LVU1
+  38 0000 0022     		movs	r2, #0
+  39 0002 0280     		strh	r2, [r0]	@ movhi
+  40 0004 0A22     		movs	r2, #10
+  41 0006 4280     		strh	r2, [r0, #2]	@ movhi
+  42              	.LBE2:
    5:App/Src/app.cpp **** {
    6:App/Src/app.cpp **** }
-  55              		.loc 1 6 1 view .LVU4
-  56 0012 2046     		mov	r0, r4
-  57 0014 10BD     		pop	{r4, pc}
-  58              		.loc 1 6 1 view .LVU5
-  59              		.cfi_endproc
-  60              	.LFE1496:
-  61              		.fnend
-  63              		.global	_ZN3AppC1Ev
-  64              		.thumb_set _ZN3AppC1Ev,_ZN3AppC2Ev
-  65              		.section	.text._ZN3App5setupEv,"ax",%progbits
-  66              		.align	1
-  67              		.global	_ZN3App5setupEv
-  68              		.syntax unified
-  69              		.thumb
-  70              		.thumb_func
-  71              		.fpu fpv4-sp-d16
-  73              	_ZN3App5setupEv:
-  74              		.fnstart
-  75              	.LVL3:
-  76              	.LFB1498:
+  43              		.loc 1 6 1 view .LVU2
+  44 0008 7047     		bx	lr
+  45              		.cfi_endproc
+  46              	.LFE1496:
+  47              		.cantunwind
+  48              		.fnend
+  50              		.global	_ZN3AppC1Ev
+  51              		.thumb_set _ZN3AppC1Ev,_ZN3AppC2Ev
+  52              		.section	.rodata._ZN3App5setupEv.str1.4,"aMS",%progbits,1
+  53              		.align	2
+ARM GAS  /tmp/cc9hXrqK.s 			page 2
+
+
+  54              	.LC0:
+  55 0000 415400   		.ascii	"AT\000"
+  56              		.section	.text._ZN3App5setupEv,"ax",%progbits
+  57              		.align	1
+  58              		.global	_ZN3App5setupEv
+  59              		.syntax unified
+  60              		.thumb
+  61              		.thumb_func
+  62              		.fpu fpv4-sp-d16
+  64              	_ZN3App5setupEv:
+  65              		.fnstart
+  66              	.LVL1:
+  67              	.LFB1498:
    7:App/Src/app.cpp **** 
    8:App/Src/app.cpp **** void App::setup()
    9:App/Src/app.cpp **** {
-  77              		.loc 1 9 1 is_stmt 1 view -0
-  78              		.cfi_startproc
-  79              		@ args = 0, pretend = 0, frame = 0
-  80              		@ frame_needed = 0, uses_anonymous_args = 0
-  81              		@ link register save eliminated.
-  10:App/Src/app.cpp **** }
-  82              		.loc 1 10 1 is_stmt 0 view .LVU7
-  83 0000 7047     		bx	lr
-  84              		.cfi_endproc
-  85              	.LFE1498:
-  86              		.cantunwind
-  87              		.fnend
-  89              		.section	.text._ZN3App9led_blinkEv,"ax",%progbits
-  90              		.align	1
-  91              		.global	_ZN3App9led_blinkEv
-  92              		.syntax unified
-  93              		.thumb
-  94              		.thumb_func
-  95              		.fpu fpv4-sp-d16
-  97              	_ZN3App9led_blinkEv:
-  98              		.fnstart
-  99              	.LVL4:
- 100              	.LFB1500:
-  11:App/Src/app.cpp **** 
-  12:App/Src/app.cpp **** void App::loop()
-  13:App/Src/app.cpp **** {
-  14:App/Src/app.cpp ****     led_blink();
-  15:App/Src/app.cpp ****     HAL_Delay(1);
-  16:App/Src/app.cpp ****     readWioE5.sendAT("AT");
+  68              		.loc 1 9 1 is_stmt 1 view -0
+  69              		.cfi_startproc
+  70              		@ args = 0, pretend = 0, frame = 0
+  71              		@ frame_needed = 0, uses_anonymous_args = 0
+  72              		.loc 1 9 1 is_stmt 0 view .LVU4
+  73 0000 08B5     		push	{r3, lr}
+  74              		.save {r3, lr}
+  75              	.LCFI0:
+  76              		.cfi_def_cfa_offset 8
+  77              		.cfi_offset 3, -8
+  78              		.cfi_offset 14, -4
+  10:App/Src/app.cpp ****     readWioE5.sendAT("AT");
+  79              		.loc 1 10 5 is_stmt 1 view .LVU5
+  80              		.loc 1 10 21 is_stmt 0 view .LVU6
+  81 0002 0249     		ldr	r1, .L4
+  82 0004 0430     		adds	r0, r0, #4
+  83              	.LVL2:
+  84              		.loc 1 10 21 view .LVU7
+  85 0006 FFF7FEFF 		bl	_ZN9ReadWioE56sendATEPKc
+  86              	.LVL3:
+  11:App/Src/app.cpp **** }
+  87              		.loc 1 11 1 view .LVU8
+  88 000a 08BD     		pop	{r3, pc}
+  89              	.L5:
+  90              		.align	2
+  91              	.L4:
+  92 000c 00000000 		.word	.LC0
+  93              		.cfi_endproc
+  94              	.LFE1498:
+  95              		.fnend
+  97              		.section	.text._ZN3App9led_blinkEv,"ax",%progbits
+  98              		.align	1
+  99              		.global	_ZN3App9led_blinkEv
+ 100              		.syntax unified
+ 101              		.thumb
+ 102              		.thumb_func
+ 103              		.fpu fpv4-sp-d16
+ 105              	_ZN3App9led_blinkEv:
+ 106              		.fnstart
+ 107              	.LVL4:
+ 108              	.LFB1500:
+ARM GAS  /tmp/cc9hXrqK.s 			page 3
+
+
+  12:App/Src/app.cpp **** 
+  13:App/Src/app.cpp **** void App::loop()
+  14:App/Src/app.cpp **** {
+  15:App/Src/app.cpp ****     led_blink();
+  16:App/Src/app.cpp ****     HAL_Delay(1);
   17:App/Src/app.cpp **** }
   18:App/Src/app.cpp **** 
   19:App/Src/app.cpp **** void App::led_blink()
-ARM GAS  /tmp/ccrPplSS.s 			page 3
-
-
   20:App/Src/app.cpp **** {
- 101              		.loc 1 20 1 is_stmt 1 view -0
- 102              		.cfi_startproc
- 103              		@ args = 0, pretend = 0, frame = 0
- 104              		@ frame_needed = 0, uses_anonymous_args = 0
+ 109              		.loc 1 20 1 is_stmt 1 view -0
+ 110              		.cfi_startproc
+ 111              		@ args = 0, pretend = 0, frame = 0
+ 112              		@ frame_needed = 0, uses_anonymous_args = 0
   21:App/Src/app.cpp ****     led_blink_counter++;
- 105              		.loc 1 21 5 view .LVU9
- 106 0000 0388     		ldrh	r3, [r0]
- 107              		.loc 1 21 22 is_stmt 0 view .LVU10
- 108 0002 0133     		adds	r3, r3, #1
- 109 0004 9BB2     		uxth	r3, r3
- 110 0006 0380     		strh	r3, [r0]	@ movhi
+ 113              		.loc 1 21 5 view .LVU10
+ 114 0000 0388     		ldrh	r3, [r0]
+ 115              		.loc 1 21 22 is_stmt 0 view .LVU11
+ 116 0002 0133     		adds	r3, r3, #1
+ 117 0004 9BB2     		uxth	r3, r3
+ 118 0006 0380     		strh	r3, [r0]	@ movhi
   22:App/Src/app.cpp ****     if (led_blink_counter >= led_blink_interval)
- 111              		.loc 1 22 5 is_stmt 1 view .LVU11
- 112              		.loc 1 22 30 is_stmt 0 view .LVU12
- 113 0008 4288     		ldrh	r2, [r0, #2]
- 114              		.loc 1 22 5 view .LVU13
- 115 000a 9342     		cmp	r3, r2
- 116 000c 00D2     		bcs	.L10
- 117 000e 7047     		bx	lr
- 118              	.L10:
+ 119              		.loc 1 22 5 is_stmt 1 view .LVU12
+ 120              		.loc 1 22 30 is_stmt 0 view .LVU13
+ 121 0008 4288     		ldrh	r2, [r0, #2]
+ 122              		.loc 1 22 5 view .LVU14
+ 123 000a 9342     		cmp	r3, r2
+ 124 000c 00D2     		bcs	.L12
+ 125 000e 7047     		bx	lr
+ 126              	.L12:
   20:App/Src/app.cpp ****     led_blink_counter++;
- 119              		.loc 1 20 1 view .LVU14
- 120 0010 10B5     		push	{r4, lr}
- 121              		.save {r4, lr}
- 122              	.LCFI1:
- 123              		.cfi_def_cfa_offset 8
- 124              		.cfi_offset 4, -8
- 125              		.cfi_offset 14, -4
- 126 0012 0446     		mov	r4, r0
+ 127              		.loc 1 20 1 view .LVU15
+ 128 0010 10B5     		push	{r4, lr}
+ 129              		.save {r4, lr}
+ 130              	.LCFI1:
+ 131              		.cfi_def_cfa_offset 8
+ 132              		.cfi_offset 4, -8
+ 133              		.cfi_offset 14, -4
+ 134 0012 0446     		mov	r4, r0
   23:App/Src/app.cpp ****     {
   24:App/Src/app.cpp ****         HAL_GPIO_TogglePin(LED_6_GPIO_Port, LED_6_Pin); // LEDをトグル
- 127              		.loc 1 24 9 is_stmt 1 view .LVU15
- 128              		.loc 1 24 27 is_stmt 0 view .LVU16
- 129 0014 4FF48051 		mov	r1, #4096
- 130 0018 4FF09040 		mov	r0, #1207959552
- 131              	.LVL5:
- 132              		.loc 1 24 27 view .LVU17
- 133 001c FFF7FEFF 		bl	HAL_GPIO_TogglePin
- 134              	.LVL6:
+ 135              		.loc 1 24 9 is_stmt 1 view .LVU16
+ 136              		.loc 1 24 27 is_stmt 0 view .LVU17
+ 137 0014 4FF48051 		mov	r1, #4096
+ 138 0018 4FF09040 		mov	r0, #1207959552
+ 139              	.LVL5:
+ 140              		.loc 1 24 27 view .LVU18
+ 141 001c FFF7FEFF 		bl	HAL_GPIO_TogglePin
+ 142              	.LVL6:
   25:App/Src/app.cpp ****         led_blink_counter = 0;
- 135              		.loc 1 25 9 is_stmt 1 view .LVU18
- 136              		.loc 1 25 27 is_stmt 0 view .LVU19
- 137 0020 0023     		movs	r3, #0
- 138 0022 2380     		strh	r3, [r4]	@ movhi
+ 143              		.loc 1 25 9 is_stmt 1 view .LVU19
+ 144              		.loc 1 25 27 is_stmt 0 view .LVU20
+ 145 0020 0023     		movs	r3, #0
+ 146 0022 2380     		strh	r3, [r4]	@ movhi
   26:App/Src/app.cpp ****     }
   27:App/Src/app.cpp **** }
- 139              		.loc 1 27 1 view .LVU20
- 140 0024 10BD     		pop	{r4, pc}
- 141              		.loc 1 27 1 view .LVU21
- 142              		.cfi_endproc
- 143              	.LFE1500:
- 144              		.fnend
- 146              		.section	.rodata._ZN3App4loopEv.str1.4,"aMS",%progbits,1
- 147              		.align	2
- 148              	.LC0:
- 149 0000 415400   		.ascii	"AT\000"
-ARM GAS  /tmp/ccrPplSS.s 			page 4
+ 147              		.loc 1 27 1 view .LVU21
+ 148 0024 10BD     		pop	{r4, pc}
+ARM GAS  /tmp/cc9hXrqK.s 			page 4
 
 
- 150              		.section	.text._ZN3App4loopEv,"ax",%progbits
- 151              		.align	1
- 152              		.global	_ZN3App4loopEv
- 153              		.syntax unified
- 154              		.thumb
- 155              		.thumb_func
- 156              		.fpu fpv4-sp-d16
- 158              	_ZN3App4loopEv:
- 159              		.fnstart
- 160              	.LVL7:
- 161              	.LFB1499:
-  13:App/Src/app.cpp ****     led_blink();
- 162              		.loc 1 13 1 is_stmt 1 view -0
- 163              		.cfi_startproc
- 164              		@ args = 0, pretend = 0, frame = 0
- 165              		@ frame_needed = 0, uses_anonymous_args = 0
-  13:App/Src/app.cpp ****     led_blink();
- 166              		.loc 1 13 1 is_stmt 0 view .LVU23
- 167 0000 10B5     		push	{r4, lr}
- 168              		.save {r4, lr}
- 169              	.LCFI2:
- 170              		.cfi_def_cfa_offset 8
- 171              		.cfi_offset 4, -8
- 172              		.cfi_offset 14, -4
- 173 0002 0446     		mov	r4, r0
-  14:App/Src/app.cpp ****     HAL_Delay(1);
- 174              		.loc 1 14 5 is_stmt 1 view .LVU24
-  14:App/Src/app.cpp ****     HAL_Delay(1);
- 175              		.loc 1 14 14 is_stmt 0 view .LVU25
- 176 0004 FFF7FEFF 		bl	_ZN3App9led_blinkEv
- 177              	.LVL8:
-  15:App/Src/app.cpp ****     readWioE5.sendAT("AT");
- 178              		.loc 1 15 5 is_stmt 1 view .LVU26
-  15:App/Src/app.cpp ****     readWioE5.sendAT("AT");
- 179              		.loc 1 15 14 is_stmt 0 view .LVU27
- 180 0008 0120     		movs	r0, #1
- 181 000a FFF7FEFF 		bl	HAL_Delay
- 182              	.LVL9:
+ 149              		.loc 1 27 1 view .LVU22
+ 150              		.cfi_endproc
+ 151              	.LFE1500:
+ 152              		.fnend
+ 154              		.section	.text._ZN3App4loopEv,"ax",%progbits
+ 155              		.align	1
+ 156              		.global	_ZN3App4loopEv
+ 157              		.syntax unified
+ 158              		.thumb
+ 159              		.thumb_func
+ 160              		.fpu fpv4-sp-d16
+ 162              	_ZN3App4loopEv:
+ 163              		.fnstart
+ 164              	.LVL7:
+ 165              	.LFB1499:
+  14:App/Src/app.cpp ****     led_blink();
+ 166              		.loc 1 14 1 is_stmt 1 view -0
+ 167              		.cfi_startproc
+ 168              		@ args = 0, pretend = 0, frame = 0
+ 169              		@ frame_needed = 0, uses_anonymous_args = 0
+  14:App/Src/app.cpp ****     led_blink();
+ 170              		.loc 1 14 1 is_stmt 0 view .LVU24
+ 171 0000 08B5     		push	{r3, lr}
+ 172              		.save {r3, lr}
+ 173              	.LCFI2:
+ 174              		.cfi_def_cfa_offset 8
+ 175              		.cfi_offset 3, -8
+ 176              		.cfi_offset 14, -4
+  15:App/Src/app.cpp ****     HAL_Delay(1);
+ 177              		.loc 1 15 5 is_stmt 1 view .LVU25
+  15:App/Src/app.cpp ****     HAL_Delay(1);
+ 178              		.loc 1 15 14 is_stmt 0 view .LVU26
+ 179 0002 FFF7FEFF 		bl	_ZN3App9led_blinkEv
+ 180              	.LVL8:
   16:App/Src/app.cpp **** }
- 183              		.loc 1 16 5 is_stmt 1 view .LVU28
+ 181              		.loc 1 16 5 is_stmt 1 view .LVU27
   16:App/Src/app.cpp **** }
- 184              		.loc 1 16 21 is_stmt 0 view .LVU29
- 185 000e 0249     		ldr	r1, .L13
- 186 0010 201D     		adds	r0, r4, #4
- 187 0012 FFF7FEFF 		bl	_ZN9ReadWioE56sendATEPKc
- 188              	.LVL10:
+ 182              		.loc 1 16 14 is_stmt 0 view .LVU28
+ 183 0006 0120     		movs	r0, #1
+ 184 0008 FFF7FEFF 		bl	HAL_Delay
+ 185              	.LVL9:
   17:App/Src/app.cpp **** 
- 189              		.loc 1 17 1 view .LVU30
- 190 0016 10BD     		pop	{r4, pc}
- 191              	.LVL11:
- 192              	.L14:
-  17:App/Src/app.cpp **** 
- 193              		.loc 1 17 1 view .LVU31
- 194              		.align	2
- 195              	.L13:
- 196 0018 00000000 		.word	.LC0
- 197              		.cfi_endproc
-ARM GAS  /tmp/ccrPplSS.s 			page 5
+ 186              		.loc 1 17 1 view .LVU29
+ 187 000c 08BD     		pop	{r3, pc}
+ 188              		.cfi_endproc
+ 189              	.LFE1499:
+ 190              		.fnend
+ 192              		.text
+ 193              	.Letext0:
+ 194              		.file 2 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
+ 195              		.file 3 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303x8.h"
+ 196              		.file 4 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
+ 197              		.file 5 "/usr/include/newlib/c++/10.3.1/type_traits"
+ 198              		.file 6 "/usr/include/newlib/c++/10.3.1/debug/debug.h"
+ 199              		.file 7 "/usr/include/newlib/c++/10.3.1/cwchar"
+ 200              		.file 8 "/usr/include/newlib/c++/10.3.1/cstdint"
+ 201              		.file 9 "/usr/include/newlib/c++/10.3.1/bits/exception_ptr.h"
+ARM GAS  /tmp/cc9hXrqK.s 			page 5
 
 
- 198              	.LFE1499:
- 199              		.fnend
- 201              		.text
- 202              	.Letext0:
- 203              		.file 2 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
- 204              		.file 3 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303x8.h"
- 205              		.file 4 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
- 206              		.file 5 "/usr/include/newlib/c++/10.3.1/type_traits"
- 207              		.file 6 "/usr/include/newlib/c++/10.3.1/debug/debug.h"
- 208              		.file 7 "/usr/include/newlib/c++/10.3.1/cwchar"
- 209              		.file 8 "/usr/include/newlib/c++/10.3.1/cstdint"
- 210              		.file 9 "/usr/include/newlib/c++/10.3.1/bits/exception_ptr.h"
- 211              		.file 10 "/usr/include/newlib/c++/10.3.1/bits/stl_pair.h"
- 212              		.file 11 "/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h"
- 213              		.file 12 "/usr/include/newlib/c++/10.3.1/clocale"
- 214              		.file 13 "/usr/include/newlib/c++/10.3.1/cstdlib"
- 215              		.file 14 "/usr/include/newlib/c++/10.3.1/cstdio"
- 216              		.file 15 "/usr/include/newlib/c++/10.3.1/bits/basic_string.h"
- 217              		.file 16 "/usr/include/newlib/c++/10.3.1/bits/predefined_ops.h"
- 218              		.file 17 "/usr/include/newlib/sys/_types.h"
- 219              		.file 18 "/usr/include/newlib/sys/reent.h"
- 220              		.file 19 "/usr/include/newlib/sys/lock.h"
- 221              		.file 20 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
- 222              		.file 21 "/usr/include/newlib/wchar.h"
- 223              		.file 22 "/usr/include/newlib/locale.h"
- 224              		.file 23 "/usr/include/newlib/stdlib.h"
- 225              		.file 24 "/usr/include/newlib/stdio.h"
- 226              		.file 25 "App/Inc/readWioE5.hpp"
- 227              		.file 26 "App/Inc/app.hpp"
- 228              		.file 27 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h"
- 229              		.file 28 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
- 230              		.file 29 "<built-in>"
-ARM GAS  /tmp/ccrPplSS.s 			page 6
+ 202              		.file 10 "/usr/include/newlib/c++/10.3.1/bits/stl_pair.h"
+ 203              		.file 11 "/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h"
+ 204              		.file 12 "/usr/include/newlib/c++/10.3.1/clocale"
+ 205              		.file 13 "/usr/include/newlib/c++/10.3.1/cstdlib"
+ 206              		.file 14 "/usr/include/newlib/c++/10.3.1/cstdio"
+ 207              		.file 15 "/usr/include/newlib/c++/10.3.1/bits/basic_string.h"
+ 208              		.file 16 "/usr/include/newlib/c++/10.3.1/bits/predefined_ops.h"
+ 209              		.file 17 "/usr/include/newlib/sys/_types.h"
+ 210              		.file 18 "/usr/include/newlib/sys/reent.h"
+ 211              		.file 19 "/usr/include/newlib/sys/lock.h"
+ 212              		.file 20 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
+ 213              		.file 21 "/usr/include/newlib/wchar.h"
+ 214              		.file 22 "/usr/include/newlib/locale.h"
+ 215              		.file 23 "/usr/include/newlib/stdlib.h"
+ 216              		.file 24 "/usr/include/newlib/stdio.h"
+ 217              		.file 25 "App/Inc/readWioE5.hpp"
+ 218              		.file 26 "App/Inc/app.hpp"
+ 219              		.file 27 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h"
+ 220              		.file 28 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
+ 221              		.file 29 "<built-in>"
+ARM GAS  /tmp/cc9hXrqK.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 app.cpp
-     /tmp/ccrPplSS.s:18     .text._ZN3AppC2Ev:0000000000000000 $t
-     /tmp/ccrPplSS.s:26     .text._ZN3AppC2Ev:0000000000000000 _ZN3AppC2Ev
+     /tmp/cc9hXrqK.s:18     .text._ZN3AppC2Ev:0000000000000000 $t
+     /tmp/cc9hXrqK.s:26     .text._ZN3AppC2Ev:0000000000000000 _ZN3AppC2Ev
       .ARM.exidx.text._ZN3AppC2Ev:0000000000000000 $d
-     /tmp/ccrPplSS.s:26     .text._ZN3AppC2Ev:0000000000000000 _ZN3AppC1Ev
-     /tmp/ccrPplSS.s:66     .text._ZN3App5setupEv:0000000000000000 $t
-     /tmp/ccrPplSS.s:73     .text._ZN3App5setupEv:0000000000000000 _ZN3App5setupEv
+     /tmp/cc9hXrqK.s:26     .text._ZN3AppC2Ev:0000000000000000 _ZN3AppC1Ev
+     /tmp/cc9hXrqK.s:53     .rodata._ZN3App5setupEv.str1.4:0000000000000000 $d
+     /tmp/cc9hXrqK.s:57     .text._ZN3App5setupEv:0000000000000000 $t
+     /tmp/cc9hXrqK.s:64     .text._ZN3App5setupEv:0000000000000000 _ZN3App5setupEv
+     /tmp/cc9hXrqK.s:92     .text._ZN3App5setupEv:000000000000000c $d
+  .ARM.extab.text._ZN3App5setupEv:0000000000000000 $d
   .ARM.exidx.text._ZN3App5setupEv:0000000000000000 $d
-     /tmp/ccrPplSS.s:90     .text._ZN3App9led_blinkEv:0000000000000000 $t
-     /tmp/ccrPplSS.s:97     .text._ZN3App9led_blinkEv:0000000000000000 _ZN3App9led_blinkEv
+     /tmp/cc9hXrqK.s:98     .text._ZN3App9led_blinkEv:0000000000000000 $t
+     /tmp/cc9hXrqK.s:105    .text._ZN3App9led_blinkEv:0000000000000000 _ZN3App9led_blinkEv
 .ARM.exidx.text._ZN3App9led_blinkEv:0000000000000000 $d
-     /tmp/ccrPplSS.s:147    .rodata._ZN3App4loopEv.str1.4:0000000000000000 $d
-     /tmp/ccrPplSS.s:151    .text._ZN3App4loopEv:0000000000000000 $t
-     /tmp/ccrPplSS.s:158    .text._ZN3App4loopEv:0000000000000000 _ZN3App4loopEv
-     /tmp/ccrPplSS.s:196    .text._ZN3App4loopEv:0000000000000018 $d
+     /tmp/cc9hXrqK.s:155    .text._ZN3App4loopEv:0000000000000000 $t
+     /tmp/cc9hXrqK.s:162    .text._ZN3App4loopEv:0000000000000000 _ZN3App4loopEv
+   .ARM.extab.text._ZN3App4loopEv:0000000000000000 $d
    .ARM.exidx.text._ZN3App4loopEv:0000000000000000 $d
 
 UNDEFINED SYMBOLS
-_ZN9ReadWioE5C1Ev
-__aeabi_unwind_cpp_pr0
-HAL_GPIO_TogglePin
-HAL_Delay
 _ZN9ReadWioE56sendATEPKc
+__aeabi_unwind_cpp_pr1
+HAL_GPIO_TogglePin
+__aeabi_unwind_cpp_pr0
+HAL_Delay
