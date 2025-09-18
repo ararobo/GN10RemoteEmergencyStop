@@ -142,7 +142,6 @@ C_INCLUDES =  \
 # C++ includes
 CXX_INCLUDES = $(C_INCLUDES) \
 -IApp/Inc \
--ICAN/Inc \
 -IPeripheral/Inc \
 
 

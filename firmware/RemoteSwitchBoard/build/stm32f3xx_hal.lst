@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccozoNfc.s 			page 1
+ARM GAS  /tmp/cc5CZo6c.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****          (+) HAL Initialization and de-initialization functions
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****          (+) HAL Control functions
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** 
-ARM GAS  /tmp/ccozoNfc.s 			page 2
+ARM GAS  /tmp/cc5CZo6c.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   @endverbatim
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** /** @defgroup HAL_Exported_Functions HAL Exported Functions
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   * @{
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   */
-ARM GAS  /tmp/ccozoNfc.s 			page 3
+ARM GAS  /tmp/cc5CZo6c.s 			page 3
 
 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   __HAL_FLASH_PREFETCH_BUFFER_ENABLE();
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** #endif /* PREFETCH_ENABLE */
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** 
-ARM GAS  /tmp/ccozoNfc.s 			page 4
+ARM GAS  /tmp/cc5CZo6c.s 			page 4
 
 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   /* Set Interrupt Group Priority */
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
   36              		.cfi_endproc
   37              	.LFE125:
   39              		.section	.text.HAL_MspDeInit,"ax",%progbits
-ARM GAS  /tmp/ccozoNfc.s 			page 5
+ARM GAS  /tmp/cc5CZo6c.s 			page 5
 
 
   40              		.align	1
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
   83 000a 0024     		movs	r4, #0
   84 000c 1C61     		str	r4, [r3, #16]
  169:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   __HAL_RCC_APB2_RELEASE_RESET();
-ARM GAS  /tmp/ccozoNfc.s 			page 6
+ARM GAS  /tmp/cc5CZo6c.s 			page 6
 
 
   85              		.loc 1 169 3 view .LVU7
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  220:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** __weak HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)
  221:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** {
  118              		.loc 1 221 1 is_stmt 1 view -0
-ARM GAS  /tmp/ccozoNfc.s 			page 7
+ARM GAS  /tmp/cc5CZo6c.s 			page 7
 
 
  119              		.cfi_startproc
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  157 002e FFF7FEFF 		bl	HAL_NVIC_SetPriority
  158              	.LVL4:
  232:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   }
-ARM GAS  /tmp/ccozoNfc.s 			page 8
+ARM GAS  /tmp/cc5CZo6c.s 			page 8
 
 
  159              		.loc 1 232 5 view .LVU25
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  207 000a 1360     		str	r3, [r2]
  146:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** 
  208              		.loc 1 146 3 view .LVU34
-ARM GAS  /tmp/ccozoNfc.s 			page 9
+ARM GAS  /tmp/cc5CZo6c.s 			page 9
 
 
  209 000c 0320     		movs	r0, #3
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  262:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****       (+) Enable/Disable Debug module during STOP mode
  263:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****       (+) Enable/Disable Debug module during STANDBY mode
  264:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****       
-ARM GAS  /tmp/ccozoNfc.s 			page 10
+ARM GAS  /tmp/cc5CZo6c.s 			page 10
 
 
  265:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** @endverbatim
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  288:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   */
  289:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** __weak uint32_t HAL_GetTick(void)
  290:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** {
-ARM GAS  /tmp/ccozoNfc.s 			page 11
+ARM GAS  /tmp/cc5CZo6c.s 			page 11
 
 
  273              		.loc 1 290 1 is_stmt 1 view -0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  319              		.align	1
  320              		.global	HAL_SetTickFreq
  321              		.syntax unified
-ARM GAS  /tmp/ccozoNfc.s 			page 12
+ARM GAS  /tmp/cc5CZo6c.s 			page 12
 
 
  322              		.thumb
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  324:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** 
  325:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****     if (status != HAL_OK)
  326:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****     {
-ARM GAS  /tmp/ccozoNfc.s 			page 13
+ARM GAS  /tmp/cc5CZo6c.s 			page 13
 
 
  327:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****       /* Restore previous tick frequency */
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  392              		.thumb
  393              		.thumb_func
  394              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/ccozoNfc.s 			page 14
+ARM GAS  /tmp/cc5CZo6c.s 			page 14
 
 
  396              	HAL_GetTickFreq:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  428              		@ args = 0, pretend = 0, frame = 0
  429              		@ frame_needed = 0, uses_anonymous_args = 0
  430              		.loc 1 357 1 is_stmt 0 view .LVU75
-ARM GAS  /tmp/ccozoNfc.s 			page 15
+ARM GAS  /tmp/cc5CZo6c.s 			page 15
 
 
  431 0000 38B5     		push	{r3, r4, r5, lr}
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  370:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** }
  469              		.loc 1 370 1 view .LVU90
  470 0020 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  /tmp/ccozoNfc.s 			page 16
+ARM GAS  /tmp/cc5CZo6c.s 			page 16
 
 
  471              	.LVL20:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  510              		.thumb
  511              		.thumb_func
  512              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/ccozoNfc.s 			page 17
+ARM GAS  /tmp/cc5CZo6c.s 			page 17
 
 
  514              	HAL_ResumeTick:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  546              		@ link register save eliminated.
  413:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****  return __STM32F3xx_HAL_VERSION;
  547              		.loc 1 413 2 view .LVU101
-ARM GAS  /tmp/ccozoNfc.s 			page 18
+ARM GAS  /tmp/cc5CZo6c.s 			page 18
 
 
  414:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** }
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  596              	.LFB138:
  424:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** 
  425:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** /**
-ARM GAS  /tmp/ccozoNfc.s 			page 19
+ARM GAS  /tmp/cc5CZo6c.s 			page 19
 
 
  426:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   * @brief  Returns the device identifier.
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  637              		.align	2
  638              	.L56:
  639 0008 00F0FF1F 		.word	536866816
-ARM GAS  /tmp/ccozoNfc.s 			page 20
+ARM GAS  /tmp/cc5CZo6c.s 			page 20
 
 
  640              		.cfi_endproc
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  682              		@ args = 0, pretend = 0, frame = 0
  683              		@ frame_needed = 0, uses_anonymous_args = 0
  684              		@ link register save eliminated.
-ARM GAS  /tmp/ccozoNfc.s 			page 21
+ARM GAS  /tmp/cc5CZo6c.s 			page 21
 
 
  458:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****    return(READ_REG(*((uint32_t *)(UID_BASE + 8U))));
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  731              		.thumb_func
  732              		.fpu fpv4-sp-d16
  734              	HAL_DBGMCU_DisableDBGSleepMode:
-ARM GAS  /tmp/ccozoNfc.s 			page 22
+ARM GAS  /tmp/cc5CZo6c.s 			page 22
 
 
  735              	.LFB143:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  774 0008 5360     		str	r3, [r2, #4]
  486:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** }
  775              		.loc 1 486 1 is_stmt 0 view .LVU128
-ARM GAS  /tmp/ccozoNfc.s 			page 23
+ARM GAS  /tmp/cc5CZo6c.s 			page 23
 
 
  776 000a 7047     		bx	lr
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  498:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   * @brief  Enable the Debug Module during STANDBY mode
  499:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   * @retval None
  500:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c ****   */
-ARM GAS  /tmp/ccozoNfc.s 			page 24
+ARM GAS  /tmp/cc5CZo6c.s 			page 24
 
 
  501:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c **** void HAL_DBGMCU_EnableDBGStandbyMode(void)
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  866              	.L80:
  867 000c 002004E0 		.word	-536600576
  868              		.cfi_endproc
-ARM GAS  /tmp/ccozoNfc.s 			page 25
+ARM GAS  /tmp/cc5CZo6c.s 			page 25
 
 
  869              	.LFE147:
@@ -1468,90 +1468,90 @@ ARM GAS  /tmp/ccozoNfc.s 			page 1
  900              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
  901              		.file 7 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
  902              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
-ARM GAS  /tmp/ccozoNfc.s 			page 26
+ARM GAS  /tmp/cc5CZo6c.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f3xx_hal.c
-     /tmp/ccozoNfc.s:18     .text.HAL_MspInit:0000000000000000 $t
-     /tmp/ccozoNfc.s:26     .text.HAL_MspInit:0000000000000000 HAL_MspInit
-     /tmp/ccozoNfc.s:40     .text.HAL_MspDeInit:0000000000000000 $t
-     /tmp/ccozoNfc.s:47     .text.HAL_MspDeInit:0000000000000000 HAL_MspDeInit
-     /tmp/ccozoNfc.s:60     .text.HAL_DeInit:0000000000000000 $t
-     /tmp/ccozoNfc.s:67     .text.HAL_DeInit:0000000000000000 HAL_DeInit
-     /tmp/ccozoNfc.s:103    .text.HAL_DeInit:0000000000000020 $d
-     /tmp/ccozoNfc.s:108    .text.HAL_InitTick:0000000000000000 $t
-     /tmp/ccozoNfc.s:115    .text.HAL_InitTick:0000000000000000 HAL_InitTick
-     /tmp/ccozoNfc.s:178    .text.HAL_InitTick:0000000000000040 $d
-     /tmp/ccozoNfc.s:185    .text.HAL_Init:0000000000000000 $t
-     /tmp/ccozoNfc.s:192    .text.HAL_Init:0000000000000000 HAL_Init
-     /tmp/ccozoNfc.s:226    .text.HAL_Init:0000000000000020 $d
-     /tmp/ccozoNfc.s:231    .text.HAL_IncTick:0000000000000000 $t
-     /tmp/ccozoNfc.s:238    .text.HAL_IncTick:0000000000000000 HAL_IncTick
-     /tmp/ccozoNfc.s:258    .text.HAL_IncTick:0000000000000010 $d
-     /tmp/ccozoNfc.s:264    .text.HAL_GetTick:0000000000000000 $t
-     /tmp/ccozoNfc.s:271    .text.HAL_GetTick:0000000000000000 HAL_GetTick
-     /tmp/ccozoNfc.s:287    .text.HAL_GetTick:0000000000000008 $d
-     /tmp/ccozoNfc.s:292    .text.HAL_GetTickPrio:0000000000000000 $t
-     /tmp/ccozoNfc.s:299    .text.HAL_GetTickPrio:0000000000000000 HAL_GetTickPrio
-     /tmp/ccozoNfc.s:314    .text.HAL_GetTickPrio:0000000000000008 $d
-     /tmp/ccozoNfc.s:319    .text.HAL_SetTickFreq:0000000000000000 $t
-     /tmp/ccozoNfc.s:326    .text.HAL_SetTickFreq:0000000000000000 HAL_SetTickFreq
-     /tmp/ccozoNfc.s:383    .text.HAL_SetTickFreq:0000000000000024 $d
-     /tmp/ccozoNfc.s:389    .text.HAL_GetTickFreq:0000000000000000 $t
-     /tmp/ccozoNfc.s:396    .text.HAL_GetTickFreq:0000000000000000 HAL_GetTickFreq
-     /tmp/ccozoNfc.s:411    .text.HAL_GetTickFreq:0000000000000008 $d
-     /tmp/ccozoNfc.s:416    .text.HAL_Delay:0000000000000000 $t
-     /tmp/ccozoNfc.s:423    .text.HAL_Delay:0000000000000000 HAL_Delay
-     /tmp/ccozoNfc.s:476    .text.HAL_Delay:0000000000000024 $d
-     /tmp/ccozoNfc.s:481    .text.HAL_SuspendTick:0000000000000000 $t
-     /tmp/ccozoNfc.s:488    .text.HAL_SuspendTick:0000000000000000 HAL_SuspendTick
-     /tmp/ccozoNfc.s:507    .text.HAL_ResumeTick:0000000000000000 $t
-     /tmp/ccozoNfc.s:514    .text.HAL_ResumeTick:0000000000000000 HAL_ResumeTick
-     /tmp/ccozoNfc.s:533    .text.HAL_GetHalVersion:0000000000000000 $t
-     /tmp/ccozoNfc.s:540    .text.HAL_GetHalVersion:0000000000000000 HAL_GetHalVersion
-     /tmp/ccozoNfc.s:554    .text.HAL_GetHalVersion:0000000000000004 $d
-     /tmp/ccozoNfc.s:559    .text.HAL_GetREVID:0000000000000000 $t
-     /tmp/ccozoNfc.s:566    .text.HAL_GetREVID:0000000000000000 HAL_GetREVID
-     /tmp/ccozoNfc.s:583    .text.HAL_GetREVID:0000000000000008 $d
-     /tmp/ccozoNfc.s:588    .text.HAL_GetDEVID:0000000000000000 $t
-     /tmp/ccozoNfc.s:595    .text.HAL_GetDEVID:0000000000000000 HAL_GetDEVID
-     /tmp/ccozoNfc.s:612    .text.HAL_GetDEVID:000000000000000c $d
-     /tmp/ccozoNfc.s:617    .text.HAL_GetUIDw0:0000000000000000 $t
-     /tmp/ccozoNfc.s:624    .text.HAL_GetUIDw0:0000000000000000 HAL_GetUIDw0
-     /tmp/ccozoNfc.s:639    .text.HAL_GetUIDw0:0000000000000008 $d
-     /tmp/ccozoNfc.s:644    .text.HAL_GetUIDw1:0000000000000000 $t
-     /tmp/ccozoNfc.s:651    .text.HAL_GetUIDw1:0000000000000000 HAL_GetUIDw1
-     /tmp/ccozoNfc.s:666    .text.HAL_GetUIDw1:0000000000000008 $d
-     /tmp/ccozoNfc.s:671    .text.HAL_GetUIDw2:0000000000000000 $t
-     /tmp/ccozoNfc.s:678    .text.HAL_GetUIDw2:0000000000000000 HAL_GetUIDw2
-     /tmp/ccozoNfc.s:693    .text.HAL_GetUIDw2:0000000000000008 $d
-     /tmp/ccozoNfc.s:698    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 $t
-     /tmp/ccozoNfc.s:705    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 HAL_DBGMCU_EnableDBGSleepMode
-ARM GAS  /tmp/ccozoNfc.s 			page 27
+     /tmp/cc5CZo6c.s:18     .text.HAL_MspInit:0000000000000000 $t
+     /tmp/cc5CZo6c.s:26     .text.HAL_MspInit:0000000000000000 HAL_MspInit
+     /tmp/cc5CZo6c.s:40     .text.HAL_MspDeInit:0000000000000000 $t
+     /tmp/cc5CZo6c.s:47     .text.HAL_MspDeInit:0000000000000000 HAL_MspDeInit
+     /tmp/cc5CZo6c.s:60     .text.HAL_DeInit:0000000000000000 $t
+     /tmp/cc5CZo6c.s:67     .text.HAL_DeInit:0000000000000000 HAL_DeInit
+     /tmp/cc5CZo6c.s:103    .text.HAL_DeInit:0000000000000020 $d
+     /tmp/cc5CZo6c.s:108    .text.HAL_InitTick:0000000000000000 $t
+     /tmp/cc5CZo6c.s:115    .text.HAL_InitTick:0000000000000000 HAL_InitTick
+     /tmp/cc5CZo6c.s:178    .text.HAL_InitTick:0000000000000040 $d
+     /tmp/cc5CZo6c.s:185    .text.HAL_Init:0000000000000000 $t
+     /tmp/cc5CZo6c.s:192    .text.HAL_Init:0000000000000000 HAL_Init
+     /tmp/cc5CZo6c.s:226    .text.HAL_Init:0000000000000020 $d
+     /tmp/cc5CZo6c.s:231    .text.HAL_IncTick:0000000000000000 $t
+     /tmp/cc5CZo6c.s:238    .text.HAL_IncTick:0000000000000000 HAL_IncTick
+     /tmp/cc5CZo6c.s:258    .text.HAL_IncTick:0000000000000010 $d
+     /tmp/cc5CZo6c.s:264    .text.HAL_GetTick:0000000000000000 $t
+     /tmp/cc5CZo6c.s:271    .text.HAL_GetTick:0000000000000000 HAL_GetTick
+     /tmp/cc5CZo6c.s:287    .text.HAL_GetTick:0000000000000008 $d
+     /tmp/cc5CZo6c.s:292    .text.HAL_GetTickPrio:0000000000000000 $t
+     /tmp/cc5CZo6c.s:299    .text.HAL_GetTickPrio:0000000000000000 HAL_GetTickPrio
+     /tmp/cc5CZo6c.s:314    .text.HAL_GetTickPrio:0000000000000008 $d
+     /tmp/cc5CZo6c.s:319    .text.HAL_SetTickFreq:0000000000000000 $t
+     /tmp/cc5CZo6c.s:326    .text.HAL_SetTickFreq:0000000000000000 HAL_SetTickFreq
+     /tmp/cc5CZo6c.s:383    .text.HAL_SetTickFreq:0000000000000024 $d
+     /tmp/cc5CZo6c.s:389    .text.HAL_GetTickFreq:0000000000000000 $t
+     /tmp/cc5CZo6c.s:396    .text.HAL_GetTickFreq:0000000000000000 HAL_GetTickFreq
+     /tmp/cc5CZo6c.s:411    .text.HAL_GetTickFreq:0000000000000008 $d
+     /tmp/cc5CZo6c.s:416    .text.HAL_Delay:0000000000000000 $t
+     /tmp/cc5CZo6c.s:423    .text.HAL_Delay:0000000000000000 HAL_Delay
+     /tmp/cc5CZo6c.s:476    .text.HAL_Delay:0000000000000024 $d
+     /tmp/cc5CZo6c.s:481    .text.HAL_SuspendTick:0000000000000000 $t
+     /tmp/cc5CZo6c.s:488    .text.HAL_SuspendTick:0000000000000000 HAL_SuspendTick
+     /tmp/cc5CZo6c.s:507    .text.HAL_ResumeTick:0000000000000000 $t
+     /tmp/cc5CZo6c.s:514    .text.HAL_ResumeTick:0000000000000000 HAL_ResumeTick
+     /tmp/cc5CZo6c.s:533    .text.HAL_GetHalVersion:0000000000000000 $t
+     /tmp/cc5CZo6c.s:540    .text.HAL_GetHalVersion:0000000000000000 HAL_GetHalVersion
+     /tmp/cc5CZo6c.s:554    .text.HAL_GetHalVersion:0000000000000004 $d
+     /tmp/cc5CZo6c.s:559    .text.HAL_GetREVID:0000000000000000 $t
+     /tmp/cc5CZo6c.s:566    .text.HAL_GetREVID:0000000000000000 HAL_GetREVID
+     /tmp/cc5CZo6c.s:583    .text.HAL_GetREVID:0000000000000008 $d
+     /tmp/cc5CZo6c.s:588    .text.HAL_GetDEVID:0000000000000000 $t
+     /tmp/cc5CZo6c.s:595    .text.HAL_GetDEVID:0000000000000000 HAL_GetDEVID
+     /tmp/cc5CZo6c.s:612    .text.HAL_GetDEVID:000000000000000c $d
+     /tmp/cc5CZo6c.s:617    .text.HAL_GetUIDw0:0000000000000000 $t
+     /tmp/cc5CZo6c.s:624    .text.HAL_GetUIDw0:0000000000000000 HAL_GetUIDw0
+     /tmp/cc5CZo6c.s:639    .text.HAL_GetUIDw0:0000000000000008 $d
+     /tmp/cc5CZo6c.s:644    .text.HAL_GetUIDw1:0000000000000000 $t
+     /tmp/cc5CZo6c.s:651    .text.HAL_GetUIDw1:0000000000000000 HAL_GetUIDw1
+     /tmp/cc5CZo6c.s:666    .text.HAL_GetUIDw1:0000000000000008 $d
+     /tmp/cc5CZo6c.s:671    .text.HAL_GetUIDw2:0000000000000000 $t
+     /tmp/cc5CZo6c.s:678    .text.HAL_GetUIDw2:0000000000000000 HAL_GetUIDw2
+     /tmp/cc5CZo6c.s:693    .text.HAL_GetUIDw2:0000000000000008 $d
+     /tmp/cc5CZo6c.s:698    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 $t
+     /tmp/cc5CZo6c.s:705    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 HAL_DBGMCU_EnableDBGSleepMode
+ARM GAS  /tmp/cc5CZo6c.s 			page 27
 
 
-     /tmp/ccozoNfc.s:722    .text.HAL_DBGMCU_EnableDBGSleepMode:000000000000000c $d
-     /tmp/ccozoNfc.s:727    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 $t
-     /tmp/ccozoNfc.s:734    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 HAL_DBGMCU_DisableDBGSleepMode
-     /tmp/ccozoNfc.s:751    .text.HAL_DBGMCU_DisableDBGSleepMode:000000000000000c $d
-     /tmp/ccozoNfc.s:756    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 $t
-     /tmp/ccozoNfc.s:763    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 HAL_DBGMCU_EnableDBGStopMode
-     /tmp/ccozoNfc.s:780    .text.HAL_DBGMCU_EnableDBGStopMode:000000000000000c $d
-     /tmp/ccozoNfc.s:785    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 $t
-     /tmp/ccozoNfc.s:792    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 HAL_DBGMCU_DisableDBGStopMode
-     /tmp/ccozoNfc.s:809    .text.HAL_DBGMCU_DisableDBGStopMode:000000000000000c $d
-     /tmp/ccozoNfc.s:814    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 $t
-     /tmp/ccozoNfc.s:821    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 HAL_DBGMCU_EnableDBGStandbyMode
-     /tmp/ccozoNfc.s:838    .text.HAL_DBGMCU_EnableDBGStandbyMode:000000000000000c $d
-     /tmp/ccozoNfc.s:843    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 $t
-     /tmp/ccozoNfc.s:850    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 HAL_DBGMCU_DisableDBGStandbyMode
-     /tmp/ccozoNfc.s:867    .text.HAL_DBGMCU_DisableDBGStandbyMode:000000000000000c $d
-     /tmp/ccozoNfc.s:885    .data.uwTickFreq:0000000000000000 uwTickFreq
-     /tmp/ccozoNfc.s:892    .data.uwTickPrio:0000000000000000 uwTickPrio
-     /tmp/ccozoNfc.s:879    .bss.uwTick:0000000000000000 uwTick
-     /tmp/ccozoNfc.s:875    .bss.uwTick:0000000000000000 $d
-     /tmp/ccozoNfc.s:888    .data.uwTickPrio:0000000000000000 $d
+     /tmp/cc5CZo6c.s:722    .text.HAL_DBGMCU_EnableDBGSleepMode:000000000000000c $d
+     /tmp/cc5CZo6c.s:727    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 $t
+     /tmp/cc5CZo6c.s:734    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 HAL_DBGMCU_DisableDBGSleepMode
+     /tmp/cc5CZo6c.s:751    .text.HAL_DBGMCU_DisableDBGSleepMode:000000000000000c $d
+     /tmp/cc5CZo6c.s:756    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 $t
+     /tmp/cc5CZo6c.s:763    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 HAL_DBGMCU_EnableDBGStopMode
+     /tmp/cc5CZo6c.s:780    .text.HAL_DBGMCU_EnableDBGStopMode:000000000000000c $d
+     /tmp/cc5CZo6c.s:785    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 $t
+     /tmp/cc5CZo6c.s:792    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 HAL_DBGMCU_DisableDBGStopMode
+     /tmp/cc5CZo6c.s:809    .text.HAL_DBGMCU_DisableDBGStopMode:000000000000000c $d
+     /tmp/cc5CZo6c.s:814    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 $t
+     /tmp/cc5CZo6c.s:821    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 HAL_DBGMCU_EnableDBGStandbyMode
+     /tmp/cc5CZo6c.s:838    .text.HAL_DBGMCU_EnableDBGStandbyMode:000000000000000c $d
+     /tmp/cc5CZo6c.s:843    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 $t
+     /tmp/cc5CZo6c.s:850    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 HAL_DBGMCU_DisableDBGStandbyMode
+     /tmp/cc5CZo6c.s:867    .text.HAL_DBGMCU_DisableDBGStandbyMode:000000000000000c $d
+     /tmp/cc5CZo6c.s:885    .data.uwTickFreq:0000000000000000 uwTickFreq
+     /tmp/cc5CZo6c.s:892    .data.uwTickPrio:0000000000000000 uwTickPrio
+     /tmp/cc5CZo6c.s:879    .bss.uwTick:0000000000000000 uwTick
+     /tmp/cc5CZo6c.s:875    .bss.uwTick:0000000000000000 $d
+     /tmp/cc5CZo6c.s:888    .data.uwTickPrio:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 HAL_SYSTICK_Config

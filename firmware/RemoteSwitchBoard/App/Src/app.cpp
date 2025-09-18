@@ -13,6 +13,7 @@ void App::loop()
 {
     led_blink();
     HAL_Delay(1);
+    serial_printf("asd\n");
 }
 
 void App::led_blink()
