@@ -24,7 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "app.hpp"
-#include "readWioE5.hpp"
+#include "WioE5.hpp"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -57,7 +57,7 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 App app;
-ReadWioE5 readWioE5;
+WioE5 WioE5;
 /* USER CODE END 0 */
 
 /**
@@ -93,7 +93,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   app.setup();
-  readWioE5.setup();
+  WioE5.setup();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -104,7 +104,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     app.loop();
-    readWioE5.loop();
+    WioE5.loop();
   }
   /* USER CODE END 3 */
 }

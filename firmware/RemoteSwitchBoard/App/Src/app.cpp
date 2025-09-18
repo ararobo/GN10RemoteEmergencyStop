@@ -1,19 +1,15 @@
 #include "app.hpp"
 #include "gpio.h"
 
-App::App(/* args */)
-{
-}
-
 void App::setup()
 {
-    readWioE5.sendAT("AT");
+    wioE5.sendAT("AT");
+    wioE5.sendAT("AT+VER?");
 }
 
 void App::loop()
 {
     led_blink();
-    HAL_Delay(1);
 }
 
 void App::led_blink()

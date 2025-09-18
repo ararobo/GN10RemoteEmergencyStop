@@ -25,7 +25,7 @@ build/main.o: Core/Src/main.cpp Core/Inc/main.h \
  Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h \
  Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h \
  Core/Inc/usart.h Core/Inc/main.h Core/Inc/gpio.h App/Inc/app.hpp \
- Peripheral/Inc/serial_printf.hpp App/Inc/readWioE5.hpp
+ Peripheral/Inc/serial_printf.hpp App/Inc/WioE5.hpp
 Core/Inc/main.h:
 Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:
 Core/Inc/stm32f3xx_hal_conf.h:
@@ -59,4 +59,4 @@ Core/Inc/main.h:
 Core/Inc/gpio.h:
 App/Inc/app.hpp:
 Peripheral/Inc/serial_printf.hpp:
-App/Inc/readWioE5.hpp:
+App/Inc/WioE5.hpp:

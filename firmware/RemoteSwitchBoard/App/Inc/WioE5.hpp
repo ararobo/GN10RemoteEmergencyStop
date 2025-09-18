@@ -2,7 +2,7 @@
 #include <stdint.h>
 #include "main.h"
 #include "serial_printf.hpp"
-class ReadWioE5
+class WioE5
 {
 private:
 public:

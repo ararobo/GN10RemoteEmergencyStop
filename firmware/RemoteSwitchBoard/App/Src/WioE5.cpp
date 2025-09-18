@@ -1,4 +1,4 @@
-#include "readWioE5.hpp"
+#include "WioE5.hpp"
 #include "gpio.h"
 #include "usart.h"
 #include "stm32f3xx_hal.h"
@@ -19,7 +19,7 @@ extern "C" void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
         {
             rxBuffer[rxIndex] = '\0';
             rxReady = true;
-            rxIndex = 0;
+            rxIndex -= 1;
         }
         else
         {
@@ -33,14 +33,14 @@ extern "C" void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     }
 }
 
-void ReadWioE5::setup()
+void WioE5::setup()
 {
     // 初期化コード
     serial_printf("ReadWioE5 setup complete.\n");
     HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
 }
 
-void ReadWioE5::loop()
+void WioE5::loop()
 {
     if (rxReady)
     {
@@ -49,7 +49,7 @@ void ReadWioE5::loop()
     }
 }
 
-void ReadWioE5::sendAT(const char *cmd)
+void WioE5::sendAT(const char *cmd)
 {
     char buffer[64];
     snprintf(buffer, sizeof(buffer), "%s\r\n", cmd);

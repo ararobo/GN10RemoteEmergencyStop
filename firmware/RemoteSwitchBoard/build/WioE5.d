@@ -1,5 +1,5 @@
-build/readWioE5.o: App/Src/readWioE5.cpp App/Inc/readWioE5.hpp \
- Core/Inc/main.h Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
+build/WioE5.o: App/Src/WioE5.cpp App/Inc/WioE5.hpp Core/Inc/main.h \
+ Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
  Core/Inc/stm32f3xx_hal_conf.h \
  Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h \
  Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h \
@@ -26,7 +26,7 @@ build/readWioE5.o: App/Src/readWioE5.cpp App/Inc/readWioE5.hpp \
  Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h \
  Peripheral/Inc/serial_printf.hpp Core/Inc/usart.h Core/Inc/main.h \
  Core/Inc/gpio.h Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303x8.h
-App/Inc/readWioE5.hpp:
+App/Inc/WioE5.hpp:
 Core/Inc/main.h:
 Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:
 Core/Inc/stm32f3xx_hal_conf.h:
