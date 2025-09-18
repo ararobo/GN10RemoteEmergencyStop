@@ -13,7 +13,7 @@ void App::loop()
 {
     led_blink();
     HAL_Delay(1);
-    serial_printf("asd\n");
+    readWioE5.sendAT("AT");
 }
 
 void App::led_blink()

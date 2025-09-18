@@ -22,13 +22,3 @@ void serial_printf(const std::string &fmt, Args... args)
     // ヌル終端された文字列をUARTに送信
     HAL_UART_Transmit(&huart1, (uint8_t *)&buf[0], len, 0xFF);
 }
-
-template <typename... Args>
-void log_printf(std::string log_level, const std::string &fmt, Args... args)
-{
-    if (!DEBUG_MODE && log_level == LOG_DEBUG)
-    {
-        return;
-    }
-    serial_printf(log_level + fmt, args...);
-}

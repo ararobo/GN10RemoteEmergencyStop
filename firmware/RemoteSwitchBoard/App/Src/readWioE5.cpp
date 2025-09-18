@@ -3,26 +3,39 @@
 #include "usart.h"
 #include "stm32f3xx_hal.h"
 #include "stm32f303x8.h"
+#include <cstring>
 
 // 受信バッファ
-uint8_t rx_buf[32] = {0};
-volatile uint8_t rx_len = 0;
+uint8_t rx_byte;
+char rxBuffer[128];
+uint16_t rxIndex = 0;
+volatile bool rxReady = false;
 
-// USART2受信割り込みコールバック
 extern "C" void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if (huart->Instance == USART2)
     {
-        rx_len = 1; // 1バイト受信（必要に応じて複数バイト対応）
-        // 再度受信開始
-        HAL_UART_Receive_IT(&huart2, rx_buf, 1);
+        if (rx_byte == '\n') // 改行で1行終わり
+        {
+            rxBuffer[rxIndex] = '\0';
+            rxReady = true;
+            rxIndex = 0;
+        }
+        else
+        {
+            if (rxIndex < sizeof(rxBuffer) - 1)
+            {
+                rxBuffer[rxIndex++] = rx_byte;
+            }
+        }
+        // 次の受信をセット
+        HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
     }
 }
 
 ReadWioE5::ReadWioE5(/* args */)
 {
-    // USART2受信開始
-    HAL_UART_Receive_IT(&huart2, rx_buf, 1);
+    HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
 }
 
 void ReadWioE5::setup()
@@ -33,11 +46,16 @@ void ReadWioE5::setup()
 
 void ReadWioE5::loop()
 {
-    HAL_Delay(1); // Delay for 1 ms
-    // USART2受信データがあればserial_printfで出力
-    if (rx_len > 0)
+    if (rxReady)
     {
-        serial_printf("WioE5: %c\n", rx_buf[0]);
-        rx_len = 0;
+        serial_printf("WioE5: %s\n", rxBuffer);
+        rxReady = false;
     }
+}
+
+void ReadWioE5::sendAT(const char *cmd)
+{
+    char buffer[64];
+    snprintf(buffer, sizeof(buffer), "%s\r\n", cmd);
+    HAL_UART_Transmit(&huart2, (uint8_t *)buffer, strlen(buffer), 100);
 }
