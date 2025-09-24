@@ -3,6 +3,14 @@
 #include "main.h"
 #include "serial_printf.hpp"
 #include "WioE5.hpp"
+enum WioE5CmdState
+{
+    Init,
+    SentAT,
+    SentVER,
+    Done
+};
+
 class App
 {
 private:
@@ -12,6 +20,8 @@ private:
     void led_blink();
 
 public:
+    WioE5CmdState wioE5CmdState = Init;
+    uint16_t lastRxCount = 0;
     void setup();
     void loop();
 };
