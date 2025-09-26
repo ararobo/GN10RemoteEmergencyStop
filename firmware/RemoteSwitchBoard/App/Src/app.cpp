@@ -3,6 +3,7 @@
 
 void App::setup()
 {
+    // Wio E5 モジュールの初期化
     wioE5.sendAT("AT");
     wioE5.sendAT("AT+VER?");
     wioE5.sendAT("AT+FDEFAULT");
@@ -11,25 +12,20 @@ void App::setup()
     wioE5.sendAT("AT+MODE=TEST");
     wioE5.sendAT("AT+ID=DevEui");
     wioE5.sendAT("AT+ID=AppEui");
-    wioE5.sendAT("");
-    wioE5.sendAT("");
-    wioE5.sendAT("");
-    wioE5.sendAT("");
-    wioE5.sendAT("");
+    wioE5.sendAT("AT+TEST=RFCFG,923,SF12,125,12,15,14,ON,OFF,OFF");
+    wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
 }
 
 void App::loop()
 {
-    wioE5.loop(); // WioE5の受信処理を毎回呼び出す
-    led_blink();
-}
 
-void App::led_blink()
-{
-    led_blink_counter++;
-    if (led_blink_counter >= led_blink_interval)
+    // 1秒ごとの AT コマンド送信（重複防止）
+    static uint32_t lastSendTick = 0;
+    uint32_t now = HAL_GetTick();
+
+    if (now - lastSendTick >= 1500) // 1000ms = 1秒
     {
-        HAL_GPIO_TogglePin(LED_6_GPIO_Port, LED_6_Pin); // LEDをトグル
-        led_blink_counter = 0;
+        lastSendTick = now; // 先に更新して重複送信を防止
+        wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
     }
 }

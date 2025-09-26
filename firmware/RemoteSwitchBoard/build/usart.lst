@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc13qHaz.s 			page 1
+ARM GAS  /tmp/cc0pQEK8.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
   28:Core/Src/usart.c **** UART_HandleTypeDef huart2;
   29:Core/Src/usart.c **** 
   30:Core/Src/usart.c **** /* USART1 init function */
-ARM GAS  /tmp/cc13qHaz.s 			page 2
+ARM GAS  /tmp/cc0pQEK8.s 			page 2
 
 
   31:Core/Src/usart.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
   64              		.loc 1 49 3 is_stmt 1 view .LVU15
   65              		.loc 1 49 28 is_stmt 0 view .LVU16
   66 001c C361     		str	r3, [r0, #28]
-ARM GAS  /tmp/cc13qHaz.s 			page 3
+ARM GAS  /tmp/cc0pQEK8.s 			page 3
 
 
   50:Core/Src/usart.c ****   huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  108              		@ args = 0, pretend = 0, frame = 0
  109              		@ frame_needed = 0, uses_anonymous_args = 0
  110 0000 08B5     		push	{r3, lr}
-ARM GAS  /tmp/cc13qHaz.s 			page 4
+ARM GAS  /tmp/cc0pQEK8.s 			page 4
 
 
  111              	.LCFI1:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  147              		.loc 1 81 3 is_stmt 1 view .LVU46
  148              		.loc 1 81 38 is_stmt 0 view .LVU47
  149 0020 4362     		str	r3, [r0, #36]
-ARM GAS  /tmp/cc13qHaz.s 			page 5
+ARM GAS  /tmp/cc0pQEK8.s 			page 5
 
 
   82:Core/Src/usart.c ****   if (HAL_UART_Init(&huart2) != HAL_OK)
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  194              	.LCFI3:
  195              		.cfi_def_cfa_offset 48
   93:Core/Src/usart.c **** 
-ARM GAS  /tmp/cc13qHaz.s 			page 6
+ARM GAS  /tmp/cc0pQEK8.s 			page 6
 
 
   94:Core/Src/usart.c ****   GPIO_InitTypeDef GPIO_InitStruct = {0};
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  126:Core/Src/usart.c **** 
  127:Core/Src/usart.c ****     __HAL_RCC_GPIOA_CLK_ENABLE();
  128:Core/Src/usart.c ****     /**USART2 GPIO Configuration
-ARM GAS  /tmp/cc13qHaz.s 			page 7
+ARM GAS  /tmp/cc0pQEK8.s 			page 7
 
 
  129:Core/Src/usart.c ****     PA2     ------> USART2_TX
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  103:Core/Src/usart.c ****     /**USART1 GPIO Configuration
  247              		.loc 1 103 5 view .LVU71
  103:Core/Src/usart.c ****     /**USART1 GPIO Configuration
-ARM GAS  /tmp/cc13qHaz.s 			page 8
+ARM GAS  /tmp/cc0pQEK8.s 			page 8
 
 
  248              		.loc 1 103 5 view .LVU72
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  287              		.loc 1 125 5 is_stmt 1 view .LVU87
  288              	.LBB4:
  125:Core/Src/usart.c **** 
-ARM GAS  /tmp/cc13qHaz.s 			page 9
+ARM GAS  /tmp/cc0pQEK8.s 			page 9
 
 
  289              		.loc 1 125 5 view .LVU88
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  327              		.loc 1 135 5 view .LVU104
  135:Core/Src/usart.c ****     GPIO_InitStruct.Alternate = GPIO_AF7_USART2;
  328              		.loc 1 135 27 is_stmt 0 view .LVU105
-ARM GAS  /tmp/cc13qHaz.s 			page 10
+ARM GAS  /tmp/cc0pQEK8.s 			page 10
 
 
  329 0096 0323     		movs	r3, #3
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  376              		@ args = 0, pretend = 0, frame = 0
  377              		@ frame_needed = 0, uses_anonymous_args = 0
  378              		.loc 1 149 1 is_stmt 0 view .LVU114
-ARM GAS  /tmp/cc13qHaz.s 			page 11
+ARM GAS  /tmp/cc0pQEK8.s 			page 11
 
 
  379 0000 08B5     		push	{r3, lr}
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  185:Core/Src/usart.c ****     /* USER CODE BEGIN USART2_MspDeInit 1 */
  186:Core/Src/usart.c **** 
  187:Core/Src/usart.c ****     /* USER CODE END USART2_MspDeInit 1 */
-ARM GAS  /tmp/cc13qHaz.s 			page 12
+ARM GAS  /tmp/cc0pQEK8.s 			page 12
 
 
  188:Core/Src/usart.c ****   }
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  444              		.global	huart1
  445              		.section	.bss.huart1,"aw",%nobits
  446              		.align	2
-ARM GAS  /tmp/cc13qHaz.s 			page 13
+ARM GAS  /tmp/cc0pQEK8.s 			page 13
 
 
  447              		.set	.LANCHOR0,. + 0
@@ -748,27 +748,27 @@ ARM GAS  /tmp/cc13qHaz.s 			page 1
  467              		.file 8 "Core/Inc/usart.h"
  468              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
  469              		.file 10 "Core/Inc/main.h"
-ARM GAS  /tmp/cc13qHaz.s 			page 14
+ARM GAS  /tmp/cc0pQEK8.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usart.c
-     /tmp/cc13qHaz.s:18     .text.MX_USART1_UART_Init:0000000000000000 $t
-     /tmp/cc13qHaz.s:26     .text.MX_USART1_UART_Init:0000000000000000 MX_USART1_UART_Init
-     /tmp/cc13qHaz.s:91     .text.MX_USART1_UART_Init:0000000000000030 $d
-     /tmp/cc13qHaz.s:97     .text.MX_USART2_UART_Init:0000000000000000 $t
-     /tmp/cc13qHaz.s:104    .text.MX_USART2_UART_Init:0000000000000000 MX_USART2_UART_Init
-     /tmp/cc13qHaz.s:168    .text.MX_USART2_UART_Init:0000000000000030 $d
-     /tmp/cc13qHaz.s:174    .text.HAL_UART_MspInit:0000000000000000 $t
-     /tmp/cc13qHaz.s:181    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
-     /tmp/cc13qHaz.s:357    .text.HAL_UART_MspInit:00000000000000bc $d
-     /tmp/cc13qHaz.s:364    .text.HAL_UART_MspDeInit:0000000000000000 $t
-     /tmp/cc13qHaz.s:371    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
-     /tmp/cc13qHaz.s:438    .text.HAL_UART_MspDeInit:000000000000004c $d
-     /tmp/cc13qHaz.s:457    .bss.huart2:0000000000000000 huart2
-     /tmp/cc13qHaz.s:450    .bss.huart1:0000000000000000 huart1
-     /tmp/cc13qHaz.s:446    .bss.huart1:0000000000000000 $d
-     /tmp/cc13qHaz.s:453    .bss.huart2:0000000000000000 $d
+     /tmp/cc0pQEK8.s:18     .text.MX_USART1_UART_Init:0000000000000000 $t
+     /tmp/cc0pQEK8.s:26     .text.MX_USART1_UART_Init:0000000000000000 MX_USART1_UART_Init
+     /tmp/cc0pQEK8.s:91     .text.MX_USART1_UART_Init:0000000000000030 $d
+     /tmp/cc0pQEK8.s:97     .text.MX_USART2_UART_Init:0000000000000000 $t
+     /tmp/cc0pQEK8.s:104    .text.MX_USART2_UART_Init:0000000000000000 MX_USART2_UART_Init
+     /tmp/cc0pQEK8.s:168    .text.MX_USART2_UART_Init:0000000000000030 $d
+     /tmp/cc0pQEK8.s:174    .text.HAL_UART_MspInit:0000000000000000 $t
+     /tmp/cc0pQEK8.s:181    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
+     /tmp/cc0pQEK8.s:357    .text.HAL_UART_MspInit:00000000000000bc $d
+     /tmp/cc0pQEK8.s:364    .text.HAL_UART_MspDeInit:0000000000000000 $t
+     /tmp/cc0pQEK8.s:371    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
+     /tmp/cc0pQEK8.s:438    .text.HAL_UART_MspDeInit:000000000000004c $d
+     /tmp/cc0pQEK8.s:457    .bss.huart2:0000000000000000 huart2
+     /tmp/cc0pQEK8.s:450    .bss.huart1:0000000000000000 huart1
+     /tmp/cc0pQEK8.s:446    .bss.huart1:0000000000000000 $d
+     /tmp/cc0pQEK8.s:453    .bss.huart2:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 HAL_UART_Init
