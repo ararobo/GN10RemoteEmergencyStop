@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccbQKx75.s 			page 1
+ARM GAS  /tmp/ccGaTQ0w.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -43,308 +43,320 @@ ARM GAS  /tmp/ccbQKx75.s 			page 1
   32      39323000 
   33              		.align	2
   34              	.LC5:
-  35 0034 41542B4D 		.ascii	"AT+MODE=TEST\000"
-  35      4F44453D 
-  35      54455354 
-  35      00
-  36 0041 000000   		.align	2
+  35 0034 41542B43 		.ascii	"AT+CLASS=C\000"
+  35      4C415353 
+  35      3D4300
+  36 003f 00       		.align	2
   37              	.LC6:
-  38 0044 41542B49 		.ascii	"AT+ID=DevEui\000"
-  38      443D4465 
-  38      76457569 
+  38 0040 41542B4D 		.ascii	"AT+MODE=TEST\000"
+  38      4F44453D 
+  38      54455354 
   38      00
-  39 0051 000000   		.align	2
+  39 004d 000000   		.align	2
   40              	.LC7:
-  41 0054 41542B49 		.ascii	"AT+ID=AppEui\000"
-  41      443D4170 
-  41      70457569 
-ARM GAS  /tmp/ccbQKx75.s 			page 2
-
-
+  41 0050 41542B49 		.ascii	"AT+ID=DevEui\000"
+  41      443D4465 
+  41      76457569 
   41      00
-  42 0061 000000   		.align	2
+ARM GAS  /tmp/ccGaTQ0w.s 			page 2
+
+
+  42 005d 000000   		.align	2
   43              	.LC8:
-  44 0064 41542B54 		.ascii	"AT+TEST=RFCFG,923,SF12,125,12,15,14,ON,OFF,OFF\000"
-  44      4553543D 
-  44      52464346 
-  44      472C3932 
-  44      332C5346 
-  45 0093 00       		.align	2
+  44 0060 41542B49 		.ascii	"AT+ID=AppEui\000"
+  44      443D4170 
+  44      70457569 
+  44      00
+  45 006d 000000   		.align	2
   46              	.LC9:
-  47 0094 41542B54 		.ascii	"AT+TEST=TXLRPKT,\"5345454544\"\000"
+  47 0070 41542B54 		.ascii	"AT+TEST=RFCFG,923,SF12,125,12,15,14,ON,OFF,OFF\000"
   47      4553543D 
-  47      54584C52 
-  47      504B542C 
-  47      22353334 
-  48              		.section	.text._ZN3App5setupEv,"ax",%progbits
-  49              		.align	1
-  50              		.global	_ZN3App5setupEv
-  51              		.arch armv7e-m
-  52              		.syntax unified
-  53              		.thumb
-  54              		.thumb_func
-  55              		.fpu fpv4-sp-d16
-  57              	_ZN3App5setupEv:
-  58              		.fnstart
-  59              	.LVL0:
-  60              	.LFB1495:
-  61              		.file 1 "App/Src/app.cpp"
+  47      52464346 
+  47      472C3932 
+  47      332C5346 
+  48 009f 00       		.align	2
+  49              	.LC10:
+  50 00a0 41542B54 		.ascii	"AT+TEST=TXLRPKT,\"5345454544\"\000"
+  50      4553543D 
+  50      54584C52 
+  50      504B542C 
+  50      22353334 
+  51              		.section	.text._ZN3App5setupEv,"ax",%progbits
+  52              		.align	1
+  53              		.global	_ZN3App5setupEv
+  54              		.arch armv7e-m
+  55              		.syntax unified
+  56              		.thumb
+  57              		.thumb_func
+  58              		.fpu fpv4-sp-d16
+  60              	_ZN3App5setupEv:
+  61              		.fnstart
+  62              	.LVL0:
+  63              	.LFB1495:
+  64              		.file 1 "App/Src/app.cpp"
    1:App/Src/app.cpp **** #include "app.hpp"
    2:App/Src/app.cpp **** #include "gpio.h"
    3:App/Src/app.cpp **** 
    4:App/Src/app.cpp **** void App::setup()
    5:App/Src/app.cpp **** {
-  62              		.loc 1 5 1 view -0
-  63              		.cfi_startproc
-  64              		@ args = 0, pretend = 0, frame = 0
-  65              		@ frame_needed = 0, uses_anonymous_args = 0
-  66              		.loc 1 5 1 is_stmt 0 view .LVU1
-  67 0000 10B5     		push	{r4, lr}
-  68              		.save {r4, lr}
-  69              	.LCFI0:
-  70              		.cfi_def_cfa_offset 8
-  71              		.cfi_offset 4, -8
-  72              		.cfi_offset 14, -4
+  65              		.loc 1 5 1 view -0
+  66              		.cfi_startproc
+  67              		@ args = 0, pretend = 0, frame = 0
+  68              		@ frame_needed = 0, uses_anonymous_args = 0
+  69              		.loc 1 5 1 is_stmt 0 view .LVU1
+  70 0000 10B5     		push	{r4, lr}
+  71              		.save {r4, lr}
+  72              	.LCFI0:
+  73              		.cfi_def_cfa_offset 8
+  74              		.cfi_offset 4, -8
+  75              		.cfi_offset 14, -4
    6:App/Src/app.cpp ****     // Wio E5 モジュールの初期化
    7:App/Src/app.cpp ****     wioE5.sendAT("AT");
-  73              		.loc 1 7 5 is_stmt 1 view .LVU2
-  74              		.loc 1 7 17 is_stmt 0 view .LVU3
-  75 0002 041D     		adds	r4, r0, #4
-  76 0004 1449     		ldr	r1, .L3
-  77 0006 2046     		mov	r0, r4
-  78              	.LVL1:
-  79              		.loc 1 7 17 view .LVU4
-  80 0008 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
-  81              	.LVL2:
+  76              		.loc 1 7 5 is_stmt 1 view .LVU2
+  77              		.loc 1 7 17 is_stmt 0 view .LVU3
+  78 0002 041D     		adds	r4, r0, #4
+  79 0004 1649     		ldr	r1, .L3
+  80 0006 2046     		mov	r0, r4
+  81              	.LVL1:
+ARM GAS  /tmp/ccGaTQ0w.s 			page 3
+
+
+  82              		.loc 1 7 17 view .LVU4
+  83 0008 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+  84              	.LVL2:
    8:App/Src/app.cpp ****     wioE5.sendAT("AT+VER?");
-  82              		.loc 1 8 5 is_stmt 1 view .LVU5
-ARM GAS  /tmp/ccbQKx75.s 			page 3
-
-
-  83              		.loc 1 8 17 is_stmt 0 view .LVU6
-  84 000c 1349     		ldr	r1, .L3+4
-  85 000e 2046     		mov	r0, r4
-  86 0010 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
-  87              	.LVL3:
+  85              		.loc 1 8 5 is_stmt 1 view .LVU5
+  86              		.loc 1 8 17 is_stmt 0 view .LVU6
+  87 000c 1549     		ldr	r1, .L3+4
+  88 000e 2046     		mov	r0, r4
+  89 0010 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+  90              	.LVL3:
    9:App/Src/app.cpp ****     wioE5.sendAT("AT+FDEFAULT");
-  88              		.loc 1 9 5 is_stmt 1 view .LVU7
-  89              		.loc 1 9 17 is_stmt 0 view .LVU8
-  90 0014 1249     		ldr	r1, .L3+8
-  91 0016 2046     		mov	r0, r4
-  92 0018 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
-  93              	.LVL4:
+  91              		.loc 1 9 5 is_stmt 1 view .LVU7
+  92              		.loc 1 9 17 is_stmt 0 view .LVU8
+  93 0014 1449     		ldr	r1, .L3+8
+  94 0016 2046     		mov	r0, r4
+  95 0018 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+  96              	.LVL4:
   10:App/Src/app.cpp ****     wioE5.sendAT("AT+LW=VER,V103");
-  94              		.loc 1 10 5 is_stmt 1 view .LVU9
-  95              		.loc 1 10 17 is_stmt 0 view .LVU10
-  96 001c 1149     		ldr	r1, .L3+12
-  97 001e 2046     		mov	r0, r4
-  98 0020 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
-  99              	.LVL5:
+  97              		.loc 1 10 5 is_stmt 1 view .LVU9
+  98              		.loc 1 10 17 is_stmt 0 view .LVU10
+  99 001c 1349     		ldr	r1, .L3+12
+ 100 001e 2046     		mov	r0, r4
+ 101 0020 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 102              	.LVL5:
   11:App/Src/app.cpp ****     wioE5.sendAT("AT+DR=JP920");
- 100              		.loc 1 11 5 is_stmt 1 view .LVU11
- 101              		.loc 1 11 17 is_stmt 0 view .LVU12
- 102 0024 1049     		ldr	r1, .L3+16
- 103 0026 2046     		mov	r0, r4
- 104 0028 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 105              	.LVL6:
-  12:App/Src/app.cpp ****     wioE5.sendAT("AT+MODE=TEST");
- 106              		.loc 1 12 5 is_stmt 1 view .LVU13
- 107              		.loc 1 12 17 is_stmt 0 view .LVU14
- 108 002c 0F49     		ldr	r1, .L3+20
- 109 002e 2046     		mov	r0, r4
- 110 0030 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 111              	.LVL7:
-  13:App/Src/app.cpp ****     wioE5.sendAT("AT+ID=DevEui");
- 112              		.loc 1 13 5 is_stmt 1 view .LVU15
- 113              		.loc 1 13 17 is_stmt 0 view .LVU16
- 114 0034 0E49     		ldr	r1, .L3+24
- 115 0036 2046     		mov	r0, r4
- 116 0038 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 117              	.LVL8:
-  14:App/Src/app.cpp ****     wioE5.sendAT("AT+ID=AppEui");
- 118              		.loc 1 14 5 is_stmt 1 view .LVU17
- 119              		.loc 1 14 17 is_stmt 0 view .LVU18
- 120 003c 0D49     		ldr	r1, .L3+28
- 121 003e 2046     		mov	r0, r4
- 122 0040 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 123              	.LVL9:
-  15:App/Src/app.cpp ****     wioE5.sendAT("AT+TEST=RFCFG,923,SF12,125,12,15,14,ON,OFF,OFF");
- 124              		.loc 1 15 5 is_stmt 1 view .LVU19
- 125              		.loc 1 15 17 is_stmt 0 view .LVU20
- 126 0044 0C49     		ldr	r1, .L3+32
- 127 0046 2046     		mov	r0, r4
- 128 0048 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 129              	.LVL10:
-  16:App/Src/app.cpp ****     wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
- 130              		.loc 1 16 5 is_stmt 1 view .LVU21
- 131              		.loc 1 16 17 is_stmt 0 view .LVU22
-ARM GAS  /tmp/ccbQKx75.s 			page 4
+ 103              		.loc 1 11 5 is_stmt 1 view .LVU11
+ 104              		.loc 1 11 17 is_stmt 0 view .LVU12
+ 105 0024 1249     		ldr	r1, .L3+16
+ 106 0026 2046     		mov	r0, r4
+ 107 0028 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 108              	.LVL6:
+  12:App/Src/app.cpp ****     wioE5.sendAT("AT+CLASS=C");
+ 109              		.loc 1 12 5 is_stmt 1 view .LVU13
+ 110              		.loc 1 12 17 is_stmt 0 view .LVU14
+ 111 002c 1149     		ldr	r1, .L3+20
+ 112 002e 2046     		mov	r0, r4
+ 113 0030 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 114              	.LVL7:
+  13:App/Src/app.cpp ****     wioE5.sendAT("AT+MODE=TEST");
+ 115              		.loc 1 13 5 is_stmt 1 view .LVU15
+ 116              		.loc 1 13 17 is_stmt 0 view .LVU16
+ 117 0034 1049     		ldr	r1, .L3+24
+ 118 0036 2046     		mov	r0, r4
+ 119 0038 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 120              	.LVL8:
+  14:App/Src/app.cpp ****     wioE5.sendAT("AT+ID=DevEui");
+ 121              		.loc 1 14 5 is_stmt 1 view .LVU17
+ 122              		.loc 1 14 17 is_stmt 0 view .LVU18
+ 123 003c 0F49     		ldr	r1, .L3+28
+ 124 003e 2046     		mov	r0, r4
+ 125 0040 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 126              	.LVL9:
+  15:App/Src/app.cpp ****     wioE5.sendAT("AT+ID=AppEui");
+ 127              		.loc 1 15 5 is_stmt 1 view .LVU19
+ 128              		.loc 1 15 17 is_stmt 0 view .LVU20
+ 129 0044 0E49     		ldr	r1, .L3+32
+ 130 0046 2046     		mov	r0, r4
+ARM GAS  /tmp/ccGaTQ0w.s 			page 4
 
 
- 132 004c 0B49     		ldr	r1, .L3+36
- 133 004e 2046     		mov	r0, r4
- 134 0050 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 135              	.LVL11:
-  17:App/Src/app.cpp **** }
- 136              		.loc 1 17 1 view .LVU23
- 137 0054 10BD     		pop	{r4, pc}
- 138              	.LVL12:
- 139              	.L4:
- 140              		.loc 1 17 1 view .LVU24
- 141 0056 00BF     		.align	2
- 142              	.L3:
- 143 0058 00000000 		.word	.LC0
- 144 005c 04000000 		.word	.LC1
- 145 0060 0C000000 		.word	.LC2
- 146 0064 18000000 		.word	.LC3
- 147 0068 28000000 		.word	.LC4
- 148 006c 34000000 		.word	.LC5
- 149 0070 44000000 		.word	.LC6
- 150 0074 54000000 		.word	.LC7
- 151 0078 64000000 		.word	.LC8
- 152 007c 94000000 		.word	.LC9
- 153              		.cfi_endproc
- 154              	.LFE1495:
- 155              		.fnend
- 157              		.section	.text._ZN3App4loopEv,"ax",%progbits
- 158              		.align	1
- 159              		.global	_ZN3App4loopEv
- 160              		.syntax unified
- 161              		.thumb
- 162              		.thumb_func
- 163              		.fpu fpv4-sp-d16
- 165              	_ZN3App4loopEv:
- 166              		.fnstart
- 167              	.LVL13:
- 168              	.LFB1496:
-  18:App/Src/app.cpp **** 
-  19:App/Src/app.cpp **** void App::loop()
-  20:App/Src/app.cpp **** {
- 169              		.loc 1 20 1 is_stmt 1 view -0
- 170              		.cfi_startproc
- 171              		@ args = 0, pretend = 0, frame = 0
- 172              		@ frame_needed = 0, uses_anonymous_args = 0
- 173              		.loc 1 20 1 is_stmt 0 view .LVU26
- 174 0000 10B5     		push	{r4, lr}
- 175              		.save {r4, lr}
- 176              	.LCFI1:
- 177              		.cfi_def_cfa_offset 8
- 178              		.cfi_offset 4, -8
- 179              		.cfi_offset 14, -4
- 180 0002 0446     		mov	r4, r0
-  21:App/Src/app.cpp **** 
-  22:App/Src/app.cpp ****     // 1秒ごとの AT コマンド送信（重複防止）
-  23:App/Src/app.cpp ****     static uint32_t lastSendTick = 0;
- 181              		.loc 1 23 5 is_stmt 1 view .LVU27
-  24:App/Src/app.cpp ****     uint32_t now = HAL_GetTick();
- 182              		.loc 1 24 5 view .LVU28
-ARM GAS  /tmp/ccbQKx75.s 			page 5
+ 131 0048 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 132              	.LVL10:
+  16:App/Src/app.cpp ****     wioE5.sendAT("AT+TEST=RFCFG,923,SF12,125,12,15,14,ON,OFF,OFF");
+ 133              		.loc 1 16 5 is_stmt 1 view .LVU21
+ 134              		.loc 1 16 17 is_stmt 0 view .LVU22
+ 135 004c 0D49     		ldr	r1, .L3+36
+ 136 004e 2046     		mov	r0, r4
+ 137 0050 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 138              	.LVL11:
+  17:App/Src/app.cpp ****     wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
+ 139              		.loc 1 17 5 is_stmt 1 view .LVU23
+ 140              		.loc 1 17 17 is_stmt 0 view .LVU24
+ 141 0054 0C49     		ldr	r1, .L3+40
+ 142 0056 2046     		mov	r0, r4
+ 143 0058 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 144              	.LVL12:
+  18:App/Src/app.cpp **** }
+ 145              		.loc 1 18 1 view .LVU25
+ 146 005c 10BD     		pop	{r4, pc}
+ 147              	.LVL13:
+ 148              	.L4:
+ 149              		.loc 1 18 1 view .LVU26
+ 150 005e 00BF     		.align	2
+ 151              	.L3:
+ 152 0060 00000000 		.word	.LC0
+ 153 0064 04000000 		.word	.LC1
+ 154 0068 0C000000 		.word	.LC2
+ 155 006c 18000000 		.word	.LC3
+ 156 0070 28000000 		.word	.LC4
+ 157 0074 34000000 		.word	.LC5
+ 158 0078 40000000 		.word	.LC6
+ 159 007c 50000000 		.word	.LC7
+ 160 0080 60000000 		.word	.LC8
+ 161 0084 70000000 		.word	.LC9
+ 162 0088 A0000000 		.word	.LC10
+ 163              		.cfi_endproc
+ 164              	.LFE1495:
+ 165              		.fnend
+ 167              		.section	.text._ZN3App4loopEv,"ax",%progbits
+ 168              		.align	1
+ 169              		.global	_ZN3App4loopEv
+ 170              		.syntax unified
+ 171              		.thumb
+ 172              		.thumb_func
+ 173              		.fpu fpv4-sp-d16
+ 175              	_ZN3App4loopEv:
+ 176              		.fnstart
+ 177              	.LVL14:
+ 178              	.LFB1496:
+  19:App/Src/app.cpp **** 
+  20:App/Src/app.cpp **** void App::loop()
+  21:App/Src/app.cpp **** {
+ 179              		.loc 1 21 1 is_stmt 1 view -0
+ 180              		.cfi_startproc
+ 181              		@ args = 0, pretend = 0, frame = 0
+ 182              		@ frame_needed = 0, uses_anonymous_args = 0
+ 183              		.loc 1 21 1 is_stmt 0 view .LVU28
+ARM GAS  /tmp/ccGaTQ0w.s 			page 5
 
 
- 183              		.loc 1 24 31 is_stmt 0 view .LVU29
- 184 0004 FFF7FEFF 		bl	HAL_GetTick
- 185              	.LVL14:
-  25:App/Src/app.cpp **** 
-  26:App/Src/app.cpp ****     if (now - lastSendTick >= 1500) // 1000ms = 1秒
- 186              		.loc 1 26 5 is_stmt 1 view .LVU30
- 187              		.loc 1 26 13 is_stmt 0 view .LVU31
- 188 0008 074B     		ldr	r3, .L9
- 189 000a 1B68     		ldr	r3, [r3]
- 190 000c C31A     		subs	r3, r0, r3
- 191              		.loc 1 26 5 view .LVU32
- 192 000e 40F2DB52 		movw	r2, #1499
- 193 0012 9342     		cmp	r3, r2
- 194 0014 00D8     		bhi	.L8
+ 184 0000 10B5     		push	{r4, lr}
+ 185              		.save {r4, lr}
+ 186              	.LCFI1:
+ 187              		.cfi_def_cfa_offset 8
+ 188              		.cfi_offset 4, -8
+ 189              		.cfi_offset 14, -4
+ 190 0002 0446     		mov	r4, r0
+  22:App/Src/app.cpp **** 
+  23:App/Src/app.cpp ****     // 1秒ごとの AT コマンド送信（重複防止）
+  24:App/Src/app.cpp ****     static uint32_t lastSendTick = 0;
+ 191              		.loc 1 24 5 is_stmt 1 view .LVU29
+  25:App/Src/app.cpp ****     uint32_t now = HAL_GetTick();
+ 192              		.loc 1 25 5 view .LVU30
+ 193              		.loc 1 25 31 is_stmt 0 view .LVU31
+ 194 0004 FFF7FEFF 		bl	HAL_GetTick
  195              	.LVL15:
- 196              	.L5:
-  27:App/Src/app.cpp ****     {
-  28:App/Src/app.cpp ****         lastSendTick = now; // 先に更新して重複送信を防止
+  26:App/Src/app.cpp **** 
+  27:App/Src/app.cpp ****     if (now - lastSendTick >= 1000) // 1000ms = 1秒
+ 196              		.loc 1 27 5 is_stmt 1 view .LVU32
+ 197              		.loc 1 27 13 is_stmt 0 view .LVU33
+ 198 0008 064B     		ldr	r3, .L9
+ 199 000a 1B68     		ldr	r3, [r3]
+ 200 000c C31A     		subs	r3, r0, r3
+ 201              		.loc 1 27 5 view .LVU34
+ 202 000e B3F57A7F 		cmp	r3, #1000
+ 203 0012 00D2     		bcs	.L8
+ 204              	.LVL16:
+ 205              	.L5:
+  28:App/Src/app.cpp ****     {
+  29:App/Src/app.cpp ****         lastSendTick = now; // 先に更新して重複送信を防止
+  30:App/Src/app.cpp ****         wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
+  31:App/Src/app.cpp ****     }
+  32:App/Src/app.cpp **** }
+ 206              		.loc 1 32 1 view .LVU35
+ 207 0014 10BD     		pop	{r4, pc}
+ 208              	.LVL17:
+ 209              	.L8:
   29:App/Src/app.cpp ****         wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
+ 210              		.loc 1 29 9 is_stmt 1 view .LVU36
+  29:App/Src/app.cpp ****         wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
+ 211              		.loc 1 29 22 is_stmt 0 view .LVU37
+ 212 0016 034B     		ldr	r3, .L9
+ 213 0018 1860     		str	r0, [r3]
   30:App/Src/app.cpp ****     }
-  31:App/Src/app.cpp **** }
- 197              		.loc 1 31 1 view .LVU33
- 198 0016 10BD     		pop	{r4, pc}
- 199              	.LVL16:
- 200              	.L8:
-  28:App/Src/app.cpp ****         wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
- 201              		.loc 1 28 9 is_stmt 1 view .LVU34
-  28:App/Src/app.cpp ****         wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
- 202              		.loc 1 28 22 is_stmt 0 view .LVU35
- 203 0018 034B     		ldr	r3, .L9
- 204 001a 1860     		str	r0, [r3]
-  29:App/Src/app.cpp ****     }
- 205              		.loc 1 29 9 is_stmt 1 view .LVU36
-  29:App/Src/app.cpp ****     }
- 206              		.loc 1 29 21 is_stmt 0 view .LVU37
- 207 001c 0349     		ldr	r1, .L9+4
- 208 001e 201D     		adds	r0, r4, #4
- 209              	.LVL17:
-  29:App/Src/app.cpp ****     }
- 210              		.loc 1 29 21 view .LVU38
- 211 0020 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 212              	.LVL18:
- 213              		.loc 1 31 1 view .LVU39
- 214 0024 F7E7     		b	.L5
- 215              	.L10:
- 216 0026 00BF     		.align	2
- 217              	.L9:
- 218 0028 00000000 		.word	.LANCHOR0
- 219 002c 94000000 		.word	.LC9
- 220              		.cfi_endproc
- 221              	.LFE1496:
- 222              		.fnend
- 224              		.section	.bss._ZZN3App4loopEvE12lastSendTick,"aw",%nobits
+ 214              		.loc 1 30 9 is_stmt 1 view .LVU38
+  30:App/Src/app.cpp ****     }
+ 215              		.loc 1 30 21 is_stmt 0 view .LVU39
+ 216 001a 0349     		ldr	r1, .L9+4
+ 217 001c 201D     		adds	r0, r4, #4
+ 218              	.LVL18:
+  30:App/Src/app.cpp ****     }
+ 219              		.loc 1 30 21 view .LVU40
+ 220 001e FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 221              	.LVL19:
+ 222              		.loc 1 32 1 view .LVU41
+ 223 0022 F7E7     		b	.L5
+ 224              	.L10:
+ARM GAS  /tmp/ccGaTQ0w.s 			page 6
+
+
  225              		.align	2
- 226              		.set	.LANCHOR0,. + 0
- 229              	_ZZN3App4loopEvE12lastSendTick:
- 230 0000 00000000 		.space	4
-ARM GAS  /tmp/ccbQKx75.s 			page 6
-
-
- 231              		.text
- 232              	.Letext0:
- 233              		.file 2 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
- 234              		.file 3 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
- 235              		.file 4 "/usr/include/newlib/c++/10.3.1/type_traits"
- 236              		.file 5 "/usr/include/newlib/c++/10.3.1/debug/debug.h"
- 237              		.file 6 "/usr/include/newlib/c++/10.3.1/cwchar"
- 238              		.file 7 "/usr/include/newlib/c++/10.3.1/cstdint"
- 239              		.file 8 "/usr/include/newlib/c++/10.3.1/bits/exception_ptr.h"
- 240              		.file 9 "/usr/include/newlib/c++/10.3.1/bits/stl_pair.h"
- 241              		.file 10 "/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h"
- 242              		.file 11 "/usr/include/newlib/c++/10.3.1/clocale"
- 243              		.file 12 "/usr/include/newlib/c++/10.3.1/cstdlib"
- 244              		.file 13 "/usr/include/newlib/c++/10.3.1/cstdio"
- 245              		.file 14 "/usr/include/newlib/c++/10.3.1/bits/basic_string.h"
- 246              		.file 15 "/usr/include/newlib/c++/10.3.1/bits/predefined_ops.h"
- 247              		.file 16 "/usr/include/newlib/sys/_types.h"
- 248              		.file 17 "/usr/include/newlib/sys/reent.h"
- 249              		.file 18 "/usr/include/newlib/sys/lock.h"
- 250              		.file 19 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
- 251              		.file 20 "/usr/include/newlib/wchar.h"
- 252              		.file 21 "/usr/include/newlib/locale.h"
- 253              		.file 22 "/usr/include/newlib/stdlib.h"
- 254              		.file 23 "/usr/include/newlib/stdio.h"
- 255              		.file 24 "App/Inc/WioE5.hpp"
- 256              		.file 25 "App/Inc/app.hpp"
- 257              		.file 26 "<built-in>"
- 258              		.file 27 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  /tmp/ccbQKx75.s 			page 7
+ 226              	.L9:
+ 227 0024 00000000 		.word	.LANCHOR0
+ 228 0028 A0000000 		.word	.LC10
+ 229              		.cfi_endproc
+ 230              	.LFE1496:
+ 231              		.fnend
+ 233              		.section	.bss._ZZN3App4loopEvE12lastSendTick,"aw",%nobits
+ 234              		.align	2
+ 235              		.set	.LANCHOR0,. + 0
+ 238              	_ZZN3App4loopEvE12lastSendTick:
+ 239 0000 00000000 		.space	4
+ 240              		.text
+ 241              	.Letext0:
+ 242              		.file 2 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
+ 243              		.file 3 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
+ 244              		.file 4 "/usr/include/newlib/c++/10.3.1/type_traits"
+ 245              		.file 5 "/usr/include/newlib/c++/10.3.1/debug/debug.h"
+ 246              		.file 6 "/usr/include/newlib/c++/10.3.1/cwchar"
+ 247              		.file 7 "/usr/include/newlib/c++/10.3.1/cstdint"
+ 248              		.file 8 "/usr/include/newlib/c++/10.3.1/bits/exception_ptr.h"
+ 249              		.file 9 "/usr/include/newlib/c++/10.3.1/bits/stl_pair.h"
+ 250              		.file 10 "/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h"
+ 251              		.file 11 "/usr/include/newlib/c++/10.3.1/clocale"
+ 252              		.file 12 "/usr/include/newlib/c++/10.3.1/cstdlib"
+ 253              		.file 13 "/usr/include/newlib/c++/10.3.1/cstdio"
+ 254              		.file 14 "/usr/include/newlib/c++/10.3.1/bits/basic_string.h"
+ 255              		.file 15 "/usr/include/newlib/c++/10.3.1/bits/predefined_ops.h"
+ 256              		.file 16 "/usr/include/newlib/sys/_types.h"
+ 257              		.file 17 "/usr/include/newlib/sys/reent.h"
+ 258              		.file 18 "/usr/include/newlib/sys/lock.h"
+ 259              		.file 19 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
+ 260              		.file 20 "/usr/include/newlib/wchar.h"
+ 261              		.file 21 "/usr/include/newlib/locale.h"
+ 262              		.file 22 "/usr/include/newlib/stdlib.h"
+ 263              		.file 23 "/usr/include/newlib/stdio.h"
+ 264              		.file 24 "App/Inc/WioE5.hpp"
+ 265              		.file 25 "App/Inc/app.hpp"
+ 266              		.file 26 "<built-in>"
+ 267              		.file 27 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
+ARM GAS  /tmp/ccGaTQ0w.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 app.cpp
-     /tmp/ccbQKx75.s:18     .rodata._ZN3App5setupEv.str1.4:0000000000000000 $d
-     /tmp/ccbQKx75.s:49     .text._ZN3App5setupEv:0000000000000000 $t
-     /tmp/ccbQKx75.s:57     .text._ZN3App5setupEv:0000000000000000 _ZN3App5setupEv
-     /tmp/ccbQKx75.s:143    .text._ZN3App5setupEv:0000000000000058 $d
+     /tmp/ccGaTQ0w.s:18     .rodata._ZN3App5setupEv.str1.4:0000000000000000 $d
+     /tmp/ccGaTQ0w.s:52     .text._ZN3App5setupEv:0000000000000000 $t
+     /tmp/ccGaTQ0w.s:60     .text._ZN3App5setupEv:0000000000000000 _ZN3App5setupEv
+     /tmp/ccGaTQ0w.s:152    .text._ZN3App5setupEv:0000000000000060 $d
   .ARM.exidx.text._ZN3App5setupEv:0000000000000000 $d
-     /tmp/ccbQKx75.s:158    .text._ZN3App4loopEv:0000000000000000 $t
-     /tmp/ccbQKx75.s:165    .text._ZN3App4loopEv:0000000000000000 _ZN3App4loopEv
-     /tmp/ccbQKx75.s:218    .text._ZN3App4loopEv:0000000000000028 $d
+     /tmp/ccGaTQ0w.s:168    .text._ZN3App4loopEv:0000000000000000 $t
+     /tmp/ccGaTQ0w.s:175    .text._ZN3App4loopEv:0000000000000000 _ZN3App4loopEv
+     /tmp/ccGaTQ0w.s:227    .text._ZN3App4loopEv:0000000000000024 $d
    .ARM.exidx.text._ZN3App4loopEv:0000000000000000 $d
-     /tmp/ccbQKx75.s:225    .bss._ZZN3App4loopEvE12lastSendTick:0000000000000000 $d
-     /tmp/ccbQKx75.s:229    .bss._ZZN3App4loopEvE12lastSendTick:0000000000000000 _ZZN3App4loopEvE12lastSendTick
+     /tmp/ccGaTQ0w.s:234    .bss._ZZN3App4loopEvE12lastSendTick:0000000000000000 $d
+     /tmp/ccGaTQ0w.s:238    .bss._ZZN3App4loopEvE12lastSendTick:0000000000000000 _ZZN3App4loopEvE12lastSendTick
 
 UNDEFINED SYMBOLS
 _ZN5WioE56sendATEPKc

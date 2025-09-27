@@ -38,6 +38,7 @@ extern "C" void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 void WioE5::setup()
 {
     // 初期化コード
+    HAL_Delay(10);
     serial_printf("ReadWioE5 setup complete.\n");
     // HAL_UART_Transmit(&huart1, (uint8_t *)"WioE5 setup complete.\n", 22, 300);
     HAL_UART_Receive_IT(&huart2, &rx_byte, 1);

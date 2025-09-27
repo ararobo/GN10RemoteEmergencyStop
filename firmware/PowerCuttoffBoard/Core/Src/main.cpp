@@ -57,6 +57,7 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 App app;
+WioE5 wioE5;
 /* USER CODE END 0 */
 
 /**
@@ -92,6 +93,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  wioE5.setup();
   app.setup();
   /* USER CODE END 2 */
 
@@ -102,6 +104,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    wioE5.loop();
     app.loop();
   }
   /* USER CODE END 3 */

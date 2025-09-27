@@ -20,7 +20,7 @@ void serial_printf(const std::string &fmt, Args... args)
     std::vector<char> buf(len + 1);
     std::snprintf(&buf[0], len + 1, fmt.c_str(), args...);
     // ヌル終端された文字列をUARTに送信
-    HAL_UART_Transmit(&huart2, (uint8_t *)&buf[0], len, 0xFF);
+    HAL_UART_Transmit(&huart1, (uint8_t *)&buf[0], len, 0xFF);
 }
 
 template <typename... Args>

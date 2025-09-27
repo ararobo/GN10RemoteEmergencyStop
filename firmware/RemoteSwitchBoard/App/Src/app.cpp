@@ -9,6 +9,7 @@ void App::setup()
     wioE5.sendAT("AT+FDEFAULT");
     wioE5.sendAT("AT+LW=VER,V103");
     wioE5.sendAT("AT+DR=JP920");
+    wioE5.sendAT("AT+CLASS=C");
     wioE5.sendAT("AT+MODE=TEST");
     wioE5.sendAT("AT+ID=DevEui");
     wioE5.sendAT("AT+ID=AppEui");
@@ -23,7 +24,7 @@ void App::loop()
     static uint32_t lastSendTick = 0;
     uint32_t now = HAL_GetTick();
 
-    if (now - lastSendTick >= 1500) // 1000ms = 1秒
+    if (now - lastSendTick >= 1000) // 1000ms = 1秒
     {
         lastSendTick = now; // 先に更新して重複送信を防止
         wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
