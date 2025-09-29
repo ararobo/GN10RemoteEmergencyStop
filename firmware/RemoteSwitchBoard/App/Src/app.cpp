@@ -9,7 +9,8 @@ void App::setup()
     wioE5.sendAT("AT+FDEFAULT");
     wioE5.sendAT("AT+LW=VER,V103");
     wioE5.sendAT("AT+DR=JP920");
-    wioE5.sendAT("AT+CLASS=C");
+    wioE5.sendAT("AT+CLASS=C, SAVE");
+    wioE5.sendAT("AT+LW=JDC, ON");
     wioE5.sendAT("AT+MODE=TEST");
     wioE5.sendAT("AT+ID=DevEui");
     wioE5.sendAT("AT+ID=AppEui");
@@ -19,15 +20,17 @@ void App::setup()
 void App::loop()
 {
     GPIO_PinState state = HAL_GPIO_ReadPin(GPIOA, emstop_Pin);
-
-    // 1秒ごとの AT コマンド送信（重複防止）
-    static uint32_t lastSendTick = 0;
-    uint32_t now = HAL_GetTick();
-
-    if (now - lastSendTick >= 1500) // 1000ms = 1秒
+    if (state == GPIO_PIN_RESET)
     {
-        lastSendTick = now; // 先に更新して重複送信を防止
-        if (state == GPIO_PIN_SET)
+        check = 1;
+    }
+    else
+    {
+        check = 0;
+    }
+    if (operation != check)
+    {
+        if (state == GPIO_PIN_RESET)
         {
             wioE5.sendAT("AT+TEST=TXLRPKT,\"8152743601\"");
             operation = 1;

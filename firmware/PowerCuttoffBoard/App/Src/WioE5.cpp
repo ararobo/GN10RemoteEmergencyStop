@@ -6,6 +6,21 @@
 #include <cstring>
 #include <queue>
 #include <string>
+#include <cctype>
+#include <string>
+
+std::string extractNumber(const char *str)
+{
+    std::string result;
+    for (size_t i = 0; str[i] != '\0'; i++)
+    {
+        if (std::isdigit(static_cast<unsigned char>(str[i])))
+        {
+            result.push_back(str[i]);
+        }
+    }
+    return result;
+}
 
 // 受信バッファ
 uint8_t rx_byte;
@@ -51,27 +66,38 @@ bool atBusy = false;
 
 void WioE5::loop()
 {
-    // 応答受信後、次のコマンドを送信
     if (rxReady)
     {
         char rx2buffer[128];
-        // serial_printf("%d\n", strcmp(rxBuffer, oncheck));
-        // serial_printf("%s\n", oncheck);
-        if (strcmp(rxBuffer, oncheck) == -6)
+
+        // 受信した文字列から数値だけを抽出
+        std::string num = extractNumber(rxBuffer);
+
+        // チェック用の数値
+        std::string onNum = extractNumber(oncheck);   // "8152743601"
+        std::string offNum = extractNumber(offcheck); // "8152743600"
+
+        if (num == onNum)
         {
             serial_printf("on\n");
+            HAL_GPIO_WritePin(GPIOB, RELAY_A_Pin, GPIO_PIN_RESET);
+            HAL_GPIO_WritePin(GPIOB, RELAY_B_Pin, GPIO_PIN_RESET);
         }
-        if (strcmp(rxBuffer, offcheck) == -6)
+        else if (num == offNum)
         {
             serial_printf("off\n");
-        }
+            HAL_GPIO_WritePin(GPIOB, RELAY_A_Pin, GPIO_PIN_SET);
+            HAL_GPIO_WritePin(GPIOB, RELAY_B_Pin, GPIO_PIN_SET);
+                }
+
         snprintf(rx2buffer, sizeof(rx2buffer), "WioE5: %s\r\n", rxBuffer);
         HAL_UART_Transmit(&huart1, (uint8_t *)rx2buffer, strlen(rx2buffer), 1000);
+
         rxReady = false;
         atBusy = false;
         HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
     }
-    // キューにコマンドがあり、送信中でなければ送信
+
     if (!atCmdQueue.empty() && !atBusy)
     {
         std::string cmd = atCmdQueue.front();

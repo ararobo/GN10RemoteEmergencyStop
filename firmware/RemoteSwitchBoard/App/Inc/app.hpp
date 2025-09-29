@@ -19,6 +19,7 @@ private:
 public:
     WioE5CmdState wioE5CmdState = Init;
     uint16_t lastRxCount = 0;
+    int check = 0;
     int operation = 0;
     void setup();
     void loop();
