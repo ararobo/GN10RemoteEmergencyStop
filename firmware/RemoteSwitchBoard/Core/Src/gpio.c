@@ -67,14 +67,20 @@ void MX_GPIO_Init(void)
   /*Configure GPIO pins : emstop_Pin DIP_4_Pin */
   GPIO_InitStruct.Pin = emstop_Pin|DIP_4_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : DIP_3_Pin DIP_2_Pin DIP_1_Pin bustop_Pin */
-  GPIO_InitStruct.Pin = DIP_3_Pin|DIP_2_Pin|DIP_1_Pin|bustop_Pin;
+  /*Configure GPIO pins : DIP_3_Pin DIP_2_Pin DIP_1_Pin */
+  GPIO_InitStruct.Pin = DIP_3_Pin|DIP_2_Pin|DIP_1_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : bustop_Pin */
+  GPIO_InitStruct.Pin = bustop_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  HAL_GPIO_Init(bustop_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : LED_emstop_Pin */
   GPIO_InitStruct.Pin = LED_emstop_Pin;
