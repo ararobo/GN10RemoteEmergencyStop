@@ -14,13 +14,12 @@ enum WioE5CmdState
 class App
 {
 private:
-    uint16_t led_blink_counter = 0;   // LED点滅カウンタ
-    uint16_t led_blink_interval = 10; // LED点滅間隔[ms]
-    WioE5 wioE5;                      // WioE5制御用
+    WioE5 wioE5; // WioE5制御用
 
 public:
     WioE5CmdState wioE5CmdState = Init;
     uint16_t lastRxCount = 0;
+    int operation = 0;
     void setup();
     void loop();
 };

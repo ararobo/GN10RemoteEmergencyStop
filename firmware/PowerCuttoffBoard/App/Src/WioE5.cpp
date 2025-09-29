@@ -10,6 +10,8 @@
 // 受信バッファ
 uint8_t rx_byte;
 char rxBuffer[1024];
+char oncheck[1024] = "+TEST: RX \"8152743601\"";
+char offcheck[1024] = "+TEST: RX \"8152743600\"";
 uint16_t rxIndex = 0;
 volatile bool rxReady = false;
 
@@ -53,6 +55,16 @@ void WioE5::loop()
     if (rxReady)
     {
         char rx2buffer[128];
+        // serial_printf("%d\n", strcmp(rxBuffer, oncheck));
+        // serial_printf("%s\n", oncheck);
+        if (strcmp(rxBuffer, oncheck) == -6)
+        {
+            serial_printf("on\n");
+        }
+        if (strcmp(rxBuffer, offcheck) == -6)
+        {
+            serial_printf("off\n");
+        }
         snprintf(rx2buffer, sizeof(rx2buffer), "WioE5: %s\r\n", rxBuffer);
         HAL_UART_Transmit(&huart1, (uint8_t *)rx2buffer, strlen(rx2buffer), 1000);
         rxReady = false;

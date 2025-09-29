@@ -14,19 +14,28 @@ void App::setup()
     wioE5.sendAT("AT+ID=DevEui");
     wioE5.sendAT("AT+ID=AppEui");
     wioE5.sendAT("AT+TEST=RFCFG,923,SF12,125,12,15,14,ON,OFF,OFF");
-    wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
 }
 
 void App::loop()
 {
+    GPIO_PinState state = HAL_GPIO_ReadPin(GPIOA, emstop_Pin);
 
     // 1秒ごとの AT コマンド送信（重複防止）
     static uint32_t lastSendTick = 0;
     uint32_t now = HAL_GetTick();
 
-    if (now - lastSendTick >= 1000) // 1000ms = 1秒
+    if (now - lastSendTick >= 1500) // 1000ms = 1秒
     {
         lastSendTick = now; // 先に更新して重複送信を防止
-        wioE5.sendAT("AT+TEST=TXLRPKT,\"5345454544\"");
+        if (state == GPIO_PIN_SET)
+        {
+            wioE5.sendAT("AT+TEST=TXLRPKT,\"8152743601\"");
+            operation = 1;
+        }
+        else
+        {
+            wioE5.sendAT("AT+TEST=TXLRPKT,\"8152743600\"");
+            operation = 0;
+        }
     }
 }

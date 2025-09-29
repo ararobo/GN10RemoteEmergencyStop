@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccCZIs4d.s 			page 1
+ARM GAS  /tmp/ccjZM7xu.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
   27:Core/Src/main.cpp **** #include "WioE5.hpp"
   28:Core/Src/main.cpp **** /* USER CODE END Includes */
   29:Core/Src/main.cpp **** 
-ARM GAS  /tmp/ccCZIs4d.s 			page 2
+ARM GAS  /tmp/ccjZM7xu.s 			page 2
 
 
   30:Core/Src/main.cpp **** /* Private typedef -----------------------------------------------------------*/
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
   84:Core/Src/main.cpp ****   SystemClock_Config();
   85:Core/Src/main.cpp **** 
   86:Core/Src/main.cpp ****   /* USER CODE BEGIN SysInit */
-ARM GAS  /tmp/ccCZIs4d.s 			page 3
+ARM GAS  /tmp/ccjZM7xu.s 			page 3
 
 
   87:Core/Src/main.cpp **** 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
  141:Core/Src/main.cpp ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
  142:Core/Src/main.cpp ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
  143:Core/Src/main.cpp **** 
-ARM GAS  /tmp/ccCZIs4d.s 			page 4
+ARM GAS  /tmp/ccjZM7xu.s 			page 4
 
 
  144:Core/Src/main.cpp ****   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
   20:Drivers/CMSIS/Include/cmsis_gcc.h ****  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   21:Drivers/CMSIS/Include/cmsis_gcc.h ****  * See the License for the specific language governing permissions and
   22:Drivers/CMSIS/Include/cmsis_gcc.h ****  * limitations under the License.
-ARM GAS  /tmp/ccCZIs4d.s 			page 5
+ARM GAS  /tmp/ccjZM7xu.s 			page 5
 
 
   23:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
   77:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   78:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT16_WRITE
   79:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
-ARM GAS  /tmp/ccCZIs4d.s 			page 6
+ARM GAS  /tmp/ccjZM7xu.s 			page 6
 
 
   80:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
  134:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  135:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  136:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Disable IRQ Interrupts
-ARM GAS  /tmp/ccCZIs4d.s 			page 7
+ARM GAS  /tmp/ccjZM7xu.s 			page 7
 
 
  137:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Disables IRQ interrupts by setting the I-bit in the CPSR.
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
   86 0004 2822     		movs	r2, #40
   87 0006 0021     		movs	r1, #0
   88 0008 0CA8     		add	r0, sp, #48
-ARM GAS  /tmp/ccCZIs4d.s 			page 8
+ARM GAS  /tmp/ccjZM7xu.s 			page 8
 
 
   89 000a FFF7FEFF 		bl	memset
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
  127              		.loc 1 131 3 is_stmt 1 view .LVU24
  131:Core/Src/main.cpp ****   {
  128              		.loc 1 131 24 is_stmt 0 view .LVU25
-ARM GAS  /tmp/ccCZIs4d.s 			page 9
+ARM GAS  /tmp/ccjZM7xu.s 			page 9
 
 
  129 003a 0CA8     		add	r0, sp, #48
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
  165              		.loc 1 149 38 is_stmt 0 view .LVU43
  166 0062 0023     		movs	r3, #0
  167 0064 0393     		str	r3, [sp, #12]
-ARM GAS  /tmp/ccCZIs4d.s 			page 10
+ARM GAS  /tmp/ccjZM7xu.s 			page 10
 
 
  150:Core/Src/main.cpp ****   {
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
   68:Core/Src/main.cpp **** 
  214              		.loc 1 68 1 is_stmt 1 view -0
  215              		.cfi_startproc
-ARM GAS  /tmp/ccCZIs4d.s 			page 11
+ARM GAS  /tmp/ccjZM7xu.s 			page 11
 
 
  216              		@ args = 0, pretend = 0, frame = 0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
  255              		.loc 1 101 3 is_stmt 1 discriminator 1 view .LVU69
  106:Core/Src/main.cpp ****     app.loop();
  256              		.loc 1 106 5 discriminator 1 view .LVU70
-ARM GAS  /tmp/ccCZIs4d.s 			page 12
+ARM GAS  /tmp/ccjZM7xu.s 			page 12
 
 
  106:Core/Src/main.cpp ****     app.loop();
@@ -686,84 +686,81 @@ ARM GAS  /tmp/ccCZIs4d.s 			page 1
  275              		.fnend
  277              		.global	wioE5
  278              		.global	app
- 279              		.section	.bss.wioE5,"aw",%nobits
+ 279              		.section	.bss.app,"aw",%nobits
  280              		.align	2
- 281              		.set	.LANCHOR0,. + 0
- 284              	wioE5:
- 285 0000 00       		.space	1
- 286              		.section	.data.app,"aw"
+ 281              		.set	.LANCHOR1,. + 0
+ 284              	app:
+ 285 0000 00000000 		.space	8
+ 285      00000000 
+ 286              		.section	.bss.wioE5,"aw",%nobits
  287              		.align	2
- 288              		.set	.LANCHOR1,. + 0
- 291              	app:
- 292 0000 0000     		.short	0
- 293 0002 0A00     		.short	10
- 294 0004 00       		.space	1
- 295 0005 00       		.byte	0
- 296 0006 0000     		.short	0
- 297              		.text
- 298              	.Letext0:
- 299              		.file 3 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
- 300              		.file 4 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
- 301              		.file 5 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
- 302              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h"
- 303              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h"
- 304              		.file 8 "/usr/include/newlib/c++/10.3.1/bits/basic_string.h"
- 305              		.file 9 "/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h"
- 306              		.file 10 "/usr/include/newlib/c++/10.3.1/type_traits"
- 307              		.file 11 "/usr/include/newlib/c++/10.3.1/bits/stl_pair.h"
- 308              		.file 12 "/usr/include/newlib/c++/10.3.1/debug/debug.h"
- 309              		.file 13 "/usr/include/newlib/c++/10.3.1/cwchar"
- 310              		.file 14 "/usr/include/newlib/c++/10.3.1/cstdint"
- 311              		.file 15 "/usr/include/newlib/c++/10.3.1/bits/char_traits.h"
- 312              		.file 16 "/usr/include/newlib/c++/10.3.1/bits/exception_ptr.h"
- 313              		.file 17 "/usr/include/newlib/c++/10.3.1/clocale"
- 314              		.file 18 "/usr/include/newlib/c++/10.3.1/cstdlib"
-ARM GAS  /tmp/ccCZIs4d.s 			page 13
+ 288              		.set	.LANCHOR0,. + 0
+ 291              	wioE5:
+ 292 0000 00       		.space	1
+ 293              		.text
+ 294              	.Letext0:
+ 295              		.file 3 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
+ 296              		.file 4 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
+ 297              		.file 5 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
+ 298              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h"
+ 299              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h"
+ 300              		.file 8 "/usr/include/newlib/c++/10.3.1/bits/basic_string.h"
+ 301              		.file 9 "/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h"
+ 302              		.file 10 "/usr/include/newlib/c++/10.3.1/type_traits"
+ 303              		.file 11 "/usr/include/newlib/c++/10.3.1/bits/stl_pair.h"
+ 304              		.file 12 "/usr/include/newlib/c++/10.3.1/debug/debug.h"
+ 305              		.file 13 "/usr/include/newlib/c++/10.3.1/cwchar"
+ 306              		.file 14 "/usr/include/newlib/c++/10.3.1/cstdint"
+ 307              		.file 15 "/usr/include/newlib/c++/10.3.1/bits/char_traits.h"
+ 308              		.file 16 "/usr/include/newlib/c++/10.3.1/bits/exception_ptr.h"
+ 309              		.file 17 "/usr/include/newlib/c++/10.3.1/clocale"
+ 310              		.file 18 "/usr/include/newlib/c++/10.3.1/cstdlib"
+ 311              		.file 19 "/usr/include/newlib/c++/10.3.1/cstdio"
+ 312              		.file 20 "/usr/include/newlib/c++/10.3.1/bits/allocator.h"
+ 313              		.file 21 "/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h"
+ARM GAS  /tmp/ccjZM7xu.s 			page 13
 
 
- 315              		.file 19 "/usr/include/newlib/c++/10.3.1/cstdio"
- 316              		.file 20 "/usr/include/newlib/c++/10.3.1/bits/allocator.h"
- 317              		.file 21 "/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h"
- 318              		.file 22 "/usr/include/newlib/c++/10.3.1/initializer_list"
- 319              		.file 23 "/usr/include/newlib/c++/10.3.1/bits/stl_iterator_base_types.h"
- 320              		.file 24 "/usr/include/newlib/c++/10.3.1/bits/predefined_ops.h"
- 321              		.file 25 "/usr/include/newlib/c++/10.3.1/ext/new_allocator.h"
- 322              		.file 26 "/usr/include/newlib/c++/10.3.1/ext/alloc_traits.h"
- 323              		.file 27 "/usr/include/newlib/c++/10.3.1/bits/stl_iterator.h"
- 324              		.file 28 "/usr/include/newlib/sys/_types.h"
- 325              		.file 29 "<built-in>"
- 326              		.file 30 "/usr/include/newlib/sys/reent.h"
- 327              		.file 31 "/usr/include/newlib/sys/lock.h"
- 328              		.file 32 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
- 329              		.file 33 "/usr/include/newlib/wchar.h"
- 330              		.file 34 "/usr/include/newlib/locale.h"
- 331              		.file 35 "/usr/include/newlib/stdlib.h"
- 332              		.file 36 "/usr/include/newlib/stdio.h"
- 333              		.file 37 "App/Inc/WioE5.hpp"
- 334              		.file 38 "App/Inc/app.hpp"
- 335              		.file 39 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
- 336              		.file 40 "Core/Inc/gpio.h"
- 337              		.file 41 "Core/Inc/usart.h"
-ARM GAS  /tmp/ccCZIs4d.s 			page 14
+ 314              		.file 22 "/usr/include/newlib/c++/10.3.1/initializer_list"
+ 315              		.file 23 "/usr/include/newlib/c++/10.3.1/bits/stl_iterator_base_types.h"
+ 316              		.file 24 "/usr/include/newlib/c++/10.3.1/bits/predefined_ops.h"
+ 317              		.file 25 "/usr/include/newlib/c++/10.3.1/ext/new_allocator.h"
+ 318              		.file 26 "/usr/include/newlib/c++/10.3.1/ext/alloc_traits.h"
+ 319              		.file 27 "/usr/include/newlib/c++/10.3.1/bits/stl_iterator.h"
+ 320              		.file 28 "/usr/include/newlib/sys/_types.h"
+ 321              		.file 29 "<built-in>"
+ 322              		.file 30 "/usr/include/newlib/sys/reent.h"
+ 323              		.file 31 "/usr/include/newlib/sys/lock.h"
+ 324              		.file 32 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
+ 325              		.file 33 "/usr/include/newlib/wchar.h"
+ 326              		.file 34 "/usr/include/newlib/locale.h"
+ 327              		.file 35 "/usr/include/newlib/stdlib.h"
+ 328              		.file 36 "/usr/include/newlib/stdio.h"
+ 329              		.file 37 "App/Inc/WioE5.hpp"
+ 330              		.file 38 "App/Inc/app.hpp"
+ 331              		.file 39 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
+ 332              		.file 40 "Core/Inc/gpio.h"
+ 333              		.file 41 "Core/Inc/usart.h"
+ARM GAS  /tmp/ccjZM7xu.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.cpp
-     /tmp/ccCZIs4d.s:18     .text.Error_Handler:0000000000000000 $t
-     /tmp/ccCZIs4d.s:26     .text.Error_Handler:0000000000000000 Error_Handler
+     /tmp/ccjZM7xu.s:18     .text.Error_Handler:0000000000000000 $t
+     /tmp/ccjZM7xu.s:26     .text.Error_Handler:0000000000000000 Error_Handler
     .ARM.exidx.text.Error_Handler:0000000000000000 $d
-     /tmp/ccCZIs4d.s:61     .text._Z18SystemClock_Configv:0000000000000000 $t
-     /tmp/ccCZIs4d.s:68     .text._Z18SystemClock_Configv:0000000000000000 _Z18SystemClock_Configv
+     /tmp/ccjZM7xu.s:61     .text._Z18SystemClock_Configv:0000000000000000 $t
+     /tmp/ccjZM7xu.s:68     .text._Z18SystemClock_Configv:0000000000000000 _Z18SystemClock_Configv
 .ARM.exidx.text._Z18SystemClock_Configv:0000000000000000 $d
-     /tmp/ccCZIs4d.s:204    .text.main:0000000000000000 $t
-     /tmp/ccCZIs4d.s:211    .text.main:0000000000000000 main
-     /tmp/ccCZIs4d.s:271    .text.main:0000000000000030 $d
+     /tmp/ccjZM7xu.s:204    .text.main:0000000000000000 $t
+     /tmp/ccjZM7xu.s:211    .text.main:0000000000000000 main
+     /tmp/ccjZM7xu.s:271    .text.main:0000000000000030 $d
              .ARM.extab.text.main:0000000000000000 $d
              .ARM.exidx.text.main:0000000000000000 $d
-     /tmp/ccCZIs4d.s:284    .bss.wioE5:0000000000000000 wioE5
-     /tmp/ccCZIs4d.s:291    .data.app:0000000000000000 app
-     /tmp/ccCZIs4d.s:280    .bss.wioE5:0000000000000000 $d
-     /tmp/ccCZIs4d.s:287    .data.app:0000000000000000 $d
+     /tmp/ccjZM7xu.s:291    .bss.wioE5:0000000000000000 wioE5
+     /tmp/ccjZM7xu.s:284    .bss.app:0000000000000000 app
+     /tmp/ccjZM7xu.s:280    .bss.app:0000000000000000 $d
+     /tmp/ccjZM7xu.s:287    .bss.wioE5:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 memset
