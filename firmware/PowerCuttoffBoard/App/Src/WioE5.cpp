@@ -55,10 +55,12 @@ extern "C" void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 void WioE5::setup()
 {
     // 初期化コード
-    HAL_Delay(10);
+    HAL_Delay(1000);
     serial_printf("ReadWioE5 setup complete.\n");
     // HAL_UART_Transmit(&huart1, (uint8_t *)"WioE5 setup complete.\n", 22, 300);
     HAL_UART_Receive_IT(&huart2, &rx_byte, 1);
+    HAL_GPIO_WritePin(GPIOB, RELAY_A_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(GPIOB, RELAY_B_Pin, GPIO_PIN_SET);
 }
 
 std::queue<std::string> atCmdQueue;
@@ -88,7 +90,7 @@ void WioE5::loop()
             serial_printf("off\n");
             HAL_GPIO_WritePin(GPIOB, RELAY_A_Pin, GPIO_PIN_SET);
             HAL_GPIO_WritePin(GPIOB, RELAY_B_Pin, GPIO_PIN_SET);
-                }
+        }
 
         snprintf(rx2buffer, sizeof(rx2buffer), "WioE5: %s\r\n", rxBuffer);
         HAL_UART_Transmit(&huart1, (uint8_t *)rx2buffer, strlen(rx2buffer), 1000);
