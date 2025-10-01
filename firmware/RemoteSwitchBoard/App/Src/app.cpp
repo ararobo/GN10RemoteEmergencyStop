@@ -4,6 +4,7 @@
 void App::setup()
 {
     // Wio E5 モジュールの初期化
+    HAL_Delay(1000);
     wioE5.sendAT("AT");
     wioE5.sendAT("AT+VER?");
     wioE5.sendAT("AT+FDEFAULT");

@@ -93,7 +93,9 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  HAL_Delay(1000);
   wioE5.setup();
+  HAL_Delay(1000);
   app.setup();
   /* USER CODE END 2 */
 

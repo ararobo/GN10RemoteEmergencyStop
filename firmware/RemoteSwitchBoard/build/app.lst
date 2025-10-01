@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccxTOigZ.s 			page 1
+ARM GAS  /tmp/ccG1uedn.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccxTOigZ.s 			page 1
   40              	.LC7:
   41 0058 41542B4D 		.ascii	"AT+MODE=TEST\000"
   41      4F44453D 
-ARM GAS  /tmp/ccxTOigZ.s 			page 2
+ARM GAS  /tmp/ccG1uedn.s 			page 2
 
 
   41      54455354 
@@ -113,307 +113,318 @@ ARM GAS  /tmp/ccxTOigZ.s 			page 1
   75              		.cfi_offset 14, -4
   76 0002 0446     		mov	r4, r0
    6:App/Src/app.cpp ****     // Wio E5 モジュールの初期化
-   7:App/Src/app.cpp ****     wioE5.sendAT("AT");
+   7:App/Src/app.cpp ****     HAL_Delay(1000);
   77              		.loc 1 7 5 is_stmt 1 view .LVU2
-  78              		.loc 1 7 17 is_stmt 0 view .LVU3
-  79 0004 1549     		ldr	r1, .L3
-  80 0006 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
-ARM GAS  /tmp/ccxTOigZ.s 			page 3
+  78              		.loc 1 7 14 is_stmt 0 view .LVU3
+  79 0004 4FF47A70 		mov	r0, #1000
+  80              	.LVL1:
+ARM GAS  /tmp/ccG1uedn.s 			page 3
 
 
-  81              	.LVL1:
-   8:App/Src/app.cpp ****     wioE5.sendAT("AT+VER?");
-  82              		.loc 1 8 5 is_stmt 1 view .LVU4
-  83              		.loc 1 8 17 is_stmt 0 view .LVU5
-  84 000a 1549     		ldr	r1, .L3+4
-  85 000c 2046     		mov	r0, r4
-  86 000e FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
-  87              	.LVL2:
-   9:App/Src/app.cpp ****     wioE5.sendAT("AT+FDEFAULT");
-  88              		.loc 1 9 5 is_stmt 1 view .LVU6
-  89              		.loc 1 9 17 is_stmt 0 view .LVU7
-  90 0012 1449     		ldr	r1, .L3+8
-  91 0014 2046     		mov	r0, r4
-  92 0016 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
-  93              	.LVL3:
-  10:App/Src/app.cpp ****     wioE5.sendAT("AT+LW=VER,V103");
-  94              		.loc 1 10 5 is_stmt 1 view .LVU8
-  95              		.loc 1 10 17 is_stmt 0 view .LVU9
-  96 001a 1349     		ldr	r1, .L3+12
-  97 001c 2046     		mov	r0, r4
-  98 001e FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
-  99              	.LVL4:
-  11:App/Src/app.cpp ****     wioE5.sendAT("AT+DR=JP920");
- 100              		.loc 1 11 5 is_stmt 1 view .LVU10
- 101              		.loc 1 11 17 is_stmt 0 view .LVU11
- 102 0022 1249     		ldr	r1, .L3+16
- 103 0024 2046     		mov	r0, r4
- 104 0026 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 105              	.LVL5:
-  12:App/Src/app.cpp ****     wioE5.sendAT("AT+CLASS=C, SAVE");
- 106              		.loc 1 12 5 is_stmt 1 view .LVU12
- 107              		.loc 1 12 17 is_stmt 0 view .LVU13
- 108 002a 1149     		ldr	r1, .L3+20
- 109 002c 2046     		mov	r0, r4
- 110 002e FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 111              	.LVL6:
-  13:App/Src/app.cpp ****     wioE5.sendAT("AT+LW=JDC, ON");
- 112              		.loc 1 13 5 is_stmt 1 view .LVU14
- 113              		.loc 1 13 17 is_stmt 0 view .LVU15
- 114 0032 1049     		ldr	r1, .L3+24
- 115 0034 2046     		mov	r0, r4
- 116 0036 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 117              	.LVL7:
-  14:App/Src/app.cpp ****     wioE5.sendAT("AT+MODE=TEST");
- 118              		.loc 1 14 5 is_stmt 1 view .LVU16
- 119              		.loc 1 14 17 is_stmt 0 view .LVU17
- 120 003a 0F49     		ldr	r1, .L3+28
- 121 003c 2046     		mov	r0, r4
- 122 003e FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 123              	.LVL8:
-  15:App/Src/app.cpp ****     wioE5.sendAT("AT+ID=DevEui");
- 124              		.loc 1 15 5 is_stmt 1 view .LVU18
- 125              		.loc 1 15 17 is_stmt 0 view .LVU19
- 126 0042 0E49     		ldr	r1, .L3+32
- 127 0044 2046     		mov	r0, r4
- 128 0046 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 129              	.LVL9:
-ARM GAS  /tmp/ccxTOigZ.s 			page 4
+  81              		.loc 1 7 14 view .LVU4
+  82 0008 FFF7FEFF 		bl	HAL_Delay
+  83              	.LVL2:
+   8:App/Src/app.cpp ****     wioE5.sendAT("AT");
+  84              		.loc 1 8 5 is_stmt 1 view .LVU5
+  85              		.loc 1 8 17 is_stmt 0 view .LVU6
+  86 000c 1649     		ldr	r1, .L3
+  87 000e 2046     		mov	r0, r4
+  88 0010 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+  89              	.LVL3:
+   9:App/Src/app.cpp ****     wioE5.sendAT("AT+VER?");
+  90              		.loc 1 9 5 is_stmt 1 view .LVU7
+  91              		.loc 1 9 17 is_stmt 0 view .LVU8
+  92 0014 1549     		ldr	r1, .L3+4
+  93 0016 2046     		mov	r0, r4
+  94 0018 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+  95              	.LVL4:
+  10:App/Src/app.cpp ****     wioE5.sendAT("AT+FDEFAULT");
+  96              		.loc 1 10 5 is_stmt 1 view .LVU9
+  97              		.loc 1 10 17 is_stmt 0 view .LVU10
+  98 001c 1449     		ldr	r1, .L3+8
+  99 001e 2046     		mov	r0, r4
+ 100 0020 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 101              	.LVL5:
+  11:App/Src/app.cpp ****     wioE5.sendAT("AT+LW=VER,V103");
+ 102              		.loc 1 11 5 is_stmt 1 view .LVU11
+ 103              		.loc 1 11 17 is_stmt 0 view .LVU12
+ 104 0024 1349     		ldr	r1, .L3+12
+ 105 0026 2046     		mov	r0, r4
+ 106 0028 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 107              	.LVL6:
+  12:App/Src/app.cpp ****     wioE5.sendAT("AT+DR=JP920");
+ 108              		.loc 1 12 5 is_stmt 1 view .LVU13
+ 109              		.loc 1 12 17 is_stmt 0 view .LVU14
+ 110 002c 1249     		ldr	r1, .L3+16
+ 111 002e 2046     		mov	r0, r4
+ 112 0030 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 113              	.LVL7:
+  13:App/Src/app.cpp ****     wioE5.sendAT("AT+CLASS=C, SAVE");
+ 114              		.loc 1 13 5 is_stmt 1 view .LVU15
+ 115              		.loc 1 13 17 is_stmt 0 view .LVU16
+ 116 0034 1149     		ldr	r1, .L3+20
+ 117 0036 2046     		mov	r0, r4
+ 118 0038 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 119              	.LVL8:
+  14:App/Src/app.cpp ****     wioE5.sendAT("AT+LW=JDC, ON");
+ 120              		.loc 1 14 5 is_stmt 1 view .LVU17
+ 121              		.loc 1 14 17 is_stmt 0 view .LVU18
+ 122 003c 1049     		ldr	r1, .L3+24
+ 123 003e 2046     		mov	r0, r4
+ 124 0040 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 125              	.LVL9:
+  15:App/Src/app.cpp ****     wioE5.sendAT("AT+MODE=TEST");
+ 126              		.loc 1 15 5 is_stmt 1 view .LVU19
+ 127              		.loc 1 15 17 is_stmt 0 view .LVU20
+ 128 0044 0F49     		ldr	r1, .L3+28
+ 129 0046 2046     		mov	r0, r4
+ARM GAS  /tmp/ccG1uedn.s 			page 4
 
 
-  16:App/Src/app.cpp ****     wioE5.sendAT("AT+ID=AppEui");
- 130              		.loc 1 16 5 is_stmt 1 view .LVU20
- 131              		.loc 1 16 17 is_stmt 0 view .LVU21
- 132 004a 0D49     		ldr	r1, .L3+36
- 133 004c 2046     		mov	r0, r4
- 134 004e FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 135              	.LVL10:
-  17:App/Src/app.cpp ****     wioE5.sendAT("AT+TEST=RFCFG,923,SF7,125,12,15,14,OFF,OFF,OFF");
- 136              		.loc 1 17 5 is_stmt 1 view .LVU22
- 137              		.loc 1 17 17 is_stmt 0 view .LVU23
- 138 0052 0C49     		ldr	r1, .L3+40
- 139 0054 2046     		mov	r0, r4
- 140 0056 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 141              	.LVL11:
-  18:App/Src/app.cpp **** }
- 142              		.loc 1 18 1 view .LVU24
- 143 005a 10BD     		pop	{r4, pc}
- 144              	.LVL12:
- 145              	.L4:
- 146              		.loc 1 18 1 view .LVU25
- 147              		.align	2
- 148              	.L3:
- 149 005c 00000000 		.word	.LC0
- 150 0060 04000000 		.word	.LC1
- 151 0064 0C000000 		.word	.LC2
- 152 0068 18000000 		.word	.LC3
- 153 006c 28000000 		.word	.LC4
- 154 0070 34000000 		.word	.LC5
- 155 0074 48000000 		.word	.LC6
- 156 0078 58000000 		.word	.LC7
- 157 007c 68000000 		.word	.LC8
- 158 0080 78000000 		.word	.LC9
- 159 0084 88000000 		.word	.LC10
- 160              		.cfi_endproc
- 161              	.LFE1495:
- 162              		.fnend
- 164              		.section	.rodata._ZN3App4loopEv.str1.4,"aMS",%progbits,1
- 165              		.align	2
- 166              	.LC11:
- 167 0000 41542B54 		.ascii	"AT+TEST=TXLRPKT,\"8152743601\"\000"
- 167      4553543D 
- 167      54584C52 
- 167      504B542C 
- 167      22383135 
- 168 001d 000000   		.align	2
- 169              	.LC12:
- 170 0020 41542B54 		.ascii	"AT+TEST=TXLRPKT,\"8152743600\"\000"
- 170      4553543D 
- 170      54584C52 
- 170      504B542C 
- 170      22383135 
- 171              		.section	.text._ZN3App4loopEv,"ax",%progbits
- 172              		.align	1
- 173              		.global	_ZN3App4loopEv
- 174              		.syntax unified
- 175              		.thumb
- 176              		.thumb_func
-ARM GAS  /tmp/ccxTOigZ.s 			page 5
+ 130 0048 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 131              	.LVL10:
+  16:App/Src/app.cpp ****     wioE5.sendAT("AT+ID=DevEui");
+ 132              		.loc 1 16 5 is_stmt 1 view .LVU21
+ 133              		.loc 1 16 17 is_stmt 0 view .LVU22
+ 134 004c 0E49     		ldr	r1, .L3+32
+ 135 004e 2046     		mov	r0, r4
+ 136 0050 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 137              	.LVL11:
+  17:App/Src/app.cpp ****     wioE5.sendAT("AT+ID=AppEui");
+ 138              		.loc 1 17 5 is_stmt 1 view .LVU23
+ 139              		.loc 1 17 17 is_stmt 0 view .LVU24
+ 140 0054 0D49     		ldr	r1, .L3+36
+ 141 0056 2046     		mov	r0, r4
+ 142 0058 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 143              	.LVL12:
+  18:App/Src/app.cpp ****     wioE5.sendAT("AT+TEST=RFCFG,923,SF7,125,12,15,14,OFF,OFF,OFF");
+ 144              		.loc 1 18 5 is_stmt 1 view .LVU25
+ 145              		.loc 1 18 17 is_stmt 0 view .LVU26
+ 146 005c 0C49     		ldr	r1, .L3+40
+ 147 005e 2046     		mov	r0, r4
+ 148 0060 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 149              	.LVL13:
+  19:App/Src/app.cpp **** }
+ 150              		.loc 1 19 1 view .LVU27
+ 151 0064 10BD     		pop	{r4, pc}
+ 152              	.LVL14:
+ 153              	.L4:
+ 154              		.loc 1 19 1 view .LVU28
+ 155 0066 00BF     		.align	2
+ 156              	.L3:
+ 157 0068 00000000 		.word	.LC0
+ 158 006c 04000000 		.word	.LC1
+ 159 0070 0C000000 		.word	.LC2
+ 160 0074 18000000 		.word	.LC3
+ 161 0078 28000000 		.word	.LC4
+ 162 007c 34000000 		.word	.LC5
+ 163 0080 48000000 		.word	.LC6
+ 164 0084 58000000 		.word	.LC7
+ 165 0088 68000000 		.word	.LC8
+ 166 008c 78000000 		.word	.LC9
+ 167 0090 88000000 		.word	.LC10
+ 168              		.cfi_endproc
+ 169              	.LFE1495:
+ 170              		.fnend
+ 172              		.section	.rodata._ZN3App4loopEv.str1.4,"aMS",%progbits,1
+ 173              		.align	2
+ 174              	.LC11:
+ 175 0000 41542B54 		.ascii	"AT+TEST=TXLRPKT,\"8152743601\"\000"
+ 175      4553543D 
+ 175      54584C52 
+ 175      504B542C 
+ 175      22383135 
+ 176 001d 000000   		.align	2
+ 177              	.LC12:
+ 178 0020 41542B54 		.ascii	"AT+TEST=TXLRPKT,\"8152743600\"\000"
+ 178      4553543D 
+ARM GAS  /tmp/ccG1uedn.s 			page 5
 
 
- 177              		.fpu fpv4-sp-d16
- 179              	_ZN3App4loopEv:
- 180              		.fnstart
- 181              	.LVL13:
- 182              	.LFB1496:
-  19:App/Src/app.cpp **** 
-  20:App/Src/app.cpp **** void App::loop()
-  21:App/Src/app.cpp **** {
- 183              		.loc 1 21 1 is_stmt 1 view -0
- 184              		.cfi_startproc
- 185              		@ args = 0, pretend = 0, frame = 0
- 186              		@ frame_needed = 0, uses_anonymous_args = 0
- 187              		.loc 1 21 1 is_stmt 0 view .LVU27
- 188 0000 10B5     		push	{r4, lr}
- 189              		.save {r4, lr}
- 190              	.LCFI1:
- 191              		.cfi_def_cfa_offset 8
- 192              		.cfi_offset 4, -8
- 193              		.cfi_offset 14, -4
- 194 0002 0446     		mov	r4, r0
-  22:App/Src/app.cpp ****     GPIO_PinState state = HAL_GPIO_ReadPin(GPIOA, emstop_Pin);
- 195              		.loc 1 22 5 is_stmt 1 view .LVU28
- 196              		.loc 1 22 43 is_stmt 0 view .LVU29
- 197 0004 0221     		movs	r1, #2
- 198 0006 4FF09040 		mov	r0, #1207959552
- 199              	.LVL14:
- 200              		.loc 1 22 43 view .LVU30
- 201 000a FFF7FEFF 		bl	HAL_GPIO_ReadPin
- 202              	.LVL15:
-  23:App/Src/app.cpp ****     if (state == GPIO_PIN_RESET)
+ 178      54584C52 
+ 178      504B542C 
+ 178      22383135 
+ 179              		.section	.text._ZN3App4loopEv,"ax",%progbits
+ 180              		.align	1
+ 181              		.global	_ZN3App4loopEv
+ 182              		.syntax unified
+ 183              		.thumb
+ 184              		.thumb_func
+ 185              		.fpu fpv4-sp-d16
+ 187              	_ZN3App4loopEv:
+ 188              		.fnstart
+ 189              	.LVL15:
+ 190              	.LFB1496:
+  20:App/Src/app.cpp **** 
+  21:App/Src/app.cpp **** void App::loop()
+  22:App/Src/app.cpp **** {
+ 191              		.loc 1 22 1 is_stmt 1 view -0
+ 192              		.cfi_startproc
+ 193              		@ args = 0, pretend = 0, frame = 0
+ 194              		@ frame_needed = 0, uses_anonymous_args = 0
+ 195              		.loc 1 22 1 is_stmt 0 view .LVU30
+ 196 0000 10B5     		push	{r4, lr}
+ 197              		.save {r4, lr}
+ 198              	.LCFI1:
+ 199              		.cfi_def_cfa_offset 8
+ 200              		.cfi_offset 4, -8
+ 201              		.cfi_offset 14, -4
+ 202 0002 0446     		mov	r4, r0
+  23:App/Src/app.cpp ****     GPIO_PinState state = HAL_GPIO_ReadPin(GPIOA, emstop_Pin);
  203              		.loc 1 23 5 is_stmt 1 view .LVU31
- 204 000e 0146     		mov	r1, r0
- 205 0010 68B9     		cbnz	r0, .L6
-  24:App/Src/app.cpp ****     {
-  25:App/Src/app.cpp ****         check = 1;
- 206              		.loc 1 25 9 view .LVU32
- 207              		.loc 1 25 15 is_stmt 0 view .LVU33
- 208 0012 0123     		movs	r3, #1
- 209 0014 6360     		str	r3, [r4, #4]
- 210              	.L7:
-  26:App/Src/app.cpp ****     }
-  27:App/Src/app.cpp ****     else
-  28:App/Src/app.cpp ****     {
-  29:App/Src/app.cpp ****         check = 0;
+ 204              		.loc 1 23 43 is_stmt 0 view .LVU32
+ 205 0004 0221     		movs	r1, #2
+ 206 0006 4FF09040 		mov	r0, #1207959552
+ 207              	.LVL16:
+ 208              		.loc 1 23 43 view .LVU33
+ 209 000a FFF7FEFF 		bl	HAL_GPIO_ReadPin
+ 210              	.LVL17:
+  24:App/Src/app.cpp ****     if (state == GPIO_PIN_RESET)
+ 211              		.loc 1 24 5 is_stmt 1 view .LVU34
+ 212 000e 0146     		mov	r1, r0
+ 213 0010 68B9     		cbnz	r0, .L6
+  25:App/Src/app.cpp ****     {
+  26:App/Src/app.cpp ****         check = 1;
+ 214              		.loc 1 26 9 view .LVU35
+ 215              		.loc 1 26 15 is_stmt 0 view .LVU36
+ 216 0012 0123     		movs	r3, #1
+ 217 0014 6360     		str	r3, [r4, #4]
+ 218              	.L7:
+  27:App/Src/app.cpp ****     }
+  28:App/Src/app.cpp ****     else
+  29:App/Src/app.cpp ****     {
+  30:App/Src/app.cpp ****         check = 0;
+  31:App/Src/app.cpp ****     }
+  32:App/Src/app.cpp ****     if (operation != check)
+ 219              		.loc 1 32 5 is_stmt 1 view .LVU37
+ 220              		.loc 1 32 9 is_stmt 0 view .LVU38
+ARM GAS  /tmp/ccG1uedn.s 			page 6
+
+
+ 221 0016 A268     		ldr	r2, [r4, #8]
+ 222              		.loc 1 32 22 view .LVU39
+ 223 0018 6368     		ldr	r3, [r4, #4]
+ 224              		.loc 1 32 5 view .LVU40
+ 225 001a 9A42     		cmp	r2, r3
+ 226 001c 06D0     		beq	.L5
+  33:App/Src/app.cpp ****     {
+  34:App/Src/app.cpp ****         if (state == GPIO_PIN_RESET)
+ 227              		.loc 1 34 9 is_stmt 1 view .LVU41
+ 228 001e 49B9     		cbnz	r1, .L9
+  35:App/Src/app.cpp ****         {
+  36:App/Src/app.cpp ****             wioE5.sendAT("AT+TEST=TXLRPKT,\"8152743601\"");
+ 229              		.loc 1 36 13 view .LVU42
+ 230              		.loc 1 36 25 is_stmt 0 view .LVU43
+ 231 0020 0849     		ldr	r1, .L11
+ 232 0022 2046     		mov	r0, r4
+ 233              	.LVL18:
+ 234              		.loc 1 36 25 view .LVU44
+ 235 0024 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 236              	.LVL19:
+  37:App/Src/app.cpp ****             operation = 1;
+ 237              		.loc 1 37 13 is_stmt 1 view .LVU45
+ 238              		.loc 1 37 23 is_stmt 0 view .LVU46
+ 239 0028 0123     		movs	r3, #1
+ 240 002a A360     		str	r3, [r4, #8]
+ 241              	.L5:
+  38:App/Src/app.cpp ****         }
+  39:App/Src/app.cpp ****         else
+  40:App/Src/app.cpp ****         {
+  41:App/Src/app.cpp ****             wioE5.sendAT("AT+TEST=TXLRPKT,\"8152743600\"");
+  42:App/Src/app.cpp ****             operation = 0;
+  43:App/Src/app.cpp ****         }
+  44:App/Src/app.cpp ****     }
+  45:App/Src/app.cpp **** }
+ 242              		.loc 1 45 1 view .LVU47
+ 243 002c 10BD     		pop	{r4, pc}
+ 244              	.LVL20:
+ 245              	.L6:
   30:App/Src/app.cpp ****     }
-  31:App/Src/app.cpp ****     if (operation != check)
- 211              		.loc 1 31 5 is_stmt 1 view .LVU34
- 212              		.loc 1 31 9 is_stmt 0 view .LVU35
- 213 0016 A268     		ldr	r2, [r4, #8]
- 214              		.loc 1 31 22 view .LVU36
- 215 0018 6368     		ldr	r3, [r4, #4]
- 216              		.loc 1 31 5 view .LVU37
- 217 001a 9A42     		cmp	r2, r3
- 218 001c 06D0     		beq	.L5
-  32:App/Src/app.cpp ****     {
-  33:App/Src/app.cpp ****         if (state == GPIO_PIN_RESET)
- 219              		.loc 1 33 9 is_stmt 1 view .LVU38
-ARM GAS  /tmp/ccxTOigZ.s 			page 6
-
-
- 220 001e 49B9     		cbnz	r1, .L9
-  34:App/Src/app.cpp ****         {
-  35:App/Src/app.cpp ****             wioE5.sendAT("AT+TEST=TXLRPKT,\"8152743601\"");
- 221              		.loc 1 35 13 view .LVU39
- 222              		.loc 1 35 25 is_stmt 0 view .LVU40
- 223 0020 0849     		ldr	r1, .L11
- 224 0022 2046     		mov	r0, r4
- 225              	.LVL16:
- 226              		.loc 1 35 25 view .LVU41
- 227 0024 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 228              	.LVL17:
-  36:App/Src/app.cpp ****             operation = 1;
- 229              		.loc 1 36 13 is_stmt 1 view .LVU42
- 230              		.loc 1 36 23 is_stmt 0 view .LVU43
- 231 0028 0123     		movs	r3, #1
- 232 002a A360     		str	r3, [r4, #8]
- 233              	.L5:
-  37:App/Src/app.cpp ****         }
-  38:App/Src/app.cpp ****         else
-  39:App/Src/app.cpp ****         {
-  40:App/Src/app.cpp ****             wioE5.sendAT("AT+TEST=TXLRPKT,\"8152743600\"");
+ 246              		.loc 1 30 9 is_stmt 1 view .LVU48
+  30:App/Src/app.cpp ****     }
+ 247              		.loc 1 30 15 is_stmt 0 view .LVU49
+ 248 002e 0023     		movs	r3, #0
+ 249 0030 6360     		str	r3, [r4, #4]
+ 250 0032 F0E7     		b	.L7
+ 251              	.L9:
   41:App/Src/app.cpp ****             operation = 0;
-  42:App/Src/app.cpp ****         }
-  43:App/Src/app.cpp ****     }
-  44:App/Src/app.cpp **** }
- 234              		.loc 1 44 1 view .LVU44
- 235 002c 10BD     		pop	{r4, pc}
- 236              	.LVL18:
- 237              	.L6:
-  29:App/Src/app.cpp ****     }
- 238              		.loc 1 29 9 is_stmt 1 view .LVU45
-  29:App/Src/app.cpp ****     }
- 239              		.loc 1 29 15 is_stmt 0 view .LVU46
- 240 002e 0023     		movs	r3, #0
- 241 0030 6360     		str	r3, [r4, #4]
- 242 0032 F0E7     		b	.L7
- 243              	.L9:
-  40:App/Src/app.cpp ****             operation = 0;
- 244              		.loc 1 40 13 is_stmt 1 view .LVU47
-  40:App/Src/app.cpp ****             operation = 0;
- 245              		.loc 1 40 25 is_stmt 0 view .LVU48
- 246 0034 0449     		ldr	r1, .L11+4
- 247 0036 2046     		mov	r0, r4
- 248              	.LVL19:
-  40:App/Src/app.cpp ****             operation = 0;
- 249              		.loc 1 40 25 view .LVU49
- 250 0038 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
- 251              	.LVL20:
-  41:App/Src/app.cpp ****         }
  252              		.loc 1 41 13 is_stmt 1 view .LVU50
-  41:App/Src/app.cpp ****         }
- 253              		.loc 1 41 23 is_stmt 0 view .LVU51
- 254 003c 0023     		movs	r3, #0
- 255 003e A360     		str	r3, [r4, #8]
- 256              		.loc 1 44 1 view .LVU52
- 257 0040 F4E7     		b	.L5
- 258              	.L12:
-ARM GAS  /tmp/ccxTOigZ.s 			page 7
+  41:App/Src/app.cpp ****             operation = 0;
+ 253              		.loc 1 41 25 is_stmt 0 view .LVU51
+ 254 0034 0449     		ldr	r1, .L11+4
+ 255 0036 2046     		mov	r0, r4
+ 256              	.LVL21:
+  41:App/Src/app.cpp ****             operation = 0;
+ 257              		.loc 1 41 25 view .LVU52
+ 258 0038 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
+ 259              	.LVL22:
+ARM GAS  /tmp/ccG1uedn.s 			page 7
 
 
- 259 0042 00BF     		.align	2
- 260              	.L11:
- 261 0044 00000000 		.word	.LC11
- 262 0048 20000000 		.word	.LC12
- 263              		.cfi_endproc
- 264              	.LFE1496:
- 265              		.fnend
- 267              		.text
- 268              	.Letext0:
- 269              		.file 2 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
- 270              		.file 3 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303x8.h"
- 271              		.file 4 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
- 272              		.file 5 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h"
- 273              		.file 6 "/usr/include/newlib/c++/10.3.1/type_traits"
- 274              		.file 7 "/usr/include/newlib/c++/10.3.1/debug/debug.h"
- 275              		.file 8 "/usr/include/newlib/c++/10.3.1/cwchar"
- 276              		.file 9 "/usr/include/newlib/c++/10.3.1/cstdint"
- 277              		.file 10 "/usr/include/newlib/c++/10.3.1/bits/exception_ptr.h"
- 278              		.file 11 "/usr/include/newlib/c++/10.3.1/bits/stl_pair.h"
- 279              		.file 12 "/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h"
- 280              		.file 13 "/usr/include/newlib/c++/10.3.1/clocale"
- 281              		.file 14 "/usr/include/newlib/c++/10.3.1/cstdlib"
- 282              		.file 15 "/usr/include/newlib/c++/10.3.1/cstdio"
- 283              		.file 16 "/usr/include/newlib/c++/10.3.1/bits/basic_string.h"
- 284              		.file 17 "/usr/include/newlib/c++/10.3.1/bits/predefined_ops.h"
- 285              		.file 18 "/usr/include/newlib/sys/_types.h"
- 286              		.file 19 "/usr/include/newlib/sys/reent.h"
- 287              		.file 20 "/usr/include/newlib/sys/lock.h"
- 288              		.file 21 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
- 289              		.file 22 "/usr/include/newlib/wchar.h"
- 290              		.file 23 "/usr/include/newlib/locale.h"
- 291              		.file 24 "/usr/include/newlib/stdlib.h"
- 292              		.file 25 "/usr/include/newlib/stdio.h"
- 293              		.file 26 "App/Inc/WioE5.hpp"
- 294              		.file 27 "App/Inc/app.hpp"
- 295              		.file 28 "<built-in>"
-ARM GAS  /tmp/ccxTOigZ.s 			page 8
+  42:App/Src/app.cpp ****         }
+ 260              		.loc 1 42 13 is_stmt 1 view .LVU53
+  42:App/Src/app.cpp ****         }
+ 261              		.loc 1 42 23 is_stmt 0 view .LVU54
+ 262 003c 0023     		movs	r3, #0
+ 263 003e A360     		str	r3, [r4, #8]
+ 264              		.loc 1 45 1 view .LVU55
+ 265 0040 F4E7     		b	.L5
+ 266              	.L12:
+ 267 0042 00BF     		.align	2
+ 268              	.L11:
+ 269 0044 00000000 		.word	.LC11
+ 270 0048 20000000 		.word	.LC12
+ 271              		.cfi_endproc
+ 272              	.LFE1496:
+ 273              		.fnend
+ 275              		.text
+ 276              	.Letext0:
+ 277              		.file 2 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
+ 278              		.file 3 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303x8.h"
+ 279              		.file 4 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h"
+ 280              		.file 5 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h"
+ 281              		.file 6 "/usr/include/newlib/c++/10.3.1/type_traits"
+ 282              		.file 7 "/usr/include/newlib/c++/10.3.1/debug/debug.h"
+ 283              		.file 8 "/usr/include/newlib/c++/10.3.1/cwchar"
+ 284              		.file 9 "/usr/include/newlib/c++/10.3.1/cstdint"
+ 285              		.file 10 "/usr/include/newlib/c++/10.3.1/bits/exception_ptr.h"
+ 286              		.file 11 "/usr/include/newlib/c++/10.3.1/bits/stl_pair.h"
+ 287              		.file 12 "/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h"
+ 288              		.file 13 "/usr/include/newlib/c++/10.3.1/clocale"
+ 289              		.file 14 "/usr/include/newlib/c++/10.3.1/cstdlib"
+ 290              		.file 15 "/usr/include/newlib/c++/10.3.1/cstdio"
+ 291              		.file 16 "/usr/include/newlib/c++/10.3.1/bits/basic_string.h"
+ 292              		.file 17 "/usr/include/newlib/c++/10.3.1/bits/predefined_ops.h"
+ 293              		.file 18 "/usr/include/newlib/sys/_types.h"
+ 294              		.file 19 "/usr/include/newlib/sys/reent.h"
+ 295              		.file 20 "/usr/include/newlib/sys/lock.h"
+ 296              		.file 21 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
+ 297              		.file 22 "/usr/include/newlib/wchar.h"
+ 298              		.file 23 "/usr/include/newlib/locale.h"
+ 299              		.file 24 "/usr/include/newlib/stdlib.h"
+ 300              		.file 25 "/usr/include/newlib/stdio.h"
+ 301              		.file 26 "App/Inc/WioE5.hpp"
+ 302              		.file 27 "App/Inc/app.hpp"
+ 303              		.file 28 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
+ 304              		.file 29 "<built-in>"
+ARM GAS  /tmp/ccG1uedn.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 app.cpp
-     /tmp/ccxTOigZ.s:18     .rodata._ZN3App5setupEv.str1.4:0000000000000000 $d
-     /tmp/ccxTOigZ.s:52     .text._ZN3App5setupEv:0000000000000000 $t
-     /tmp/ccxTOigZ.s:60     .text._ZN3App5setupEv:0000000000000000 _ZN3App5setupEv
-     /tmp/ccxTOigZ.s:149    .text._ZN3App5setupEv:000000000000005c $d
+     /tmp/ccG1uedn.s:18     .rodata._ZN3App5setupEv.str1.4:0000000000000000 $d
+     /tmp/ccG1uedn.s:52     .text._ZN3App5setupEv:0000000000000000 $t
+     /tmp/ccG1uedn.s:60     .text._ZN3App5setupEv:0000000000000000 _ZN3App5setupEv
+     /tmp/ccG1uedn.s:157    .text._ZN3App5setupEv:0000000000000068 $d
   .ARM.exidx.text._ZN3App5setupEv:0000000000000000 $d
-     /tmp/ccxTOigZ.s:165    .rodata._ZN3App4loopEv.str1.4:0000000000000000 $d
-     /tmp/ccxTOigZ.s:172    .text._ZN3App4loopEv:0000000000000000 $t
-     /tmp/ccxTOigZ.s:179    .text._ZN3App4loopEv:0000000000000000 _ZN3App4loopEv
-     /tmp/ccxTOigZ.s:261    .text._ZN3App4loopEv:0000000000000044 $d
+     /tmp/ccG1uedn.s:173    .rodata._ZN3App4loopEv.str1.4:0000000000000000 $d
+     /tmp/ccG1uedn.s:180    .text._ZN3App4loopEv:0000000000000000 $t
+     /tmp/ccG1uedn.s:187    .text._ZN3App4loopEv:0000000000000000 _ZN3App4loopEv
+     /tmp/ccG1uedn.s:269    .text._ZN3App4loopEv:0000000000000044 $d
    .ARM.exidx.text._ZN3App4loopEv:0000000000000000 $d
 
 UNDEFINED SYMBOLS
+HAL_Delay
 _ZN5WioE56sendATEPKc
 __aeabi_unwind_cpp_pr0
 HAL_GPIO_ReadPin

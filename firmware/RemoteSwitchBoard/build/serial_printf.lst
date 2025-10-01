@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc4PZstX.s 			page 1
+ARM GAS  /tmp/ccFckqrE.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   26:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****  *
   27:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****  * Copyright (c) 1994
   28:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****  * Hewlett-Packard Company
-ARM GAS  /tmp/cc4PZstX.s 			page 2
+ARM GAS  /tmp/ccFckqrE.s 			page 2
 
 
   29:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****  *
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   83:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****   template<typename _Tp, typename _Alloc>
   84:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****     struct _Vector_base
   85:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****     {
-ARM GAS  /tmp/cc4PZstX.s 			page 3
+ARM GAS  /tmp/ccFckqrE.s 			page 3
 
 
   86:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       typedef typename __gnu_cxx::__alloc_traits<_Alloc>::template
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  140:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** #if __cplusplus >= 201103L
  141:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	// Not defaulted, to enforce noexcept(true) even when
  142:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	// !is_nothrow_move_constructible<_Tp_alloc_type>.
-ARM GAS  /tmp/cc4PZstX.s 			page 4
+ARM GAS  /tmp/ccFckqrE.s 			page 4
 
 
  143:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	_Vector_impl(_Vector_impl&& __x) noexcept
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  197:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	    { _S_adjust(__impl, __impl._M_finish + __n, __impl._M_finish); }
  198:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
  199:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	    static void
-ARM GAS  /tmp/cc4PZstX.s 			page 5
+ARM GAS  /tmp/ccFckqrE.s 			page 5
 
 
  200:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	    _S_on_dealloc(_Vector_impl& __impl)
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  254:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	__attribute__((__unused__)) __reinit_guard(this->_M_impl)
  255:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** #define _GLIBCXX_ASAN_ANNOTATE_GROW(n) \
  256:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****   typename _Base::_Vector_impl::template _Asan<>::_Grow \
-ARM GAS  /tmp/cc4PZstX.s 			page 6
+ARM GAS  /tmp/ccFckqrE.s 			page 6
 
 
  257:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	__attribute__((__unused__)) __grow_guard(this->_M_impl, (n))
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  311:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** # if !_GLIBCXX_INLINE_VERSION
  312:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       _Vector_base(_Tp_alloc_type&& __a) noexcept
  313:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       : _M_impl(std::move(__a)) { }
-ARM GAS  /tmp/cc4PZstX.s 			page 7
+ARM GAS  /tmp/ccFckqrE.s 			page 7
 
 
  314:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  346:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	return __n != 0 ? _Tr::allocate(_M_impl, __n) : pointer();
  347:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       }
  348:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
-ARM GAS  /tmp/cc4PZstX.s 			page 8
+ARM GAS  /tmp/ccFckqrE.s 			page 8
 
 
  349:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       void
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   42:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** {
   43:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** _GLIBCXX_BEGIN_NAMESPACE_VERSION
   44:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 
-ARM GAS  /tmp/cc4PZstX.s 			page 9
+ARM GAS  /tmp/ccFckqrE.s 			page 9
 
 
   45:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** #if __cplusplus >= 201103L
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   99:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 
  100:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****     private:
  101:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       // Select _Func<_Alloc> or pointer_traits<pointer>::rebind<_Tp>
-ARM GAS  /tmp/cc4PZstX.s 			page 10
+ARM GAS  /tmp/ccFckqrE.s 			page 10
 
 
  102:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       template<template<typename> class _Func, typename _Tp, typename = void>
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  156:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       /**
  157:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        * @brief   The allocator's difference type
  158:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        *
-ARM GAS  /tmp/cc4PZstX.s 			page 11
+ARM GAS  /tmp/ccFckqrE.s 			page 11
 
 
  159:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        * @c Alloc::difference_type if that type exists, otherwise
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  213:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****     private:
  214:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       template<typename _Alloc2>
  215:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 	static constexpr auto
-ARM GAS  /tmp/cc4PZstX.s 			page 12
+ARM GAS  /tmp/ccFckqrE.s 			page 12
 
 
  216:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 	_S_allocate(_Alloc2& __a, size_type __n, const_void_pointer __hint, int)
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  270:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       template<typename _Alloc2, typename _Tp>
  271:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 	static _GLIBCXX14_CONSTEXPR void
  272:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 	_S_destroy(_Alloc2&, _Tp* __p, ...)
-ARM GAS  /tmp/cc4PZstX.s 			page 13
+ARM GAS  /tmp/ccFckqrE.s 			page 13
 
 
  273:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 	noexcept(std::is_nothrow_destructible<_Tp>::value)
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  327:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       _GLIBCXX_NODISCARD static _GLIBCXX20_CONSTEXPR pointer
  328:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       allocate(_Alloc& __a, size_type __n, const_void_pointer __hint)
  329:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       { return _S_allocate(__a, __n, __hint, 0); }
-ARM GAS  /tmp/cc4PZstX.s 			page 14
+ARM GAS  /tmp/ccFckqrE.s 			page 14
 
 
  330:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  384:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       static _GLIBCXX20_CONSTEXPR size_type
  385:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       max_size(const _Alloc& __a) noexcept
  386:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       { return _S_max_size(__a, 0); }
-ARM GAS  /tmp/cc4PZstX.s 			page 15
+ARM GAS  /tmp/ccFckqrE.s 			page 15
 
 
  387:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  441:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 
  442:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       /// Whether all instances of the allocator type compare equal.
  443:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       using is_always_equal = true_type;
-ARM GAS  /tmp/cc4PZstX.s 			page 16
+ARM GAS  /tmp/ccFckqrE.s 			page 16
 
 
  444:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
    2:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** 
    3:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** // Copyright (C) 2001-2020 Free Software Foundation, Inc.
    4:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** //
-ARM GAS  /tmp/cc4PZstX.s 			page 17
+ARM GAS  /tmp/ccFckqrE.s 			page 17
 
 
    5:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** // This file is part of the GNU ISO C++ Library.  This library is free
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   59:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h ****       typedef std::size_t     size_type;
   60:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h ****       typedef std::ptrdiff_t  difference_type;
   61:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** #if __cplusplus <= 201703L
-ARM GAS  /tmp/cc4PZstX.s 			page 18
+ARM GAS  /tmp/ccFckqrE.s 			page 18
 
 
   62:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h ****       typedef _Tp*       pointer;
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  116:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** 	  {
  117:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** 	    std::align_val_t __al = std::align_val_t(alignof(_Tp));
  118:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** 	    return static_cast<_Tp*>(::operator new(__n * sizeof(_Tp), __al));
-ARM GAS  /tmp/cc4PZstX.s 			page 19
+ARM GAS  /tmp/ccFckqrE.s 			page 19
 
 
  119:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** 	  }
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   14:/usr/include/newlib/c++/10.3.1/bits/allocator.h **** // GNU General Public License for more details.
   15:/usr/include/newlib/c++/10.3.1/bits/allocator.h **** 
   16:/usr/include/newlib/c++/10.3.1/bits/allocator.h **** // Under Section 7 of GPL version 3, you are granted additional
-ARM GAS  /tmp/cc4PZstX.s 			page 20
+ARM GAS  /tmp/ccFckqrE.s 			page 20
 
 
   17:/usr/include/newlib/c++/10.3.1/bits/allocator.h **** // permissions described in the GCC Runtime Library Exception, version
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   71:/usr/include/newlib/c++/10.3.1/bits/allocator.h ****   template<>
   72:/usr/include/newlib/c++/10.3.1/bits/allocator.h ****     class allocator<void>
   73:/usr/include/newlib/c++/10.3.1/bits/allocator.h ****     {
-ARM GAS  /tmp/cc4PZstX.s 			page 21
+ARM GAS  /tmp/ccFckqrE.s 			page 21
 
 
   74:/usr/include/newlib/c++/10.3.1/bits/allocator.h ****     public:
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  128:/usr/include/newlib/c++/10.3.1/bits/allocator.h ****    *  See https://gcc.gnu.org/onlinedocs/libstdc++/manual/memory.html#std.util.memory.allocator
  129:/usr/include/newlib/c++/10.3.1/bits/allocator.h ****    *  for further details.
  130:/usr/include/newlib/c++/10.3.1/bits/allocator.h ****    *
-ARM GAS  /tmp/cc4PZstX.s 			page 22
+ARM GAS  /tmp/ccFckqrE.s 			page 22
 
 
  131:/usr/include/newlib/c++/10.3.1/bits/allocator.h ****    *  @tparam  _Tp  Type of allocated object.
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   87              	.LBI243:
   89:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** 
   88              		.loc 3 89 7 view .LVU13
-ARM GAS  /tmp/cc4PZstX.s 			page 23
+ARM GAS  /tmp/ccFckqrE.s 			page 23
 
 
   89:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  123              		.cfi_startproc
  124              		@ args = 0, pretend = 0, frame = 16
  125              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc4PZstX.s 			page 24
+ARM GAS  /tmp/ccFckqrE.s 			page 24
 
 
  126              		.loc 5 15 6 is_stmt 0 view .LVU18
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   36:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
   37:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** #pragma GCC system_header
   38:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /tmp/cc4PZstX.s 			page 25
+ARM GAS  /tmp/ccFckqrE.s 			page 25
 
 
   39:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** #include <ext/atomicity.h>
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   93:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       typedef _Traits					traits_type;
   94:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       typedef typename _Traits::char_type		value_type;
   95:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       typedef _Char_alloc_type				allocator_type;
-ARM GAS  /tmp/cc4PZstX.s 			page 26
+ARM GAS  /tmp/ccFckqrE.s 			page 26
 
 
   96:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       typedef typename _Alloc_traits::size_type		size_type;
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  150:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param  __a  Allocator to use.
  151:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        */
  152:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       explicit
-ARM GAS  /tmp/cc4PZstX.s 			page 27
+ARM GAS  /tmp/ccFckqrE.s 			page 27
 
 
  153:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       basic_string(__sv_wrapper __svw, const _Alloc& __a)
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  207:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       const_pointer
  208:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       _M_local_data() const
  209:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       {
-ARM GAS  /tmp/cc4PZstX.s 			page 28
+ARM GAS  /tmp/ccFckqrE.s 			page 28
 
 
  210:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201103L
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  264:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
  265:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       void
  266:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       _M_construct_aux_2(size_type __req, _CharT __c)
-ARM GAS  /tmp/cc4PZstX.s 			page 29
+ARM GAS  /tmp/ccFckqrE.s 			page 29
 
 
  267:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       { _M_construct(__req, __c); }
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  321:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	  __throw_out_of_range_fmt(__N("%s: __pos (which is %zu) > "
  322:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 				       "this->size() (which is %zu)"),
  323:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 				   __s, __pos, this->size());
-ARM GAS  /tmp/cc4PZstX.s 			page 30
+ARM GAS  /tmp/ccFckqrE.s 			page 30
 
 
  324:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	return __pos;
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  378:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       }
  379:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
  380:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       // _S_copy_chars is a separate template to permit specialization
-ARM GAS  /tmp/cc4PZstX.s 			page 31
+ARM GAS  /tmp/ccFckqrE.s 			page 31
 
 
  381:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       // to optimize for the common case of pointers as iterators.
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  435:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
  436:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       /**
  437:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @brief  Default constructor creates an empty string.
-ARM GAS  /tmp/cc4PZstX.s 			page 32
+ARM GAS  /tmp/ccFckqrE.s 			page 32
 
 
  438:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        */
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  492:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
  493:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       /**
  494:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @brief  Construct string as copy of a substring.
-ARM GAS  /tmp/cc4PZstX.s 			page 33
+ARM GAS  /tmp/ccFckqrE.s 			page 33
 
 
  495:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param  __str  Source string.
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  549:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       // _GLIBCXX_RESOLVE_LIB_DEFECTS
  550:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       // 3076. basic_string CTAD ambiguity
  551:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       template<typename = _RequireAllocator<_Alloc>>
-ARM GAS  /tmp/cc4PZstX.s 			page 34
+ARM GAS  /tmp/ccFckqrE.s 			page 34
 
 
  552:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** #endif
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  606:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	    traits_type::copy(_M_local_buf, __str._M_local_buf,
  607:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 			      _S_local_capacity + 1);
  608:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	    _M_length(__str.length());
-ARM GAS  /tmp/cc4PZstX.s 			page 35
+ARM GAS  /tmp/ccFckqrE.s 			page 35
 
 
  609:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	    __str._M_set_length(0);
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  663:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	basic_string(const _Tp& __t, const _Alloc& __a = _Alloc())
  664:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	: basic_string(__sv_wrapper(_S_to_string_view(__t)), __a) { }
  665:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** #endif // C++17
-ARM GAS  /tmp/cc4PZstX.s 			page 36
+ARM GAS  /tmp/ccFckqrE.s 			page 36
 
 
  666:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  720:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	    && !_Alloc_traits::_S_always_equal()
  721:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	    && _M_get_allocator() != __str._M_get_allocator())
  722:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	  {
-ARM GAS  /tmp/cc4PZstX.s 			page 37
+ARM GAS  /tmp/ccFckqrE.s 			page 37
 
 
  723:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	    // Destroy existing storage before replacing allocator.
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  777:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        */
  778:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       basic_string&
  779:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       operator=(initializer_list<_CharT> __l)
-ARM GAS  /tmp/cc4PZstX.s 			page 38
+ARM GAS  /tmp/ccFckqrE.s 			page 38
 
 
  780:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       {
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  834:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       end() const _GLIBCXX_NOEXCEPT
  835:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       { return const_iterator(_M_data() + this->size()); }
  836:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /tmp/cc4PZstX.s 			page 39
+ARM GAS  /tmp/ccFckqrE.s 			page 39
 
 
  837:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       /**
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  891:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  Returns a read-only (constant) reverse iterator that points
  892:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  to the last character in the %string.  Iteration is done in
  893:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  reverse element order.
-ARM GAS  /tmp/cc4PZstX.s 			page 40
+ARM GAS  /tmp/ccFckqrE.s 			page 40
 
 
  894:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        */
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  948:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  are default-constructed.  For basic types such as char, this means
  949:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  setting them to 0.
  950:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        */
-ARM GAS  /tmp/cc4PZstX.s 			page 41
+ARM GAS  /tmp/ccFckqrE.s 			page 41
 
 
  951:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       void
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1005:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        */
 1006:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       void
 1007:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       clear() _GLIBCXX_NOEXCEPT
-ARM GAS  /tmp/cc4PZstX.s 			page 42
+ARM GAS  /tmp/ccFckqrE.s 			page 42
 
 
 1008:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       { _M_set_length(0); }
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1062:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *
 1063:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  This function provides for safer data access.  The parameter is
 1064:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  first checked that it is in the range of the string.  The function
-ARM GAS  /tmp/cc4PZstX.s 			page 43
+ARM GAS  /tmp/ccFckqrE.s 			page 43
 
 
 1065:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  throws out_of_range if the check fails.
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1119:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	return operator[](0);
 1120:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       }
 1121:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /tmp/cc4PZstX.s 			page 44
+ARM GAS  /tmp/ccFckqrE.s 			page 44
 
 
 1122:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       /**
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1176:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201103L
 1177:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       /**
 1178:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @brief  Append an initializer_list of characters.
-ARM GAS  /tmp/cc4PZstX.s 			page 45
+ARM GAS  /tmp/ccFckqrE.s 			page 45
 
 
 1179:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __l  The initializer_list of characters to be appended.
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1233:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       basic_string&
 1234:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       append(const _CharT* __s, size_type __n)
 1235:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       {
-ARM GAS  /tmp/cc4PZstX.s 			page 46
+ARM GAS  /tmp/ccFckqrE.s 			page 46
 
 
 1236:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_requires_string_len(__s, __n);
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1290:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       template<class _InputIterator>
 1291:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** #endif
 1292:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****         basic_string&
-ARM GAS  /tmp/cc4PZstX.s 			page 47
+ARM GAS  /tmp/ccFckqrE.s 			page 47
 
 
 1293:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****         append(_InputIterator __first, _InputIterator __last)
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1347:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       basic_string&
 1348:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       assign(const basic_string& __str)
 1349:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       {
-ARM GAS  /tmp/cc4PZstX.s 			page 48
+ARM GAS  /tmp/ccFckqrE.s 			page 48
 
 
 1350:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201103L
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1404:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __str  The string to use.
 1405:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __pos  Index of the first character of str.
 1406:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __n  Number of characters to use.
-ARM GAS  /tmp/cc4PZstX.s 			page 49
+ARM GAS  /tmp/ccFckqrE.s 			page 49
 
 
 1407:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1461:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  This function sets the value of this string to @a __n copies of
 1462:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  character @a __c.
 1463:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        */
-ARM GAS  /tmp/cc4PZstX.s 			page 50
+ARM GAS  /tmp/ccFckqrE.s 			page 50
 
 
 1464:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       basic_string&
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1518:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       template<typename _Tp>
 1519:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	_If_sv<_Tp, basic_string&>
 1520:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	assign(const _Tp& __svt, size_type __pos, size_type __n = npos)
-ARM GAS  /tmp/cc4PZstX.s 			page 51
+ARM GAS  /tmp/ccFckqrE.s 			page 51
 
 
 1521:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	{
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1575:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @brief  Insert a range of characters.
 1576:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __p  Const_iterator referencing location in string to
 1577:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *              insert at.
-ARM GAS  /tmp/cc4PZstX.s 			page 52
+ARM GAS  /tmp/ccFckqrE.s 			page 52
 
 
 1578:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __beg  Start of range.
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1632:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       {
 1633:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	_GLIBCXX_DEBUG_PEDASSERT(__p >= begin() && __p <= end());
 1634:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	this->insert(__p - begin(), __l.begin(), __l.size());
-ARM GAS  /tmp/cc4PZstX.s 			page 53
+ARM GAS  /tmp/ccFckqrE.s 			page 53
 
 
 1635:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       }
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1689:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  string.
 1690:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *
 1691:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  Inserts the first @a __n characters of @a __s starting at @a
-ARM GAS  /tmp/cc4PZstX.s 			page 54
+ARM GAS  /tmp/ccFckqrE.s 			page 54
 
 
 1692:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  __pos.  If adding characters causes the length to exceed
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1746:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @brief  Insert one character.
 1747:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __p  Iterator referencing position in string to insert at.
 1748:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __c  The character to insert.
-ARM GAS  /tmp/cc4PZstX.s 			page 55
+ARM GAS  /tmp/ccFckqrE.s 			page 55
 
 
 1749:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @return  Iterator referencing newly inserted char.
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1803:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       /**
 1804:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @brief  Remove characters.
 1805:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __pos  Index of first character to remove (default 0).
-ARM GAS  /tmp/cc4PZstX.s 			page 56
+ARM GAS  /tmp/ccFckqrE.s 			page 56
 
 
 1806:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __n  Number of characters to remove (default remainder).
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1860:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 				 && __last <= end());
 1861:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****         const size_type __pos = __first - begin();
 1862:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	if (__last == end())
-ARM GAS  /tmp/cc4PZstX.s 			page 57
+ARM GAS  /tmp/ccFckqrE.s 			page 57
 
 
 1863:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	  this->_M_set_length(__pos);
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1917:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  string.  In place, the value of @a __str is inserted.  If @a __pos is
 1918:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  beyond end of string, out_of_range is thrown.  If the length of the
 1919:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  result exceeds max_size(), length_error is thrown.  The value of the
-ARM GAS  /tmp/cc4PZstX.s 			page 58
+ARM GAS  /tmp/ccFckqrE.s 			page 58
 
 
 1920:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  string doesn't change if an error is thrown.
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1974:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       {
 1975:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_requires_string(__s);
 1976:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	return this->replace(__pos, __n1, __s, traits_type::length(__s));
-ARM GAS  /tmp/cc4PZstX.s 			page 59
+ARM GAS  /tmp/ccFckqrE.s 			page 59
 
 
 1977:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       }
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 2031:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  The value of the string doesn't change if an error is
 2032:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  thrown.
 2033:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       */
-ARM GAS  /tmp/cc4PZstX.s 			page 60
+ARM GAS  /tmp/ccFckqrE.s 			page 60
 
 
 2034:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       basic_string&
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 2088:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __i1  Iterator referencing start of range to replace.
 2089:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __i2  Iterator referencing end of range to replace.
 2090:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __k1  Iterator referencing start of range to insert.
-ARM GAS  /tmp/cc4PZstX.s 			page 61
+ARM GAS  /tmp/ccFckqrE.s 			page 61
 
 
 2091:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __k2  Iterator referencing end of range to insert.
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 2145:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       basic_string&
 2146:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       replace(__const_iterator __i1, __const_iterator __i2,
 2147:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	      const _CharT* __k1, const _CharT* __k2)
-ARM GAS  /tmp/cc4PZstX.s 			page 62
+ARM GAS  /tmp/ccFckqrE.s 			page 62
 
 
 2148:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       {
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 2202:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __n    The number of characters to replace.
 2203:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @param __svt  The object convertible to string_view to insert.
 2204:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
-ARM GAS  /tmp/cc4PZstX.s 			page 63
+ARM GAS  /tmp/ccFckqrE.s 			page 63
 
 
 2205:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       */
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 2259:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 
 2260:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       template<class _InputIterator>
 2261:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	basic_string&
-ARM GAS  /tmp/cc4PZstX.s 			page 64
+ARM GAS  /tmp/ccFckqrE.s 			page 64
 
 
 2262:/usr/include/newlib/c++/10.3.1/bits/basic_string.h **** 	_M_replace_dispatch(const_iterator __i1, const_iterator __i2,
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  194:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       { return _M_dataplus._M_p; }
  148              		.loc 6 194 7 view .LVU20
  194:/usr/include/newlib/c++/10.3.1/bits/basic_string.h ****       { return _M_dataplus._M_p; }
-ARM GAS  /tmp/cc4PZstX.s 			page 65
+ARM GAS  /tmp/ccFckqrE.s 			page 65
 
 
  149              		.loc 6 194 7 is_stmt 0 view .LVU21
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  380:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****    *  %exception of @c push_front and @c pop_front.
  381:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****    *
  382:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****    *  In some terminology a %vector can be described as a dynamic
-ARM GAS  /tmp/cc4PZstX.s 			page 66
+ARM GAS  /tmp/ccFckqrE.s 			page 66
 
 
  383:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****    *  C-style array, it offers fast and efficient access to individual
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  437:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       }
  438:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
  439:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       static constexpr bool
-ARM GAS  /tmp/cc4PZstX.s 			page 67
+ARM GAS  /tmp/ccFckqrE.s 			page 67
 
 
  440:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       _S_nothrow_relocate(false_type)
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  494:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @param  __a  An allocator object.
  495:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        */
  496:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       explicit
-ARM GAS  /tmp/cc4PZstX.s 			page 68
+ARM GAS  /tmp/ccFckqrE.s 			page 68
 
 
  497:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       vector(const allocator_type& __a) _GLIBCXX_NOEXCEPT
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  547:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @a __x  will not be copied
  548:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  (i.e. capacity() == size() in the new %vector).
  549:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *
-ARM GAS  /tmp/cc4PZstX.s 			page 69
+ARM GAS  /tmp/ccFckqrE.s 			page 69
 
 
  550:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  The newly-created %vector uses a copy of the allocator object used
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  604:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
  605:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****     public:
  606:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       /// Move constructor with alternative allocator
-ARM GAS  /tmp/cc4PZstX.s 			page 70
+ARM GAS  /tmp/ccFckqrE.s 			page 70
 
 
  607:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       vector(vector&& __rv, const allocator_type& __m)
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  661:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       template<typename _InputIterator>
  662:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	vector(_InputIterator __first, _InputIterator __last,
  663:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	       const allocator_type& __a = allocator_type())
-ARM GAS  /tmp/cc4PZstX.s 			page 71
+ARM GAS  /tmp/ccFckqrE.s 			page 71
 
 
  664:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	: _Base(__a)
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  718:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       /**
  719:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @brief  %Vector list assignment operator.
  720:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @param  __l  An initializer_list.
-ARM GAS  /tmp/cc4PZstX.s 			page 72
+ARM GAS  /tmp/ccFckqrE.s 			page 72
 
 
  721:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  775:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	  // Check whether it's an integral type.  If so, it's not an iterator.
  776:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	  typedef typename std::__is_integer<_InputIterator>::__type _Integral;
  777:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	  _M_assign_dispatch(__first, __last, _Integral());
-ARM GAS  /tmp/cc4PZstX.s 			page 73
+ARM GAS  /tmp/ccFckqrE.s 			page 73
 
 
  778:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	}
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  832:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       /**
  833:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  Returns a read-only (constant) iterator that points one past
  834:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  the last element in the %vector.  Iteration is done in
-ARM GAS  /tmp/cc4PZstX.s 			page 74
+ARM GAS  /tmp/ccFckqrE.s 			page 74
 
 
  835:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  ordinary element order.
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  889:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  the last element in the %vector.  Iteration is done in
  890:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  ordinary element order.
  891:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        */
-ARM GAS  /tmp/cc4PZstX.s 			page 75
+ARM GAS  /tmp/ccFckqrE.s 			page 75
 
 
  892:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       const_iterator
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  946:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @brief  Resizes the %vector to the specified number of elements.
  947:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @param  __new_size  Number of elements the %vector should contain.
  948:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @param  __x  Data with which new elements should be populated.
-ARM GAS  /tmp/cc4PZstX.s 			page 76
+ARM GAS  /tmp/ccFckqrE.s 			page 76
 
 
  949:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1003:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  Returns true if the %vector is empty.  (Thus begin() would
 1004:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  equal end().)
 1005:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        */
-ARM GAS  /tmp/cc4PZstX.s 			page 77
+ARM GAS  /tmp/ccFckqrE.s 			page 77
 
 
 1006:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       _GLIBCXX_NODISCARD bool
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1060:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       const_reference
 1061:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       operator[](size_type __n) const _GLIBCXX_NOEXCEPT
 1062:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       {
-ARM GAS  /tmp/cc4PZstX.s 			page 78
+ARM GAS  /tmp/ccFckqrE.s 			page 78
 
 
 1063:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	__glibcxx_requires_subscript(__n);
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1117:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  Returns a read/write reference to the data at the first
 1118:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  element of the %vector.
 1119:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        */
-ARM GAS  /tmp/cc4PZstX.s 			page 79
+ARM GAS  /tmp/ccFckqrE.s 			page 79
 
 
 1120:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       reference
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1174:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
 1175:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       // [23.2.4.3] modifiers
 1176:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       /**
-ARM GAS  /tmp/cc4PZstX.s 			page 80
+ARM GAS  /tmp/ccFckqrE.s 			page 80
 
 
 1177:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @brief  Add data to the end of the %vector.
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1231:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       }
 1232:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
 1233:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** #if __cplusplus >= 201103L
-ARM GAS  /tmp/cc4PZstX.s 			page 81
+ARM GAS  /tmp/ccFckqrE.s 			page 81
 
 
 1234:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       /**
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1288:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  the specified location.  Note that this kind of operation
 1289:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  could be expensive for a %vector and if it is frequently
 1290:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  used the user should consider using std::list.
-ARM GAS  /tmp/cc4PZstX.s 			page 82
+ARM GAS  /tmp/ccFckqrE.s 			page 82
 
 
 1291:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        */
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1345:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @param  __n  Number of elements to be inserted.
 1346:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  @param  __x  Data to be inserted.
 1347:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *
-ARM GAS  /tmp/cc4PZstX.s 			page 83
+ARM GAS  /tmp/ccFckqrE.s 			page 83
 
 
 1348:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****        *  This function will insert a specified number of copies of
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1402:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       template<typename _InputIterator>
 1403:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	void
 1404:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	insert(iterator __position, _InputIterator __first,
-ARM GAS  /tmp/cc4PZstX.s 			page 84
+ARM GAS  /tmp/ccFckqrE.s 			page 84
 
 
 1405:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	       _InputIterator __last)
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1459:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	const auto __beg = begin();
 1460:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	const auto __cbeg = cbegin();
 1461:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	return _M_erase(__beg + (__first - __cbeg), __beg + (__last - __cbeg));
-ARM GAS  /tmp/cc4PZstX.s 			page 85
+ARM GAS  /tmp/ccFckqrE.s 			page 85
 
 
 1462:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       }
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1516:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	      return __result;
 1517:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	    }
 1518:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	  __catch(...)
-ARM GAS  /tmp/cc4PZstX.s 			page 86
+ARM GAS  /tmp/ccFckqrE.s 			page 86
 
 
 1519:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	    {
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1573:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
 1574:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       // Called by the second initialize_dispatch above
 1575:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       template<typename _ForwardIterator>
-ARM GAS  /tmp/cc4PZstX.s 			page 87
+ARM GAS  /tmp/ccFckqrE.s 			page 87
 
 
 1576:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	void
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1630:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       // Called by the second assign_dispatch above
 1631:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       template<typename _InputIterator>
 1632:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	void
-ARM GAS  /tmp/cc4PZstX.s 			page 88
+ARM GAS  /tmp/ccFckqrE.s 			page 88
 
 
 1633:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	_M_assign_aux(_InputIterator __first, _InputIterator __last,
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1687:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       // Called by resize(n).
 1688:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       void
 1689:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       _M_default_append(size_type __n);
-ARM GAS  /tmp/cc4PZstX.s 			page 89
+ARM GAS  /tmp/ccFckqrE.s 			page 89
 
 
 1690:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1744:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       template<typename... _Args>
 1745:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	iterator
 1746:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	_M_emplace_aux(const_iterator __position, _Args&&... __args);
-ARM GAS  /tmp/cc4PZstX.s 			page 90
+ARM GAS  /tmp/ccFckqrE.s 			page 90
 
 
 1747:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  202              	.LBB339:
  203              	.LBI339:
  303:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       : _M_impl(__a)
-ARM GAS  /tmp/cc4PZstX.s 			page 91
+ARM GAS  /tmp/ccFckqrE.s 			page 91
 
 
  204              		.loc 1 303 7 is_stmt 1 view .LVU36
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  248              	.LBI352:
  459:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       { return __a.allocate(__n); }
  249              		.loc 2 459 7 is_stmt 1 view .LVU47
-ARM GAS  /tmp/cc4PZstX.s 			page 92
+ARM GAS  /tmp/ccFckqrE.s 			page 92
 
 
  250              	.LBB353:
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  292              		.loc 1 1606 36 is_stmt 0 view .LVU59
  293 0034 2846     		mov	r0, r5
  294              	.LVL16:
-ARM GAS  /tmp/cc4PZstX.s 			page 93
+ARM GAS  /tmp/ccFckqrE.s 			page 93
 
 
  295              	.LBB365:
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   52:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****  *  This is an internal header file, included by other library headers.
   53:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****  *  Do not attempt to use it directly. @headername{memory}
   54:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****  */
-ARM GAS  /tmp/cc4PZstX.s 			page 94
+ARM GAS  /tmp/ccFckqrE.s 			page 94
 
 
   55:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  109:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****         { return std::copy(__first, __last, __result); }
  110:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     };
  111:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 
-ARM GAS  /tmp/cc4PZstX.s 			page 95
+ARM GAS  /tmp/ccFckqrE.s 			page 95
 
 
  112:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****   /// @endcond
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  166:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	      for (; __cur != __last; ++__cur)
  167:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 		std::_Construct(std::__addressof(*__cur), __x);
  168:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	    }
-ARM GAS  /tmp/cc4PZstX.s 			page 96
+ARM GAS  /tmp/ccFckqrE.s 			page 96
 
 
  169:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	  __catch(...)
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  223:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 
  224:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****   template<bool _TrivialValueType>
  225:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     struct __uninitialized_fill_n
-ARM GAS  /tmp/cc4PZstX.s 			page 97
+ARM GAS  /tmp/ccFckqrE.s 			page 97
 
 
  226:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     {
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  280:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****       // optimization that uses memmove would happily "copy" them anyway.
  281:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****       static_assert(is_constructible<_ValueType, const _Tp&>::value,
  282:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	  "result type must be constructible from input type");
-ARM GAS  /tmp/cc4PZstX.s 			page 98
+ARM GAS  /tmp/ccFckqrE.s 			page 98
 
 
  283:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  337:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 
  338:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****   template<typename _InputIterator, typename _ForwardIterator,
  339:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	   typename _Allocator>
-ARM GAS  /tmp/cc4PZstX.s 			page 99
+ARM GAS  /tmp/ccFckqrE.s 			page 99
 
 
  340:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     inline _ForwardIterator
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  394:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	}
  395:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     }
  396:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 
-ARM GAS  /tmp/cc4PZstX.s 			page 100
+ARM GAS  /tmp/ccFckqrE.s 			page 100
 
 
  397:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****   template<typename _ForwardIterator, typename _Size, typename _Tp,
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  451:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     {
  452:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****       _ForwardIterator __mid = std::__uninitialized_move_a(__first1, __last1,
  453:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 							   __result,
-ARM GAS  /tmp/cc4PZstX.s 			page 101
+ARM GAS  /tmp/ccFckqrE.s 			page 101
 
 
  454:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 							   __alloc);
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  508:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	  std::_Destroy(__first2, __mid2, __alloc);
  509:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	  __throw_exception_again;
  510:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	}
-ARM GAS  /tmp/cc4PZstX.s 			page 102
+ARM GAS  /tmp/ccFckqrE.s 			page 102
 
 
  511:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     }
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  565:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	    {
  566:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	      for (; __n > 0; --__n, (void) ++__cur)
  567:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 		std::_Construct(std::__addressof(*__cur));
-ARM GAS  /tmp/cc4PZstX.s 			page 103
+ARM GAS  /tmp/ccFckqrE.s 			page 103
 
 
  568:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	      return __cur;
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  622:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 				       && __assignable>::
  623:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 	__uninit_default_n(__first, __n);
  624:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     }
-ARM GAS  /tmp/cc4PZstX.s 			page 104
+ARM GAS  /tmp/ccFckqrE.s 			page 104
 
 
  625:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  679:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     }
  680:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h **** 
  681:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****   template<typename _ForwardIterator, typename _Size, typename _Tp>
-ARM GAS  /tmp/cc4PZstX.s 			page 105
+ARM GAS  /tmp/ccFckqrE.s 			page 105
 
 
  682:/usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h ****     inline _ForwardIterator
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   39:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****  * Copyright (c) 1996-1998
   40:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****  * Silicon Graphics Computer Systems, Inc.
   41:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****  *
-ARM GAS  /tmp/cc4PZstX.s 			page 106
+ARM GAS  /tmp/ccFckqrE.s 			page 106
 
 
   42:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****  * Permission to use, copy, modify, distribute and sell this software
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   96:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       if (std::is_constant_evaluated())
   97:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	{
   98:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	  for(; __num > 0; ++__first1, ++__first2, --__num)
-ARM GAS  /tmp/cc4PZstX.s 			page 107
+ARM GAS  /tmp/ccFckqrE.s 			page 107
 
 
   99:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	    if (*__first1 != *__first2)
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  153:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     {
  154:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       // concept requirements
  155:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       __glibcxx_function_requires(_Mutable_ForwardIteratorConcept<
-ARM GAS  /tmp/cc4PZstX.s 			page 108
+ARM GAS  /tmp/ccFckqrE.s 			page 108
 
 
  156:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 				  _ForwardIterator1>)
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  210:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 
  211:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       for (; __first1 != __last1; ++__first1, (void)++__first2)
  212:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	std::iter_swap(__first1, __first2);
-ARM GAS  /tmp/cc4PZstX.s 			page 109
+ARM GAS  /tmp/ccFckqrE.s 			page 109
 
 
  213:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       return __first2;
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  267:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  @param  __a  A thing of arbitrary type.
  268:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  @param  __b  Another thing of arbitrary type.
  269:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  @param  __comp  A @link comparison_functors comparison functor@endlink.
-ARM GAS  /tmp/cc4PZstX.s 			page 110
+ARM GAS  /tmp/ccFckqrE.s 			page 110
 
 
  270:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  @return   The lesser of the parameters.
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  324:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     { return __from + (__res - std::__niter_base(__from)); }
  325:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 
  326:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   // No need to wrap, iterator already has the right type.
-ARM GAS  /tmp/cc4PZstX.s 			page 111
+ARM GAS  /tmp/ccFckqrE.s 			page 111
 
 
  327:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   template<typename _Iterator>
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  381:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	      ++__first;
  382:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	      ++__result;
  383:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	    }
-ARM GAS  /tmp/cc4PZstX.s 			page 112
+ARM GAS  /tmp/ccFckqrE.s 			page 112
 
 
  384:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	  return __result;
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  438:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 
  439:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   template<typename _CharT, typename _Traits>
  440:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     class ostreambuf_iterator;
-ARM GAS  /tmp/cc4PZstX.s 			page 113
+ARM GAS  /tmp/ccFckqrE.s 			page 113
 
 
  441:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  495:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 
  496:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   template<bool _IsMove, typename _II, typename _Tp>
  497:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     typename __gnu_cxx::__enable_if<
-ARM GAS  /tmp/cc4PZstX.s 			page 114
+ARM GAS  /tmp/ccFckqrE.s 			page 114
 
 
  498:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       __is_random_access_iter<_II>::__value,
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  552:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  [first,last); the copy_backward function should be used instead.
  553:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *
  554:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  Note that the end of the output range is permitted to be contained
-ARM GAS  /tmp/cc4PZstX.s 			page 115
+ARM GAS  /tmp/ccFckqrE.s 			page 115
 
 
  555:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  within [first,last).
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  609:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 
  610:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   template<bool _IsMove, bool _IsSimple, typename _Category>
  611:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     struct __copy_move_backward
-ARM GAS  /tmp/cc4PZstX.s 			page 116
+ARM GAS  /tmp/ccFckqrE.s 			page 116
 
 
  612:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     {
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  666:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	    __n = __last - __first;
  667:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	  for (; __n > 0; --__n)
  668:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	    *--__result = std::move(*--__last);
-ARM GAS  /tmp/cc4PZstX.s 			page 117
+ARM GAS  /tmp/ccFckqrE.s 			page 117
 
 
  669:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	  return __result;
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  723:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     __copy_move_backward_a1(_GLIBCXX_STD_C::_Deque_iterator<_Tp, _Ref, _Ptr>,
  724:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 			    _GLIBCXX_STD_C::_Deque_iterator<_Tp, _Ref, _Ptr>,
  725:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 			    _OI);
-ARM GAS  /tmp/cc4PZstX.s 			page 118
+ARM GAS  /tmp/ccFckqrE.s 			page 118
 
 
  726:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  780:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  @param  __last   A bidirectional iterator.
  781:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  @param  __result A bidirectional iterator.
  782:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *  @return   result - (last - first)
-ARM GAS  /tmp/cc4PZstX.s 			page 119
+ARM GAS  /tmp/ccFckqrE.s 			page 119
 
 
  783:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****    *
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  837:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       __glibcxx_function_requires(_Mutable_BidirectionalIteratorConcept<_BI2>)
  838:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       __glibcxx_function_requires(_ConvertibleConcept<
  839:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	    typename iterator_traits<_BI1>::value_type,
-ARM GAS  /tmp/cc4PZstX.s 			page 120
+ARM GAS  /tmp/ccFckqrE.s 			page 120
 
 
  840:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	    typename iterator_traits<_BI2>::value_type>)
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  894:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     }
  895:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 
  896:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   template<typename _Ite, typename _Cont, typename _Tp>
-ARM GAS  /tmp/cc4PZstX.s 			page 121
+ARM GAS  /tmp/ccFckqrE.s 			page 121
 
 
  897:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     _GLIBCXX20_CONSTEXPR
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  951:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   __size_to_integer(unsigned __n) { return __n; }
  952:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   inline _GLIBCXX_CONSTEXPR long
  953:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   __size_to_integer(long __n) { return __n; }
-ARM GAS  /tmp/cc4PZstX.s 			page 122
+ARM GAS  /tmp/ccFckqrE.s 			page 122
 
 
  954:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   inline _GLIBCXX_CONSTEXPR unsigned long
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1008:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****   template<typename _OutputIterator, typename _Size, typename _Tp>
 1009:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     _GLIBCXX20_CONSTEXPR
 1010:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     inline typename
-ARM GAS  /tmp/cc4PZstX.s 			page 123
+ARM GAS  /tmp/ccFckqrE.s 			page 123
 
 
 1011:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     __gnu_cxx::__enable_if<__is_scalar<_Tp>::__value, _OutputIterator>::__type
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1065:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       std::__fill_a(__first, __first + __n, __value);
 1066:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****       return __first + __n;
 1067:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h ****     }
-ARM GAS  /tmp/cc4PZstX.s 			page 124
+ARM GAS  /tmp/ccFckqrE.s 			page 124
 
 
 1068:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  339 0036 9CB9     		cbnz	r4, .L17
  340              	.LVL17:
  341              	.L8:
-ARM GAS  /tmp/cc4PZstX.s 			page 125
+ARM GAS  /tmp/ccFckqrE.s 			page 125
 
 
 1060:/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h **** 	return __first;
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  384 003a 3A68     		ldr	r2, [r7]
  385 003c 2146     		mov	r1, r4
  386 003e 0198     		ldr	r0, [sp, #4]
-ARM GAS  /tmp/cc4PZstX.s 			page 126
+ARM GAS  /tmp/ccFckqrE.s 			page 126
 
 
  387 0040 FFF7FEFF 		bl	snprintf
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  434              		.loc 3 112 26 view .LVU87
  435              	.LBE355:
  436              	.LBE356:
-ARM GAS  /tmp/cc4PZstX.s 			page 127
+ARM GAS  /tmp/ccFckqrE.s 			page 127
 
 
  437              	.LBE357:
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  483 0066 2846     		mov	r0, r5
  484              	.LBB381:
  485              	.LBB380:
-ARM GAS  /tmp/cc4PZstX.s 			page 128
+ARM GAS  /tmp/ccFckqrE.s 			page 128
 
 
  486              	.LBB379:
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  496:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        *  @param  __a  An allocator.
  497:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        *  @param  __p  Pointer to memory of suitable size and alignment for
  498:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        *	       an object of type `_Up`.
-ARM GAS  /tmp/cc4PZstX.s 			page 129
+ARM GAS  /tmp/ccFckqrE.s 			page 129
 
 
  499:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        *  @param  __args Constructor arguments.
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  553:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        *  @brief  Obtain an allocator to use when copying a container.
  554:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        *  @param  __rhs  An allocator.
  555:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****        *  @return @c __rhs
-ARM GAS  /tmp/cc4PZstX.s 			page 130
+ARM GAS  /tmp/ccFckqrE.s 			page 130
 
 
  556:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       */
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  610:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       typedef allocator_traits<_Alloc> __traits;
  611:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       typedef typename __traits::propagate_on_container_move_assignment __pocma;
  612:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** #if __cplusplus >= 201703L
-ARM GAS  /tmp/cc4PZstX.s 			page 131
+ARM GAS  /tmp/ccFckqrE.s 			page 131
 
 
  613:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       if constexpr (__pocma::value)
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  667:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****   // i.e. actually trying to use it would still be invalid. Use with caution.)
  668:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****   template<typename _Alloc>
  669:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****     struct __is_copy_insertable
-ARM GAS  /tmp/cc4PZstX.s 			page 132
+ARM GAS  /tmp/ccFckqrE.s 			page 132
 
 
  670:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****     : __is_alloc_insertable_impl<_Alloc,
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  724:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h ****       for (; __first != __last; ++__first)
  725:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** #if __cplusplus < 201103L
  726:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** 	__alloc.destroy(std::__addressof(*__first));
-ARM GAS  /tmp/cc4PZstX.s 			page 133
+ARM GAS  /tmp/ccFckqrE.s 			page 133
 
 
  727:/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h **** #else
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  566              	.LBE420:
  567              	.LBE419:
  568              	.LBB425:
-ARM GAS  /tmp/cc4PZstX.s 			page 134
+ARM GAS  /tmp/ccFckqrE.s 			page 134
 
 
  569              	.LBI425:
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  615              	.LVL35:
  683:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 
  616              		.loc 1 683 7 view .LVU126
-ARM GAS  /tmp/cc4PZstX.s 			page 135
+ARM GAS  /tmp/ccFckqrE.s 			page 135
 
 
  617 0084 FFF7FEFF 		bl	_ZNSt12_Vector_baseIcSaIcEED2Ev
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  671              		@ args = 12, pretend = 0, frame = 24
  672              		@ frame_needed = 0, uses_anonymous_args = 0
   15:Peripheral/Inc/serial_printf.hpp **** {
-ARM GAS  /tmp/cc4PZstX.s 			page 136
+ARM GAS  /tmp/ccFckqrE.s 			page 136
 
 
  673              		.loc 5 15 6 is_stmt 0 view .LVU129
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
   18:Peripheral/Inc/serial_printf.hpp ****     // バッファを作成してフォーマットされた文字列を格納
  722              		.loc 5 18 31 view .LVU136
  723 0030 0846     		mov	r0, r1
-ARM GAS  /tmp/cc4PZstX.s 			page 137
+ARM GAS  /tmp/ccFckqrE.s 			page 137
 
 
  724              	.LVL43:
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  767              	.LVL46:
 1769:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	  __throw_length_error(
  768              		.loc 1 1769 2 view .LVU149
-ARM GAS  /tmp/cc4PZstX.s 			page 138
+ARM GAS  /tmp/ccFckqrE.s 			page 138
 
 
  769              	.LBE522:
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  346:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       }
  813              		.loc 1 346 18 is_stmt 0 view .LVU160
  814 0044 44B3     		cbz	r4, .L30
-ARM GAS  /tmp/cc4PZstX.s 			page 139
+ARM GAS  /tmp/ccFckqrE.s 			page 139
 
 
  815              	.LVL48:
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  858              	.LBB553:
 1606:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 					   _M_get_Tp_allocator());
  859              		.loc 1 1606 36 is_stmt 0 view .LVU172
-ARM GAS  /tmp/cc4PZstX.s 			page 140
+ARM GAS  /tmp/ccFckqrE.s 			page 140
 
 
  860 005a 2846     		mov	r0, r5
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  908              	.LBE562:
  909              	.LBE561:
  910              	.LBE560:
-ARM GAS  /tmp/cc4PZstX.s 			page 141
+ARM GAS  /tmp/ccFckqrE.s 			page 141
 
 
  911              	.LBE574:
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  956 0076 2146     		mov	r1, r4
  957 0078 0998     		ldr	r0, [sp, #36]
  958 007a FFF7FEFF 		bl	snprintf
-ARM GAS  /tmp/cc4PZstX.s 			page 142
+ARM GAS  /tmp/ccFckqrE.s 			page 142
 
 
  959              	.LVL55:
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1007              		.loc 1 346 18 view .LVU200
  1008 0098 0025     		movs	r5, #0
  1009 009a DAE7     		b	.L24
-ARM GAS  /tmp/cc4PZstX.s 			page 143
+ARM GAS  /tmp/ccFckqrE.s 			page 143
 
 
  1010              	.LVL60:
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1056              		.loc 8 894 5 view .LVU208
  1057 00a4 DBE7     		b	.L26
  1058              	.LVL63:
-ARM GAS  /tmp/cc4PZstX.s 			page 144
+ARM GAS  /tmp/ccFckqrE.s 			page 144
 
 
  1059              	.L37:
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1105              		.loc 1 335 15 is_stmt 0 view .LVU218
  1106 00ae 0998     		ldr	r0, [sp, #36]
  336:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       }
-ARM GAS  /tmp/cc4PZstX.s 			page 145
+ARM GAS  /tmp/ccFckqrE.s 			page 145
 
 
  1107              		.loc 1 336 17 view .LVU219
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1153              	.LBE607:
  1154              	.LBE606:
  1155              	.LBE603:
-ARM GAS  /tmp/cc4PZstX.s 			page 146
+ARM GAS  /tmp/ccFckqrE.s 			page 146
 
 
  1156              	.LBE602:
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1204 0008 FF       		.byte	0xff
  1205 0009 FF       		.byte	0xff
  1206 000a 01       		.byte	0x1
-ARM GAS  /tmp/cc4PZstX.s 			page 147
+ARM GAS  /tmp/ccFckqrE.s 			page 147
 
 
  1207 000b 0F       		.uleb128 .LLSDACSE1734-.LLSDACSB1734
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1261 000a 9146     		mov	r9, r2
  1262 000c 9A46     		mov	r10, r3
  1263 000e 9DF848B0 		ldrb	fp, [sp, #72]	@ zero_extendqisi2
-ARM GAS  /tmp/cc4PZstX.s 			page 148
+ARM GAS  /tmp/ccFckqrE.s 			page 148
 
 
  1264              	.LVL74:
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
 1767:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h ****       {
  1307              		.loc 1 1767 7 view .LVU254
  1308              	.LBB711:
-ARM GAS  /tmp/cc4PZstX.s 			page 149
+ARM GAS  /tmp/ccFckqrE.s 			page 149
 
 
  1309              	.LBB712:
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1352              	.LBI723:
   97:/usr/include/newlib/c++/10.3.1/bits/stl_vector.h **** 	: _M_start(), _M_finish(), _M_end_of_storage()
  1353              		.loc 1 97 2 is_stmt 1 view .LVU267
-ARM GAS  /tmp/cc4PZstX.s 			page 150
+ARM GAS  /tmp/ccFckqrE.s 			page 150
 
 
  1354              	.LBB724:
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1398              	.LVL85:
  1399              	.L42:
  121:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h ****       }
-ARM GAS  /tmp/cc4PZstX.s 			page 151
+ARM GAS  /tmp/ccFckqrE.s 			page 151
 
 
  1400              		.loc 3 121 41 view .LVU278
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1445              	.LBE745:
  1446              	.LBE744:
  1447              	.LBE743:
-ARM GAS  /tmp/cc4PZstX.s 			page 152
+ARM GAS  /tmp/ccFckqrE.s 			page 152
 
 
  1448              	.LBE742:
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1495              		.loc 3 89 7 view .LVU298
   89:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h **** 
  1496              		.loc 3 89 7 is_stmt 0 view .LVU299
-ARM GAS  /tmp/cc4PZstX.s 			page 153
+ARM GAS  /tmp/ccFckqrE.s 			page 153
 
 
  1497              	.LBE785:
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1543              	.LBB716:
  1544              		.loc 1 1770 24 view .LVU309
  1545 0076 1048     		ldr	r0, .L56+4
-ARM GAS  /tmp/cc4PZstX.s 			page 154
+ARM GAS  /tmp/ccFckqrE.s 			page 154
 
 
  1546              	.LVL93:
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1595              		.loc 8 1065 20 view .LVU316
  1596 0084 1D46     		mov	r5, r3
  1597              	.LVL97:
-ARM GAS  /tmp/cc4PZstX.s 			page 155
+ARM GAS  /tmp/ccFckqrE.s 			page 155
 
 
  1598              	.LBB752:
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1643              	.LBE766:
  1644              	.LBE768:
  1645              	.LBE770:
-ARM GAS  /tmp/cc4PZstX.s 			page 156
+ARM GAS  /tmp/ccFckqrE.s 			page 156
 
 
  1646              	.LBE772:
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  126:/usr/include/newlib/c++/10.3.1/ext/new_allocator.h ****       {
  1690              		.loc 3 126 7 view .LVU338
  1691              	.LBB802:
-ARM GAS  /tmp/cc4PZstX.s 			page 157
+ARM GAS  /tmp/ccFckqrE.s 			page 157
 
 
  1692              		.loc 3 139 19 is_stmt 0 view .LVU339
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1740              		.loc 1 276 7 is_stmt 0 view .LVU348
  1741              	.LBE809:
  1742              	.LBB810:
-ARM GAS  /tmp/cc4PZstX.s 			page 158
+ARM GAS  /tmp/ccFckqrE.s 			page 158
 
 
  1743              	.LBI810:
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1795              		.file 12 "/usr/include/newlib/c++/10.3.1/bits/stl_iterator_base_types.h"
  1796              		.file 13 "/usr/include/newlib/c++/10.3.1/debug/debug.h"
  1797              		.file 14 "/usr/include/newlib/c++/10.3.1/cwchar"
-ARM GAS  /tmp/cc4PZstX.s 			page 159
+ARM GAS  /tmp/ccFckqrE.s 			page 159
 
 
  1798              		.file 15 "/usr/include/newlib/c++/10.3.1/bits/char_traits.h"
@@ -9512,29 +9512,29 @@ ARM GAS  /tmp/cc4PZstX.s 			page 1
  1826              		.file 43 "/usr/include/newlib/c++/10.3.1/new"
  1827              		.file 44 "<built-in>"
  1828              		.file 45 "Core/Inc/usart.h"
-ARM GAS  /tmp/cc4PZstX.s 			page 160
+ARM GAS  /tmp/ccFckqrE.s 			page 160
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 serial_printf.cpp
-     /tmp/cc4PZstX.s:18     .text._ZNSt12_Vector_baseIcSaIcEED2Ev:0000000000000000 $t
-     /tmp/cc4PZstX.s:26     .text._ZNSt12_Vector_baseIcSaIcEED2Ev:0000000000000000 _ZNSt12_Vector_baseIcSaIcEED2Ev
+     /tmp/ccFckqrE.s:18     .text._ZNSt12_Vector_baseIcSaIcEED2Ev:0000000000000000 $t
+     /tmp/ccFckqrE.s:26     .text._ZNSt12_Vector_baseIcSaIcEED2Ev:0000000000000000 _ZNSt12_Vector_baseIcSaIcEED2Ev
 .ARM.exidx.text._ZNSt12_Vector_baseIcSaIcEED2Ev:0000000000000000 $d
-     /tmp/cc4PZstX.s:26     .text._ZNSt12_Vector_baseIcSaIcEED2Ev:0000000000000000 _ZNSt12_Vector_baseIcSaIcEED1Ev
-     /tmp/cc4PZstX.s:106    .rodata._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_.str1.4:0000000000000000 $d
-     /tmp/cc4PZstX.s:110    .text._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $t
-     /tmp/cc4PZstX.s:117    .text._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 _Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_
-     /tmp/cc4PZstX.s:626    .text._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:000000000000008c $d
+     /tmp/ccFckqrE.s:26     .text._ZNSt12_Vector_baseIcSaIcEED2Ev:0000000000000000 _ZNSt12_Vector_baseIcSaIcEED1Ev
+     /tmp/ccFckqrE.s:106    .rodata._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_.str1.4:0000000000000000 $d
+     /tmp/ccFckqrE.s:110    .text._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $t
+     /tmp/ccFckqrE.s:117    .text._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 _Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_
+     /tmp/ccFckqrE.s:626    .text._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:000000000000008c $d
 .ARM.extab.text._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $d
 .ARM.exidx.text._Z13serial_printfIJEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $d
-     /tmp/cc4PZstX.s:658    .text._Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $t
-     /tmp/cc4PZstX.s:665    .text._Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 _Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_
-     /tmp/cc4PZstX.s:1195   .text._Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:00000000000000cc $d
+     /tmp/ccFckqrE.s:658    .text._Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $t
+     /tmp/ccFckqrE.s:665    .text._Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 _Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_
+     /tmp/ccFckqrE.s:1195   .text._Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:00000000000000cc $d
 .ARM.extab.text._Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $d
 .ARM.exidx.text._Z13serial_printfIJhhhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $d
-     /tmp/cc4PZstX.s:1226   .text._Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $t
-     /tmp/cc4PZstX.s:1233   .text._Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 _Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_
-     /tmp/cc4PZstX.s:1760   .text._Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:00000000000000b4 $d
+     /tmp/ccFckqrE.s:1226   .text._Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $t
+     /tmp/ccFckqrE.s:1233   .text._Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 _Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_
+     /tmp/ccFckqrE.s:1760   .text._Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:00000000000000b4 $d
 .ARM.extab.text._Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $d
 .ARM.exidx.text._Z13serial_printfIJhhhhEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEDpT_:0000000000000000 $d
                            .group:0000000000000000 _ZNSt12_Vector_baseIcSaIcEED5Ev

@@ -15,6 +15,7 @@ void App::setup()
     wioE5.sendAT("AT+ID=AppEui");
     wioE5.sendAT("AT+TEST=RFCFG,923,SF7,125,12,15,14,OFF,OFF,OFF");
     wioE5.sendAT("AT+TEST=RXLRPKT");
+    serial_printf("ReadWioE5 setup complete.\n");
 }
 
 void App::loop()
