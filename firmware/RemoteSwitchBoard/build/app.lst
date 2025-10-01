@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccQbvT39.s 			page 1
+ARM GAS  /tmp/ccxTOigZ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccQbvT39.s 			page 1
   40              	.LC7:
   41 0058 41542B4D 		.ascii	"AT+MODE=TEST\000"
   41      4F44453D 
-ARM GAS  /tmp/ccQbvT39.s 			page 2
+ARM GAS  /tmp/ccxTOigZ.s 			page 2
 
 
   41      54455354 
@@ -77,7 +77,7 @@ ARM GAS  /tmp/ccQbvT39.s 			page 1
   47      00
   48 0085 000000   		.align	2
   49              	.LC10:
-  50 0088 41542B54 		.ascii	"AT+TEST=RFCFG,923,SF12,125,12,15,14,ON,OFF,OFF\000"
+  50 0088 41542B54 		.ascii	"AT+TEST=RFCFG,923,SF7,125,12,15,14,OFF,OFF,OFF\000"
   50      4553543D 
   50      52464346 
   50      472C3932 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccQbvT39.s 			page 1
   78              		.loc 1 7 17 is_stmt 0 view .LVU3
   79 0004 1549     		ldr	r1, .L3
   80 0006 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
-ARM GAS  /tmp/ccQbvT39.s 			page 3
+ARM GAS  /tmp/ccxTOigZ.s 			page 3
 
 
   81              	.LVL1:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccQbvT39.s 			page 1
  127 0044 2046     		mov	r0, r4
  128 0046 FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
  129              	.LVL9:
-ARM GAS  /tmp/ccQbvT39.s 			page 4
+ARM GAS  /tmp/ccxTOigZ.s 			page 4
 
 
   16:App/Src/app.cpp ****     wioE5.sendAT("AT+ID=AppEui");
@@ -188,7 +188,7 @@ ARM GAS  /tmp/ccQbvT39.s 			page 1
  133 004c 2046     		mov	r0, r4
  134 004e FFF7FEFF 		bl	_ZN5WioE56sendATEPKc
  135              	.LVL10:
-  17:App/Src/app.cpp ****     wioE5.sendAT("AT+TEST=RFCFG,923,SF12,125,12,15,14,ON,OFF,OFF");
+  17:App/Src/app.cpp ****     wioE5.sendAT("AT+TEST=RFCFG,923,SF7,125,12,15,14,OFF,OFF,OFF");
  136              		.loc 1 17 5 is_stmt 1 view .LVU22
  137              		.loc 1 17 17 is_stmt 0 view .LVU23
  138 0052 0C49     		ldr	r1, .L3+40
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccQbvT39.s 			page 1
  174              		.syntax unified
  175              		.thumb
  176              		.thumb_func
-ARM GAS  /tmp/ccQbvT39.s 			page 5
+ARM GAS  /tmp/ccxTOigZ.s 			page 5
 
 
  177              		.fpu fpv4-sp-d16
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccQbvT39.s 			page 1
   32:App/Src/app.cpp ****     {
   33:App/Src/app.cpp ****         if (state == GPIO_PIN_RESET)
  219              		.loc 1 33 9 is_stmt 1 view .LVU38
-ARM GAS  /tmp/ccQbvT39.s 			page 6
+ARM GAS  /tmp/ccxTOigZ.s 			page 6
 
 
  220 001e 49B9     		cbnz	r1, .L9
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccQbvT39.s 			page 1
  256              		.loc 1 44 1 view .LVU52
  257 0040 F4E7     		b	.L5
  258              	.L12:
-ARM GAS  /tmp/ccQbvT39.s 			page 7
+ARM GAS  /tmp/ccxTOigZ.s 			page 7
 
 
  259 0042 00BF     		.align	2
@@ -397,20 +397,20 @@ ARM GAS  /tmp/ccQbvT39.s 			page 1
  293              		.file 26 "App/Inc/WioE5.hpp"
  294              		.file 27 "App/Inc/app.hpp"
  295              		.file 28 "<built-in>"
-ARM GAS  /tmp/ccQbvT39.s 			page 8
+ARM GAS  /tmp/ccxTOigZ.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 app.cpp
-     /tmp/ccQbvT39.s:18     .rodata._ZN3App5setupEv.str1.4:0000000000000000 $d
-     /tmp/ccQbvT39.s:52     .text._ZN3App5setupEv:0000000000000000 $t
-     /tmp/ccQbvT39.s:60     .text._ZN3App5setupEv:0000000000000000 _ZN3App5setupEv
-     /tmp/ccQbvT39.s:149    .text._ZN3App5setupEv:000000000000005c $d
+     /tmp/ccxTOigZ.s:18     .rodata._ZN3App5setupEv.str1.4:0000000000000000 $d
+     /tmp/ccxTOigZ.s:52     .text._ZN3App5setupEv:0000000000000000 $t
+     /tmp/ccxTOigZ.s:60     .text._ZN3App5setupEv:0000000000000000 _ZN3App5setupEv
+     /tmp/ccxTOigZ.s:149    .text._ZN3App5setupEv:000000000000005c $d
   .ARM.exidx.text._ZN3App5setupEv:0000000000000000 $d
-     /tmp/ccQbvT39.s:165    .rodata._ZN3App4loopEv.str1.4:0000000000000000 $d
-     /tmp/ccQbvT39.s:172    .text._ZN3App4loopEv:0000000000000000 $t
-     /tmp/ccQbvT39.s:179    .text._ZN3App4loopEv:0000000000000000 _ZN3App4loopEv
-     /tmp/ccQbvT39.s:261    .text._ZN3App4loopEv:0000000000000044 $d
+     /tmp/ccxTOigZ.s:165    .rodata._ZN3App4loopEv.str1.4:0000000000000000 $d
+     /tmp/ccxTOigZ.s:172    .text._ZN3App4loopEv:0000000000000000 $t
+     /tmp/ccxTOigZ.s:179    .text._ZN3App4loopEv:0000000000000000 _ZN3App4loopEv
+     /tmp/ccxTOigZ.s:261    .text._ZN3App4loopEv:0000000000000044 $d
    .ARM.exidx.text._ZN3App4loopEv:0000000000000000 $d
 
 UNDEFINED SYMBOLS

@@ -14,7 +14,7 @@ void App::setup()
     wioE5.sendAT("AT+MODE=TEST");
     wioE5.sendAT("AT+ID=DevEui");
     wioE5.sendAT("AT+ID=AppEui");
-    wioE5.sendAT("AT+TEST=RFCFG,923,SF12,125,12,15,14,ON,OFF,OFF");
+    wioE5.sendAT("AT+TEST=RFCFG,923,SF7,125,12,15,14,OFF,OFF,OFF");
 }
 
 void App::loop()

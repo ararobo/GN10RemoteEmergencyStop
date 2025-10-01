@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc3XK9wJ.s 			page 1
+ARM GAS  /tmp/ccvH4awv.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
   28:Core/Src/system_stm32f3xx.c ****   *-----------------------------------------------------------------------------
   29:Core/Src/system_stm32f3xx.c ****   *        System Clock source                    | HSI
   30:Core/Src/system_stm32f3xx.c ****   *-----------------------------------------------------------------------------
-ARM GAS  /tmp/cc3XK9wJ.s 			page 2
+ARM GAS  /tmp/ccvH4awv.s 			page 2
 
 
   31:Core/Src/system_stm32f3xx.c ****   *        SYSCLK(Hz)                             | 8000000
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
   85:Core/Src/system_stm32f3xx.c ****   */
   86:Core/Src/system_stm32f3xx.c **** #if !defined  (HSE_VALUE) 
   87:Core/Src/system_stm32f3xx.c ****   #define HSE_VALUE    ((uint32_t)8000000) /*!< Default value of the External oscillator in Hz.
-ARM GAS  /tmp/cc3XK9wJ.s 			page 3
+ARM GAS  /tmp/ccvH4awv.s 			page 3
 
 
   88:Core/Src/system_stm32f3xx.c ****                                                 This value can be provided and adapted by the user 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
  142:Core/Src/system_stm32f3xx.c ****                updated automatically.
  143:Core/Src/system_stm32f3xx.c ****   */
  144:Core/Src/system_stm32f3xx.c **** uint32_t SystemCoreClock = 8000000;
-ARM GAS  /tmp/cc3XK9wJ.s 			page 4
+ARM GAS  /tmp/ccvH4awv.s 			page 4
 
 
  145:Core/Src/system_stm32f3xx.c **** 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
   46              		.cfi_endproc
   47              	.LFE123:
   49              		.section	.text.SystemCoreClockUpdate,"ax",%progbits
-ARM GAS  /tmp/cc3XK9wJ.s 			page 5
+ARM GAS  /tmp/ccvH4awv.s 			page 5
 
 
   50              		.align	1
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
   65              	.LVL0:
  222:Core/Src/system_stm32f3xx.c **** 
  223:Core/Src/system_stm32f3xx.c ****   /* Get SYSCLK source -------------------------------------------------------*/
-ARM GAS  /tmp/cc3XK9wJ.s 			page 6
+ARM GAS  /tmp/ccvH4awv.s 			page 6
 
 
  224:Core/Src/system_stm32f3xx.c ****   tmp = RCC->CFGR & RCC_CFGR_SWS;
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
  265:Core/Src/system_stm32f3xx.c ****       break;
  266:Core/Src/system_stm32f3xx.c ****     default: /* HSI used as system clock */
  267:Core/Src/system_stm32f3xx.c ****       SystemCoreClock = HSI_VALUE;
-ARM GAS  /tmp/cc3XK9wJ.s 			page 7
+ARM GAS  /tmp/ccvH4awv.s 			page 7
 
 
   79              		.loc 1 267 7 view .LVU10
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
  120              		.loc 1 232 7 is_stmt 1 view .LVU25
  232:Core/Src/system_stm32f3xx.c ****       break;
  121              		.loc 1 232 23 is_stmt 0 view .LVU26
-ARM GAS  /tmp/cc3XK9wJ.s 			page 8
+ARM GAS  /tmp/ccvH4awv.s 			page 8
 
 
  122 0036 114B     		ldr	r3, .L11+4
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
  161 005a E1E7     		b	.L8
  162              	.LVL16:
  163              	.L9:
-ARM GAS  /tmp/cc3XK9wJ.s 			page 9
+ARM GAS  /tmp/ccvH4awv.s 			page 9
 
 
  260:Core/Src/system_stm32f3xx.c ****         /* HSE oscillator clock selected as PREDIV1 clock entry */
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
  213      00000000 
  213      01020304 
  213      06
-ARM GAS  /tmp/cc3XK9wJ.s 			page 10
+ARM GAS  /tmp/ccvH4awv.s 			page 10
 
 
  214 000d 070809   		.ascii	"\007\010\011"
@@ -553,22 +553,22 @@ ARM GAS  /tmp/cc3XK9wJ.s 			page 1
  224              		.file 3 "Drivers/CMSIS/Include/core_cm4.h"
  225              		.file 4 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
  226              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303x8.h"
-ARM GAS  /tmp/cc3XK9wJ.s 			page 11
+ARM GAS  /tmp/ccvH4awv.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 system_stm32f3xx.c
-     /tmp/cc3XK9wJ.s:18     .text.SystemInit:0000000000000000 $t
-     /tmp/cc3XK9wJ.s:26     .text.SystemInit:0000000000000000 SystemInit
-     /tmp/cc3XK9wJ.s:45     .text.SystemInit:0000000000000010 $d
-     /tmp/cc3XK9wJ.s:50     .text.SystemCoreClockUpdate:0000000000000000 $t
-     /tmp/cc3XK9wJ.s:57     .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
-     /tmp/cc3XK9wJ.s:189    .text.SystemCoreClockUpdate:0000000000000078 $d
-     /tmp/cc3XK9wJ.s:219    .rodata.APBPrescTable:0000000000000000 APBPrescTable
-     /tmp/cc3XK9wJ.s:212    .rodata.AHBPrescTable:0000000000000000 AHBPrescTable
-     /tmp/cc3XK9wJ.s:205    .data.SystemCoreClock:0000000000000000 SystemCoreClock
-     /tmp/cc3XK9wJ.s:201    .data.SystemCoreClock:0000000000000000 $d
-     /tmp/cc3XK9wJ.s:208    .rodata.AHBPrescTable:0000000000000000 $d
-     /tmp/cc3XK9wJ.s:216    .rodata.APBPrescTable:0000000000000000 $d
+     /tmp/ccvH4awv.s:18     .text.SystemInit:0000000000000000 $t
+     /tmp/ccvH4awv.s:26     .text.SystemInit:0000000000000000 SystemInit
+     /tmp/ccvH4awv.s:45     .text.SystemInit:0000000000000010 $d
+     /tmp/ccvH4awv.s:50     .text.SystemCoreClockUpdate:0000000000000000 $t
+     /tmp/ccvH4awv.s:57     .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
+     /tmp/ccvH4awv.s:189    .text.SystemCoreClockUpdate:0000000000000078 $d
+     /tmp/ccvH4awv.s:219    .rodata.APBPrescTable:0000000000000000 APBPrescTable
+     /tmp/ccvH4awv.s:212    .rodata.AHBPrescTable:0000000000000000 AHBPrescTable
+     /tmp/ccvH4awv.s:205    .data.SystemCoreClock:0000000000000000 SystemCoreClock
+     /tmp/ccvH4awv.s:201    .data.SystemCoreClock:0000000000000000 $d
+     /tmp/ccvH4awv.s:208    .rodata.AHBPrescTable:0000000000000000 $d
+     /tmp/ccvH4awv.s:216    .rodata.APBPrescTable:0000000000000000 $d
 
 NO UNDEFINED SYMBOLS
