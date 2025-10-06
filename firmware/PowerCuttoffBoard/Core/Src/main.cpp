@@ -93,6 +93,9 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  HAL_GPIO_WritePin(GPIOB, RELAY_A_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOB, RELAY_B_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOA, LED1_Pin, GPIO_PIN_RESET);
   HAL_Delay(1000);
   wioE5.setup();
   HAL_Delay(1000);
